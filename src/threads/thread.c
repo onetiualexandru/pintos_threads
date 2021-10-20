@@ -51,7 +51,9 @@ static long long kernel_ticks;  /* # of timer ticks in kernel threads. */
 static long long user_ticks;    /* # of timer ticks in user programs. */
 
 /* Scheduling. */
-#define TIME_SLICE 4            /* # of timer ticks to give each thread. */
+// 3.1 Să se stabilească o cuantă de timp de 4 ticuri de ceas (cuanta curentă) pentru thread-uri cu ID-uri impare, respectiv de 8 ticuri de ceas (dublă față de cea curentă) pentru thread-urile cu ID-uri pare. 
+#define TIME_SLICE_ODD 4            /* # of timer ticks to give each thread with odd tid. */
+#define TIME_SLICE_EVEN 8            /* # of timer ticks to give each thread with even tid. */
 static unsigned thread_ticks;   /* # of timer ticks since last yield. */
 
 /* If false (default), use round-robin scheduler.
@@ -75,6 +77,7 @@ static tid_t allocate_tid (void);
 void print_thread_info_create(struct thread *the_thread);
 void print_thread_info_exit(struct thread *the_thread);
 const char* get_thread_status_as_string(enum thread_status status);
+int time_slice_total = 0;
 
 
 /* Initializes the threading system by transforming the code
@@ -145,8 +148,20 @@ thread_tick (void)
     kernel_ticks++;
 
   /* Enforce preemption. */
-  if (++thread_ticks >= TIME_SLICE)
+  // 3.1 , 3.2 Să se contabilizeze numărul de cuante de timp procesor alocate unui t
+  if(thread_current()-> tid%2)
+  {
+    if (++thread_ticks >= TIME_SLICE_ODD)
     intr_yield_on_return ();
+    thread_current()->time_slice_counter++;
+  }
+  else 
+  {
+    if (++thread_ticks >= TIME_SLICE_EVEN)
+    intr_yield_on_return ();
+    thread_current()->time_slice_counter++;
+  }
+
 }
 
 /* Prints thread statistics. */
@@ -176,16 +191,36 @@ const char* get_thread_status_as_string(enum thread_status status){
 void
 print_thread_info_create(struct thread *the_thread)
 {
+    lock_acquire (&tid_lock);
 
-    printf("Thread-ul cu ID = %d este al %d-lea thread creat de thread-ul cu ID = %d\n",the_thread->tid,the_thread->thread_counter,the_thread->parent_tid);
+    //printf("Thread-ul cu ID = %d este al %d-lea thread creat de thread-ul cu ID = %d\n",the_thread->tid,the_thread->thread_counter,the_thread->parent_tid);
+    printf("Thread-ul %s cu ID = %d este al %d-lea thread creat de thread-ul cu ID = %d\n",the_thread->name,the_thread->tid,the_thread->thread_counter,the_thread->parent_tid);
+
+    lock_release (&tid_lock);
 
 }
 /* 2.2 La terminarea unui thread, să se afișeze un mesaj de forma "Thread-ul cu ID=CRT_TH_ID se termina, iar parintele lui cu ID=PR_TH_ID mai are X fii", unde CRT_TH_ID este ID-ul thread-ului curent, iar PR_TH_ID este ID-ul părinte al thread-ului curent. */
+// 3.3 La terminarea unui thread să se afișeze mesajul "Thread-ului cu ID=CRT_TH_ID i-au fost alocate X cuante de timp de lungime Y", unde CRT_TH_ID este ID-ul thread-ului curent.
 void
 print_thread_info_exit(struct thread *the_thread)
-{
-
+{   
+    lock_acquire (&tid_lock);
+ 
+    //2.2
     printf("Thread-ul cu ID = %d se termina, iar parintele lui cu ID = %d mai are %d fii\n",the_thread->tid,the_thread->parent_tid,the_thread->thread_counter);
+    //3.3
+    if(thread_current()->tid %2==0)
+    {
+      time_slice_total = the_thread->time_slice_counter * TIME_SLICE_ODD;
+      printf("Thread-ului cu ID = %d i-au fost alocate %d cuante de timp de lungime %d\n",the_thread->tid,time_slice_total,TIME_SLICE_ODD);
+    }
+    else
+    {
+      time_slice_total = the_thread->time_slice_counter * TIME_SLICE_EVEN;
+      printf("Thread-ului cu ID = %d i-au fost alocate %d cuante de timp de lungime %d\n",the_thread->tid,time_slice_total,TIME_SLICE_EVEN);
+    }
+
+    lock_release (&tid_lock);
 
 }
 

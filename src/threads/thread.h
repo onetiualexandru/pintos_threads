@@ -101,6 +101,7 @@ struct thread
    /* Aditional Fields HERE */
    tid_t parent_tid;
    int thread_counter;
+   int time_slice_counter;
 
     /* Owned by thread.c. */
     unsigned magic;                     /* Detects stack overflow. */

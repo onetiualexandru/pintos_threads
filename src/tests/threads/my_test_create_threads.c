@@ -4,6 +4,7 @@
 #include "threads/synch.h"
 #include "threads/thread.h"
 #include "devices/timer.h"
+#include "threads/thread.h"
 
 struct semaphore logSem1, logSem2, logSem3, logSem4, logSem5;
 

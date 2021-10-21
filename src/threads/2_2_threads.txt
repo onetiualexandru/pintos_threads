@@ -10,1997 +10,1997 @@ Kernel command line: run my_test_create_threads
 Pintos booting with 4,096 kB RAM...
 383 pages available in kernel pool.
 383 pages available in user pool.
-Thread-ul main cu ID = 3 este al 1-lea thread creat de thread-ul cu ID = 0
+Thread-ul cu ID = 3 este al 1-lea thread creat de thread-ul cu ID = 0
 Calibrating timer...  102,400 loops/s.
 Boot complete.
 Executing 'my_test_create_threads':
 (my_test_create_threads) begin
 ----------BEGIN 5.1
-Thread-ul main cu ID = 3 este al 2-lea thread creat de thread-ul cu ID = 0
+Thread-ul cu ID = 3 este al 2-lea thread creat de thread-ul cu ID = 0
 --------BEGIN 4.1
-Thread-ul 1 cu ID = 9 este al 1-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 9 este al 1-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 1 cu ID = 12 este al 1-lea thread creat de thread-ul cu ID = 9
+Thread-ul cu ID = 12 este al 1-lea thread creat de thread-ul cu ID = 9
 ----BEGIN 2.1
+Thread-ul cu ID = 15 este al 1-lea thread creat de thread-ul cu ID = 12
 --BEGIN 1.1
-Thread-ul 1 cu ID = 18 este al 1-lea thread creat de thread-ul cu ID = 15
-Thread-ul 1 cu ID = 15 este al 1-lea thread creat de thread-ul cu ID = 12
+Thread-ul cu ID = 18 este al 1-lea thread creat de thread-ul cu ID = 15
 BEGIN 0.0
-Thread-ul 1 cu ID = 21 este al 0-lea thread creat de thread-ul cu ID = 18
+Thread-ul cu ID = 21 este al 0-lea thread creat de thread-ul cu ID = 18
 ENDIN 0.0
-Thread-ul 1 cu ID = 21 se termina, iar parintele lui cu ID = 18 mai are 0 fii
+Thread-ul cu ID = 21 se termina, iar parintele lui cu ID = 18 mai are 0 fii
 Thread-ului cu ID = 21 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 18 se termina, iar parintele lui cu ID = 15 mai are 1 fii
+Thread-ul cu ID = 18 se termina, iar parintele lui cu ID = 15 mai are 1 fii
 Thread-ului cu ID = 18 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 15 este al 2-lea thread creat de thread-ul cu ID = 12
+Thread-ul cu ID = 15 este al 2-lea thread creat de thread-ul cu ID = 12
 --BEGIN 1.1
-Thread-ul 2 cu ID = 24 este al 1-lea thread creat de thread-ul cu ID = 15
+Thread-ul cu ID = 24 este al 1-lea thread creat de thread-ul cu ID = 15
 BEGIN 0.0
-Thread-ul 1 cu ID = 27 este al 0-lea thread creat de thread-ul cu ID = 24
+Thread-ul cu ID = 27 este al 0-lea thread creat de thread-ul cu ID = 24
 ENDIN 0.0
-Thread-ul 1 cu ID = 27 se termina, iar parintele lui cu ID = 24 mai are 0 fii
+Thread-ul cu ID = 27 se termina, iar parintele lui cu ID = 24 mai are 0 fii
 Thread-ului cu ID = 27 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 24 se termina, iar parintele lui cu ID = 15 mai are 1 fii
-Thread-ului cu ID = 24 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 24 se termina, iar parintele lui cu ID = 15 mai are 1 fii
+Thread-ului cu ID = 24 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 15 se termina, iar parintele lui cu ID = 12 mai are 2 fii
-Thread-ului cu ID = 15 i-au fost alocate 464 cuante de timp de lungime 8
+Thread-ul cu ID = 15 se termina, iar parintele lui cu ID = 12 mai are 2 fii
+Thread-ului cu ID = 15 i-au fost alocate 472 cuante de timp de lungime 8
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 1 cu ID = 12 este al 2-lea thread creat de thread-ul cu ID = 9
+Thread-ul cu ID = 12 este al 2-lea thread creat de thread-ul cu ID = 9
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 30 este al 1-lea thread creat de thread-ul cu ID = 12
+Thread-ul cu ID = 30 este al 1-lea thread creat de thread-ul cu ID = 12
 --BEGIN 1.1
+Thread-ul cu ID = 33 este al 1-lea thread creat de thread-ul cu ID = 30
 BEGIN 0.0
-Thread-ul 1 cu ID = 36 este al 0-lea thread creat de thread-ul cu ID = 33
+Thread-ul cu ID = 36 este al 0-lea thread creat de thread-ul cu ID = 33
 ENDIN 0.0
-Thread-ul 1 cu ID = 36 se termina, iar parintele lui cu ID = 33 mai are 0 fii
-Thread-ului cu ID = 36 i-au fost alocate 112 cuante de timp de lungime 4
-Thread-ul 1 cu ID = 33 este al 1-lea thread creat de thread-ul cu ID = 30
+Thread-ul cu ID = 36 se termina, iar parintele lui cu ID = 33 mai are 0 fii
+Thread-ului cu ID = 36 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 33 se termina, iar parintele lui cu ID = 30 mai are 1 fii
-Thread-ului cu ID = 33 i-au fost alocate 288 cuante de timp de lungime 8
+Thread-ul cu ID = 33 se termina, iar parintele lui cu ID = 30 mai are 1 fii
+Thread-ului cu ID = 33 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 30 este al 2-lea thread creat de thread-ul cu ID = 12
+Thread-ul cu ID = 30 este al 2-lea thread creat de thread-ul cu ID = 12
 --BEGIN 1.1
-Thread-ul 2 cu ID = 39 este al 1-lea thread creat de thread-ul cu ID = 30
+Thread-ul cu ID = 39 este al 1-lea thread creat de thread-ul cu ID = 30
 BEGIN 0.0
-Thread-ul 1 cu ID = 42 este al 0-lea thread creat de thread-ul cu ID = 39
+Thread-ul cu ID = 42 este al 0-lea thread creat de thread-ul cu ID = 39
 ENDIN 0.0
-Thread-ul 1 cu ID = 42 se termina, iar parintele lui cu ID = 39 mai are 0 fii
-Thread-ului cu ID = 42 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 42 se termina, iar parintele lui cu ID = 39 mai are 0 fii
+Thread-ului cu ID = 42 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 39 se termina, iar parintele lui cu ID = 30 mai are 1 fii
-Thread-ului cu ID = 39 i-au fost alocate 288 cuante de timp de lungime 8
+Thread-ul cu ID = 39 se termina, iar parintele lui cu ID = 30 mai are 1 fii
+Thread-ului cu ID = 39 i-au fost alocate 272 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 30 se termina, iar parintele lui cu ID = 12 mai are 2 fii
-Thread-ului cu ID = 30 i-au fost alocate 240 cuante de timp de lungime 4
+Thread-ul cu ID = 30 se termina, iar parintele lui cu ID = 12 mai are 2 fii
+Thread-ului cu ID = 30 i-au fost alocate 228 cuante de timp de lungime 4
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 1 cu ID = 12 este al 3-lea thread creat de thread-ul cu ID = 9
+Thread-ul cu ID = 12 este al 3-lea thread creat de thread-ul cu ID = 9
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 45 este al 1-lea thread creat de thread-ul cu ID = 12
+Thread-ul cu ID = 45 este al 1-lea thread creat de thread-ul cu ID = 12
 --BEGIN 1.1
-Thread-ul 1 cu ID = 48 este al 1-lea thread creat de thread-ul cu ID = 45
+Thread-ul cu ID = 48 este al 1-lea thread creat de thread-ul cu ID = 45
 BEGIN 0.0
-Thread-ul 1 cu ID = 51 este al 0-lea thread creat de thread-ul cu ID = 48
+Thread-ul cu ID = 51 este al 0-lea thread creat de thread-ul cu ID = 48
 ENDIN 0.0
-Thread-ul 1 cu ID = 51 se termina, iar parintele lui cu ID = 48 mai are 0 fii
-Thread-ului cu ID = 51 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 51 se termina, iar parintele lui cu ID = 48 mai are 0 fii
+Thread-ului cu ID = 51 i-au fost alocate 224 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 48 se termina, iar parintele lui cu ID = 45 mai are 1 fii
-Thread-ului cu ID = 48 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 48 se termina, iar parintele lui cu ID = 45 mai are 1 fii
+Thread-ului cu ID = 48 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 45 este al 2-lea thread creat de thread-ul cu ID = 12
+Thread-ul cu ID = 45 este al 2-lea thread creat de thread-ul cu ID = 12
 --BEGIN 1.1
-Thread-ul 2 cu ID = 54 este al 1-lea thread creat de thread-ul cu ID = 45
+Thread-ul cu ID = 54 este al 1-lea thread creat de thread-ul cu ID = 45
 BEGIN 0.0
-Thread-ul 1 cu ID = 57 este al 0-lea thread creat de thread-ul cu ID = 54
+Thread-ul cu ID = 57 este al 0-lea thread creat de thread-ul cu ID = 54
 ENDIN 0.0
-Thread-ul 1 cu ID = 57 se termina, iar parintele lui cu ID = 54 mai are 0 fii
-Thread-ului cu ID = 57 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 57 se termina, iar parintele lui cu ID = 54 mai are 0 fii
+Thread-ului cu ID = 57 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 54 se termina, iar parintele lui cu ID = 45 mai are 1 fii
-Thread-ului cu ID = 54 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 54 se termina, iar parintele lui cu ID = 45 mai are 1 fii
+Thread-ului cu ID = 54 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 45 se termina, iar parintele lui cu ID = 12 mai are 2 fii
-Thread-ului cu ID = 45 i-au fost alocate 480 cuante de timp de lungime 8
+Thread-ul cu ID = 45 se termina, iar parintele lui cu ID = 12 mai are 2 fii
+Thread-ului cu ID = 45 i-au fost alocate 464 cuante de timp de lungime 8
 ------ENDIN 3.3
-Thread-ul 1 cu ID = 12 se termina, iar parintele lui cu ID = 9 mai are 3 fii
-Thread-ului cu ID = 12 i-au fost alocate 336 cuante de timp de lungime 4
+Thread-ul cu ID = 12 se termina, iar parintele lui cu ID = 9 mai are 3 fii
+Thread-ului cu ID = 12 i-au fost alocate 340 cuante de timp de lungime 4
 --------ENDIN 4.1
 --------BEGIN 4.2
-Thread-ul 1 cu ID = 9 este al 2-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 9 este al 2-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 2 cu ID = 60 este al 1-lea thread creat de thread-ul cu ID = 9
+Thread-ul cu ID = 60 este al 1-lea thread creat de thread-ul cu ID = 9
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 63 este al 1-lea thread creat de thread-ul cu ID = 60
+Thread-ul cu ID = 63 este al 1-lea thread creat de thread-ul cu ID = 60
 --BEGIN 1.1
-Thread-ul 1 cu ID = 66 este al 1-lea thread creat de thread-ul cu ID = 63
+Thread-ul cu ID = 66 este al 1-lea thread creat de thread-ul cu ID = 63
 BEGIN 0.0
-Thread-ul 1 cu ID = 69 este al 0-lea thread creat de thread-ul cu ID = 66
+Thread-ul cu ID = 69 este al 0-lea thread creat de thread-ul cu ID = 66
 ENDIN 0.0
-Thread-ul 1 cu ID = 69 se termina, iar parintele lui cu ID = 66 mai are 0 fii
-Thread-ului cu ID = 69 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 69 se termina, iar parintele lui cu ID = 66 mai are 0 fii
+Thread-ului cu ID = 69 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 66 se termina, iar parintele lui cu ID = 63 mai are 1 fii
-Thread-ului cu ID = 66 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 66 se termina, iar parintele lui cu ID = 63 mai are 1 fii
+Thread-ului cu ID = 66 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 63 este al 2-lea thread creat de thread-ul cu ID = 60
+Thread-ul cu ID = 63 este al 2-lea thread creat de thread-ul cu ID = 60
 --BEGIN 1.1
-Thread-ul 2 cu ID = 72 este al 1-lea thread creat de thread-ul cu ID = 63
+Thread-ul cu ID = 72 este al 1-lea thread creat de thread-ul cu ID = 63
 BEGIN 0.0
-Thread-ul 1 cu ID = 75 este al 0-lea thread creat de thread-ul cu ID = 72
+Thread-ul cu ID = 75 este al 0-lea thread creat de thread-ul cu ID = 72
 ENDIN 0.0
-Thread-ul 1 cu ID = 75 se termina, iar parintele lui cu ID = 72 mai are 0 fii
-Thread-ului cu ID = 75 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 75 se termina, iar parintele lui cu ID = 72 mai are 0 fii
+Thread-ului cu ID = 75 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 72 se termina, iar parintele lui cu ID = 63 mai are 1 fii
-Thread-ului cu ID = 72 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 72 se termina, iar parintele lui cu ID = 63 mai are 1 fii
+Thread-ului cu ID = 72 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 63 se termina, iar parintele lui cu ID = 60 mai are 2 fii
-Thread-ului cu ID = 63 i-au fost alocate 488 cuante de timp de lungime 8
+Thread-ul cu ID = 63 se termina, iar parintele lui cu ID = 60 mai are 2 fii
+Thread-ului cu ID = 63 i-au fost alocate 464 cuante de timp de lungime 8
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 2 cu ID = 60 este al 2-lea thread creat de thread-ul cu ID = 9
+Thread-ul cu ID = 60 este al 2-lea thread creat de thread-ul cu ID = 9
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 78 este al 1-lea thread creat de thread-ul cu ID = 60
+Thread-ul cu ID = 78 este al 1-lea thread creat de thread-ul cu ID = 60
 --BEGIN 1.1
-Thread-ul 1 cu ID = 81 este al 1-lea thread creat de thread-ul cu ID = 78
+Thread-ul cu ID = 81 este al 1-lea thread creat de thread-ul cu ID = 78
 BEGIN 0.0
-Thread-ul 1 cu ID = 84 este al 0-lea thread creat de thread-ul cu ID = 81
+Thread-ul cu ID = 84 este al 0-lea thread creat de thread-ul cu ID = 81
 ENDIN 0.0
-Thread-ul 1 cu ID = 84 se termina, iar parintele lui cu ID = 81 mai are 0 fii
+Thread-ul cu ID = 84 se termina, iar parintele lui cu ID = 81 mai are 0 fii
 Thread-ului cu ID = 84 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 81 se termina, iar parintele lui cu ID = 78 mai are 1 fii
-Thread-ului cu ID = 81 i-au fost alocate 280 cuante de timp de lungime 8
+Thread-ul cu ID = 81 se termina, iar parintele lui cu ID = 78 mai are 1 fii
+Thread-ului cu ID = 81 i-au fost alocate 272 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 78 este al 2-lea thread creat de thread-ul cu ID = 60
+Thread-ul cu ID = 78 este al 2-lea thread creat de thread-ul cu ID = 60
 --BEGIN 1.1
-Thread-ul 2 cu ID = 87 este al 1-lea thread creat de thread-ul cu ID = 78
+Thread-ul cu ID = 87 este al 1-lea thread creat de thread-ul cu ID = 78
 BEGIN 0.0
-Thread-ul 1 cu ID = 90 este al 0-lea thread creat de thread-ul cu ID = 87
+Thread-ul cu ID = 90 este al 0-lea thread creat de thread-ul cu ID = 87
 ENDIN 0.0
-Thread-ul 1 cu ID = 90 se termina, iar parintele lui cu ID = 87 mai are 0 fii
+Thread-ul cu ID = 90 se termina, iar parintele lui cu ID = 87 mai are 0 fii
 Thread-ului cu ID = 90 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 87 se termina, iar parintele lui cu ID = 78 mai are 1 fii
+Thread-ul cu ID = 87 se termina, iar parintele lui cu ID = 78 mai are 1 fii
 Thread-ului cu ID = 87 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 78 se termina, iar parintele lui cu ID = 60 mai are 2 fii
-Thread-ului cu ID = 78 i-au fost alocate 240 cuante de timp de lungime 4
+Thread-ul cu ID = 78 se termina, iar parintele lui cu ID = 60 mai are 2 fii
+Thread-ului cu ID = 78 i-au fost alocate 232 cuante de timp de lungime 4
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 2 cu ID = 60 este al 3-lea thread creat de thread-ul cu ID = 9
+Thread-ul cu ID = 60 este al 3-lea thread creat de thread-ul cu ID = 9
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 93 este al 1-lea thread creat de thread-ul cu ID = 60
 --BEGIN 1.1
-Thread-ul 1 cu ID = 96 este al 1-lea thread creat de thread-ul cu ID = 93
+Thread-ul cu ID = 96 este al 1-lea thread creat de thread-ul cu ID = 93
+Thread-ul cu ID = 93 este al 1-lea thread creat de thread-ul cu ID = 60
 BEGIN 0.0
-Thread-ul 1 cu ID = 99 este al 0-lea thread creat de thread-ul cu ID = 96
+Thread-ul cu ID = 99 este al 0-lea thread creat de thread-ul cu ID = 96
 ENDIN 0.0
-Thread-ul 1 cu ID = 99 se termina, iar parintele lui cu ID = 96 mai are 0 fii
-Thread-ului cu ID = 99 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 99 se termina, iar parintele lui cu ID = 96 mai are 0 fii
+Thread-ului cu ID = 99 i-au fost alocate 224 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 96 se termina, iar parintele lui cu ID = 93 mai are 1 fii
-Thread-ului cu ID = 96 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 96 se termina, iar parintele lui cu ID = 93 mai are 1 fii
+Thread-ului cu ID = 96 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 93 este al 2-lea thread creat de thread-ul cu ID = 60
+Thread-ul cu ID = 93 este al 2-lea thread creat de thread-ul cu ID = 60
 --BEGIN 1.1
-Thread-ul 2 cu ID = 102 este al 1-lea thread creat de thread-ul cu ID = 93
+Thread-ul cu ID = 102 este al 1-lea thread creat de thread-ul cu ID = 93
 BEGIN 0.0
-Thread-ul 1 cu ID = 105 este al 0-lea thread creat de thread-ul cu ID = 102
+Thread-ul cu ID = 105 este al 0-lea thread creat de thread-ul cu ID = 102
 ENDIN 0.0
-Thread-ul 1 cu ID = 105 se termina, iar parintele lui cu ID = 102 mai are 0 fii
-Thread-ului cu ID = 105 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 105 se termina, iar parintele lui cu ID = 102 mai are 0 fii
+Thread-ului cu ID = 105 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 102 se termina, iar parintele lui cu ID = 93 mai are 1 fii
-Thread-ului cu ID = 102 i-au fost alocate 136 cuante de timp de lungime 4
+Thread-ul cu ID = 102 se termina, iar parintele lui cu ID = 93 mai are 1 fii
+Thread-ului cu ID = 102 i-au fost alocate 140 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 93 se termina, iar parintele lui cu ID = 60 mai are 2 fii
+Thread-ul cu ID = 93 se termina, iar parintele lui cu ID = 60 mai are 2 fii
 Thread-ului cu ID = 93 i-au fost alocate 472 cuante de timp de lungime 8
 ------ENDIN 3.3
-Thread-ul 2 cu ID = 60 se termina, iar parintele lui cu ID = 9 mai are 3 fii
-Thread-ului cu ID = 60 i-au fost alocate 340 cuante de timp de lungime 4
+Thread-ul cu ID = 60 se termina, iar parintele lui cu ID = 9 mai are 3 fii
+Thread-ului cu ID = 60 i-au fost alocate 336 cuante de timp de lungime 4
 --------ENDIN 4.2
 --------BEGIN 4.3
-Thread-ul 1 cu ID = 9 este al 3-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 9 este al 3-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 3 cu ID = 108 este al 1-lea thread creat de thread-ul cu ID = 9
+Thread-ul cu ID = 108 este al 1-lea thread creat de thread-ul cu ID = 9
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 111 este al 1-lea thread creat de thread-ul cu ID = 108
+Thread-ul cu ID = 111 este al 1-lea thread creat de thread-ul cu ID = 108
 --BEGIN 1.1
-Thread-ul 1 cu ID = 114 este al 1-lea thread creat de thread-ul cu ID = 111
+Thread-ul cu ID = 114 este al 1-lea thread creat de thread-ul cu ID = 111
 BEGIN 0.0
-Thread-ul 1 cu ID = 117 este al 0-lea thread creat de thread-ul cu ID = 114
+Thread-ul cu ID = 117 este al 0-lea thread creat de thread-ul cu ID = 114
 ENDIN 0.0
-Thread-ul 1 cu ID = 117 se termina, iar parintele lui cu ID = 114 mai are 0 fii
-Thread-ului cu ID = 117 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 117 se termina, iar parintele lui cu ID = 114 mai are 0 fii
+Thread-ului cu ID = 117 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 114 se termina, iar parintele lui cu ID = 111 mai are 1 fii
-Thread-ului cu ID = 114 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 114 se termina, iar parintele lui cu ID = 111 mai are 1 fii
+Thread-ului cu ID = 114 i-au fost alocate 140 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 111 este al 2-lea thread creat de thread-ul cu ID = 108
+Thread-ul cu ID = 111 este al 2-lea thread creat de thread-ul cu ID = 108
 --BEGIN 1.1
-Thread-ul 2 cu ID = 120 este al 1-lea thread creat de thread-ul cu ID = 111
+Thread-ul cu ID = 120 este al 1-lea thread creat de thread-ul cu ID = 111
 BEGIN 0.0
-Thread-ul 1 cu ID = 123 este al 0-lea thread creat de thread-ul cu ID = 120
+Thread-ul cu ID = 123 este al 0-lea thread creat de thread-ul cu ID = 120
 ENDIN 0.0
-Thread-ul 1 cu ID = 123 se termina, iar parintele lui cu ID = 120 mai are 0 fii
-Thread-ului cu ID = 123 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 123 se termina, iar parintele lui cu ID = 120 mai are 0 fii
+Thread-ului cu ID = 123 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 120 se termina, iar parintele lui cu ID = 111 mai are 1 fii
-Thread-ului cu ID = 120 i-au fost alocate 148 cuante de timp de lungime 4
+Thread-ul cu ID = 120 se termina, iar parintele lui cu ID = 111 mai are 1 fii
+Thread-ului cu ID = 120 i-au fost alocate 140 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 111 se termina, iar parintele lui cu ID = 108 mai are 2 fii
-Thread-ului cu ID = 111 i-au fost alocate 488 cuante de timp de lungime 8
+Thread-ul cu ID = 111 se termina, iar parintele lui cu ID = 108 mai are 2 fii
+Thread-ului cu ID = 111 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 3 cu ID = 108 este al 2-lea thread creat de thread-ul cu ID = 9
+Thread-ul cu ID = 108 este al 2-lea thread creat de thread-ul cu ID = 9
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 126 este al 1-lea thread creat de thread-ul cu ID = 108
+Thread-ul cu ID = 126 este al 1-lea thread creat de thread-ul cu ID = 108
 --BEGIN 1.1
-Thread-ul 1 cu ID = 129 este al 1-lea thread creat de thread-ul cu ID = 126
+Thread-ul cu ID = 129 este al 1-lea thread creat de thread-ul cu ID = 126
 BEGIN 0.0
-Thread-ul 1 cu ID = 132 este al 0-lea thread creat de thread-ul cu ID = 129
+Thread-ul cu ID = 132 este al 0-lea thread creat de thread-ul cu ID = 129
 ENDIN 0.0
-Thread-ul 1 cu ID = 132 se termina, iar parintele lui cu ID = 129 mai are 0 fii
+Thread-ul cu ID = 132 se termina, iar parintele lui cu ID = 129 mai are 0 fii
 Thread-ului cu ID = 132 i-au fost alocate 120 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 129 se termina, iar parintele lui cu ID = 126 mai are 1 fii
-Thread-ului cu ID = 129 i-au fost alocate 304 cuante de timp de lungime 8
+Thread-ul cu ID = 129 se termina, iar parintele lui cu ID = 126 mai are 1 fii
+Thread-ului cu ID = 129 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 126 este al 2-lea thread creat de thread-ul cu ID = 108
+Thread-ul cu ID = 126 este al 2-lea thread creat de thread-ul cu ID = 108
 --BEGIN 1.1
-Thread-ul 2 cu ID = 135 este al 1-lea thread creat de thread-ul cu ID = 126
+Thread-ul cu ID = 135 este al 1-lea thread creat de thread-ul cu ID = 126
 BEGIN 0.0
-Thread-ul 1 cu ID = 138 este al 0-lea thread creat de thread-ul cu ID = 135
+Thread-ul cu ID = 138 este al 0-lea thread creat de thread-ul cu ID = 135
 ENDIN 0.0
-Thread-ul 1 cu ID = 138 se termina, iar parintele lui cu ID = 135 mai are 0 fii
-Thread-ului cu ID = 138 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 138 se termina, iar parintele lui cu ID = 135 mai are 0 fii
+Thread-ului cu ID = 138 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 135 se termina, iar parintele lui cu ID = 126 mai are 1 fii
-Thread-ului cu ID = 135 i-au fost alocate 288 cuante de timp de lungime 8
+Thread-ul cu ID = 135 se termina, iar parintele lui cu ID = 126 mai are 1 fii
+Thread-ului cu ID = 135 i-au fost alocate 296 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 126 se termina, iar parintele lui cu ID = 108 mai are 2 fii
-Thread-ului cu ID = 126 i-au fost alocate 244 cuante de timp de lungime 4
+Thread-ul cu ID = 126 se termina, iar parintele lui cu ID = 108 mai are 2 fii
+Thread-ului cu ID = 126 i-au fost alocate 232 cuante de timp de lungime 4
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 3 cu ID = 108 este al 3-lea thread creat de thread-ul cu ID = 9
+Thread-ul cu ID = 108 este al 3-lea thread creat de thread-ul cu ID = 9
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 141 este al 1-lea thread creat de thread-ul cu ID = 108
+Thread-ul cu ID = 141 este al 1-lea thread creat de thread-ul cu ID = 108
 --BEGIN 1.1
-Thread-ul 1 cu ID = 144 este al 1-lea thread creat de thread-ul cu ID = 141
+Thread-ul cu ID = 144 este al 1-lea thread creat de thread-ul cu ID = 141
 BEGIN 0.0
-Thread-ul 1 cu ID = 147 este al 0-lea thread creat de thread-ul cu ID = 144
+Thread-ul cu ID = 147 este al 0-lea thread creat de thread-ul cu ID = 144
 ENDIN 0.0
-Thread-ul 1 cu ID = 147 se termina, iar parintele lui cu ID = 144 mai are 0 fii
-Thread-ului cu ID = 147 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 147 se termina, iar parintele lui cu ID = 144 mai are 0 fii
+Thread-ului cu ID = 147 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 144 se termina, iar parintele lui cu ID = 141 mai are 1 fii
+Thread-ul cu ID = 144 se termina, iar parintele lui cu ID = 141 mai are 1 fii
 Thread-ului cu ID = 144 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 141 este al 2-lea thread creat de thread-ul cu ID = 108
+Thread-ul cu ID = 141 este al 2-lea thread creat de thread-ul cu ID = 108
 --BEGIN 1.1
-Thread-ul 2 cu ID = 150 este al 1-lea thread creat de thread-ul cu ID = 141
+Thread-ul cu ID = 150 este al 1-lea thread creat de thread-ul cu ID = 141
 BEGIN 0.0
-Thread-ul 1 cu ID = 153 este al 0-lea thread creat de thread-ul cu ID = 150
+Thread-ul cu ID = 153 este al 0-lea thread creat de thread-ul cu ID = 150
 ENDIN 0.0
-Thread-ul 1 cu ID = 153 se termina, iar parintele lui cu ID = 150 mai are 0 fii
+Thread-ul cu ID = 153 se termina, iar parintele lui cu ID = 150 mai are 0 fii
 Thread-ului cu ID = 153 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 150 se termina, iar parintele lui cu ID = 141 mai are 1 fii
-Thread-ului cu ID = 150 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 150 se termina, iar parintele lui cu ID = 141 mai are 1 fii
+Thread-ului cu ID = 150 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 141 se termina, iar parintele lui cu ID = 108 mai are 2 fii
-Thread-ului cu ID = 141 i-au fost alocate 480 cuante de timp de lungime 8
+Thread-ul cu ID = 141 se termina, iar parintele lui cu ID = 108 mai are 2 fii
+Thread-ului cu ID = 141 i-au fost alocate 488 cuante de timp de lungime 8
 ------ENDIN 3.3
-Thread-ul 3 cu ID = 108 se termina, iar parintele lui cu ID = 9 mai are 3 fii
+Thread-ul cu ID = 108 se termina, iar parintele lui cu ID = 9 mai are 3 fii
 Thread-ului cu ID = 108 i-au fost alocate 336 cuante de timp de lungime 4
 --------ENDIN 4.3
 --------BEGIN 4.4
-Thread-ul 1 cu ID = 9 este al 4-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 9 este al 4-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 4 cu ID = 156 este al 1-lea thread creat de thread-ul cu ID = 9
+Thread-ul cu ID = 156 este al 1-lea thread creat de thread-ul cu ID = 9
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 159 este al 1-lea thread creat de thread-ul cu ID = 156
+Thread-ul cu ID = 159 este al 1-lea thread creat de thread-ul cu ID = 156
 --BEGIN 1.1
-Thread-ul 1 cu ID = 162 este al 1-lea thread creat de thread-ul cu ID = 159
+Thread-ul cu ID = 162 este al 1-lea thread creat de thread-ul cu ID = 159
 BEGIN 0.0
-Thread-ul 1 cu ID = 165 este al 0-lea thread creat de thread-ul cu ID = 162
+Thread-ul cu ID = 165 este al 0-lea thread creat de thread-ul cu ID = 162
 ENDIN 0.0
-Thread-ul 1 cu ID = 165 se termina, iar parintele lui cu ID = 162 mai are 0 fii
-Thread-ului cu ID = 165 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 165 se termina, iar parintele lui cu ID = 162 mai are 0 fii
+Thread-ului cu ID = 165 i-au fost alocate 224 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 162 se termina, iar parintele lui cu ID = 159 mai are 1 fii
-Thread-ului cu ID = 162 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 162 se termina, iar parintele lui cu ID = 159 mai are 1 fii
+Thread-ului cu ID = 162 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 159 este al 2-lea thread creat de thread-ul cu ID = 156
+Thread-ul cu ID = 159 este al 2-lea thread creat de thread-ul cu ID = 156
 --BEGIN 1.1
-Thread-ul 2 cu ID = 168 este al 1-lea thread creat de thread-ul cu ID = 159
+Thread-ul cu ID = 168 este al 1-lea thread creat de thread-ul cu ID = 159
 BEGIN 0.0
-Thread-ul 1 cu ID = 171 este al 0-lea thread creat de thread-ul cu ID = 168
+Thread-ul cu ID = 171 este al 0-lea thread creat de thread-ul cu ID = 168
 ENDIN 0.0
-Thread-ul 1 cu ID = 171 se termina, iar parintele lui cu ID = 168 mai are 0 fii
-Thread-ului cu ID = 171 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 171 se termina, iar parintele lui cu ID = 168 mai are 0 fii
+Thread-ului cu ID = 171 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 168 se termina, iar parintele lui cu ID = 159 mai are 1 fii
-Thread-ului cu ID = 168 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 168 se termina, iar parintele lui cu ID = 159 mai are 1 fii
+Thread-ului cu ID = 168 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 159 se termina, iar parintele lui cu ID = 156 mai are 2 fii
+Thread-ul cu ID = 159 se termina, iar parintele lui cu ID = 156 mai are 2 fii
 Thread-ului cu ID = 159 i-au fost alocate 472 cuante de timp de lungime 8
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 4 cu ID = 156 este al 2-lea thread creat de thread-ul cu ID = 9
+Thread-ul cu ID = 156 este al 2-lea thread creat de thread-ul cu ID = 9
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 174 este al 1-lea thread creat de thread-ul cu ID = 156
+Thread-ul cu ID = 174 este al 1-lea thread creat de thread-ul cu ID = 156
 --BEGIN 1.1
-Thread-ul 1 cu ID = 177 este al 1-lea thread creat de thread-ul cu ID = 174
 BEGIN 0.0
-Thread-ul 1 cu ID = 180 este al 0-lea thread creat de thread-ul cu ID = 177
+Thread-ul cu ID = 180 este al 0-lea thread creat de thread-ul cu ID = 177
 ENDIN 0.0
-Thread-ul 1 cu ID = 180 se termina, iar parintele lui cu ID = 177 mai are 0 fii
+Thread-ul cu ID = 180 se termina, iar parintele lui cu ID = 177 mai are 0 fii
 Thread-ului cu ID = 180 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 177 este al 1-lea thread creat de thread-ul cu ID = 174
 --ENDIN 1.1
-Thread-ul 1 cu ID = 177 se termina, iar parintele lui cu ID = 174 mai are 1 fii
-Thread-ului cu ID = 177 i-au fost alocate 296 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 174 este al 2-lea thread creat de thread-ul cu ID = 156
+Thread-ul cu ID = 177 se termina, iar parintele lui cu ID = 174 mai are 1 fii
+Thread-ului cu ID = 177 i-au fost alocate 296 cuante de timp de lungime 8
 --BEGIN 1.1
-Thread-ul 2 cu ID = 183 este al 1-lea thread creat de thread-ul cu ID = 174
+Thread-ul cu ID = 174 este al 2-lea thread creat de thread-ul cu ID = 156
 BEGIN 0.0
-Thread-ul 1 cu ID = 186 este al 0-lea thread creat de thread-ul cu ID = 183
+Thread-ul cu ID = 186 este al 0-lea thread creat de thread-ul cu ID = 183
 ENDIN 0.0
-Thread-ul 1 cu ID = 186 se termina, iar parintele lui cu ID = 183 mai are 0 fii
-Thread-ului cu ID = 186 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 186 se termina, iar parintele lui cu ID = 183 mai are 0 fii
+Thread-ului cu ID = 186 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 183 este al 1-lea thread creat de thread-ul cu ID = 174
 --ENDIN 1.1
-Thread-ul 2 cu ID = 183 se termina, iar parintele lui cu ID = 174 mai are 1 fii
-Thread-ului cu ID = 183 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 183 se termina, iar parintele lui cu ID = 174 mai are 1 fii
+Thread-ului cu ID = 183 i-au fost alocate 304 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 174 se termina, iar parintele lui cu ID = 156 mai are 2 fii
+Thread-ul cu ID = 174 se termina, iar parintele lui cu ID = 156 mai are 2 fii
 Thread-ului cu ID = 174 i-au fost alocate 236 cuante de timp de lungime 4
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 4 cu ID = 156 este al 3-lea thread creat de thread-ul cu ID = 9
+Thread-ul cu ID = 156 este al 3-lea thread creat de thread-ul cu ID = 9
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 189 este al 1-lea thread creat de thread-ul cu ID = 156
+Thread-ul cu ID = 189 este al 1-lea thread creat de thread-ul cu ID = 156
 --BEGIN 1.1
-Thread-ul 1 cu ID = 192 este al 1-lea thread creat de thread-ul cu ID = 189
+Thread-ul cu ID = 192 este al 1-lea thread creat de thread-ul cu ID = 189
 BEGIN 0.0
-Thread-ul 1 cu ID = 195 este al 0-lea thread creat de thread-ul cu ID = 192
+Thread-ul cu ID = 195 este al 0-lea thread creat de thread-ul cu ID = 192
 ENDIN 0.0
-Thread-ul 1 cu ID = 195 se termina, iar parintele lui cu ID = 192 mai are 0 fii
+Thread-ul cu ID = 195 se termina, iar parintele lui cu ID = 192 mai are 0 fii
 Thread-ului cu ID = 195 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 192 se termina, iar parintele lui cu ID = 189 mai are 1 fii
-Thread-ului cu ID = 192 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 192 se termina, iar parintele lui cu ID = 189 mai are 1 fii
+Thread-ului cu ID = 192 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 189 este al 2-lea thread creat de thread-ul cu ID = 156
+Thread-ul cu ID = 189 este al 2-lea thread creat de thread-ul cu ID = 156
 --BEGIN 1.1
-Thread-ul 2 cu ID = 198 este al 1-lea thread creat de thread-ul cu ID = 189
+Thread-ul cu ID = 198 este al 1-lea thread creat de thread-ul cu ID = 189
 BEGIN 0.0
-Thread-ul 1 cu ID = 201 este al 0-lea thread creat de thread-ul cu ID = 198
+Thread-ul cu ID = 201 este al 0-lea thread creat de thread-ul cu ID = 198
 ENDIN 0.0
-Thread-ul 1 cu ID = 201 se termina, iar parintele lui cu ID = 198 mai are 0 fii
+Thread-ul cu ID = 201 se termina, iar parintele lui cu ID = 198 mai are 0 fii
 Thread-ului cu ID = 201 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 198 se termina, iar parintele lui cu ID = 189 mai are 1 fii
-Thread-ului cu ID = 198 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 198 se termina, iar parintele lui cu ID = 189 mai are 1 fii
+Thread-ului cu ID = 198 i-au fost alocate 140 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 189 se termina, iar parintele lui cu ID = 156 mai are 2 fii
+Thread-ul cu ID = 189 se termina, iar parintele lui cu ID = 156 mai are 2 fii
 Thread-ului cu ID = 189 i-au fost alocate 488 cuante de timp de lungime 8
 ------ENDIN 3.3
-Thread-ul 4 cu ID = 156 se termina, iar parintele lui cu ID = 9 mai are 3 fii
-Thread-ului cu ID = 156 i-au fost alocate 348 cuante de timp de lungime 4
+Thread-ul cu ID = 156 se termina, iar parintele lui cu ID = 9 mai are 3 fii
+Thread-ului cu ID = 156 i-au fost alocate 336 cuante de timp de lungime 4
 --------ENDIN 4.4
-Thread-ul 1 cu ID = 9 se termina, iar parintele lui cu ID = 3 mai are 4 fii
-Thread-ului cu ID = 9 i-au fost alocate 904 cuante de timp de lungime 8
+Thread-ul cu ID = 9 se termina, iar parintele lui cu ID = 3 mai are 4 fii
+Thread-ului cu ID = 9 i-au fost alocate 880 cuante de timp de lungime 8
 ----------ENDIN 5.1
 ----------BEGIN 5.2
-Thread-ul main cu ID = 3 este al 3-lea thread creat de thread-ul cu ID = 0
+Thread-ul cu ID = 3 este al 3-lea thread creat de thread-ul cu ID = 0
 --------BEGIN 4.1
-Thread-ul 2 cu ID = 204 este al 1-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 204 este al 1-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 1 cu ID = 207 este al 1-lea thread creat de thread-ul cu ID = 204
+Thread-ul cu ID = 207 este al 1-lea thread creat de thread-ul cu ID = 204
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 210 este al 1-lea thread creat de thread-ul cu ID = 207
 --BEGIN 1.1
-Thread-ul 1 cu ID = 213 este al 1-lea thread creat de thread-ul cu ID = 210
+Thread-ul cu ID = 210 este al 1-lea thread creat de thread-ul cu ID = 207
 BEGIN 0.0
-Thread-ul 1 cu ID = 216 este al 0-lea thread creat de thread-ul cu ID = 213
+Thread-ul cu ID = 216 este al 0-lea thread creat de thread-ul cu ID = 213
 ENDIN 0.0
-Thread-ul 1 cu ID = 216 se termina, iar parintele lui cu ID = 213 mai are 0 fii
-Thread-ului cu ID = 216 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 216 se termina, iar parintele lui cu ID = 213 mai are 0 fii
+Thread-ului cu ID = 216 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 213 este al 1-lea thread creat de thread-ul cu ID = 210
 --ENDIN 1.1
-Thread-ul 1 cu ID = 213 se termina, iar parintele lui cu ID = 210 mai are 1 fii
-Thread-ului cu ID = 213 i-au fost alocate 280 cuante de timp de lungime 8
+Thread-ul cu ID = 213 se termina, iar parintele lui cu ID = 210 mai are 1 fii
+Thread-ului cu ID = 213 i-au fost alocate 272 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 210 este al 2-lea thread creat de thread-ul cu ID = 207
+Thread-ul cu ID = 210 este al 2-lea thread creat de thread-ul cu ID = 207
 --BEGIN 1.1
-Thread-ul 2 cu ID = 219 este al 1-lea thread creat de thread-ul cu ID = 210
+Thread-ul cu ID = 219 este al 1-lea thread creat de thread-ul cu ID = 210
 BEGIN 0.0
-Thread-ul 1 cu ID = 222 este al 0-lea thread creat de thread-ul cu ID = 219
+Thread-ul cu ID = 222 este al 0-lea thread creat de thread-ul cu ID = 219
 ENDIN 0.0
-Thread-ul 1 cu ID = 222 se termina, iar parintele lui cu ID = 219 mai are 0 fii
+Thread-ul cu ID = 222 se termina, iar parintele lui cu ID = 219 mai are 0 fii
 Thread-ului cu ID = 222 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 219 se termina, iar parintele lui cu ID = 210 mai are 1 fii
-Thread-ului cu ID = 219 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 219 se termina, iar parintele lui cu ID = 210 mai are 1 fii
+Thread-ului cu ID = 219 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 210 se termina, iar parintele lui cu ID = 207 mai are 2 fii
-Thread-ului cu ID = 210 i-au fost alocate 236 cuante de timp de lungime 4
+Thread-ul cu ID = 210 se termina, iar parintele lui cu ID = 207 mai are 2 fii
+Thread-ului cu ID = 210 i-au fost alocate 244 cuante de timp de lungime 4
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 1 cu ID = 207 este al 2-lea thread creat de thread-ul cu ID = 204
+Thread-ul cu ID = 207 este al 2-lea thread creat de thread-ul cu ID = 204
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 225 este al 1-lea thread creat de thread-ul cu ID = 207
+Thread-ul cu ID = 225 este al 1-lea thread creat de thread-ul cu ID = 207
 --BEGIN 1.1
-Thread-ul 1 cu ID = 228 este al 1-lea thread creat de thread-ul cu ID = 225
+Thread-ul cu ID = 228 este al 1-lea thread creat de thread-ul cu ID = 225
 BEGIN 0.0
-Thread-ul 1 cu ID = 231 este al 0-lea thread creat de thread-ul cu ID = 228
+Thread-ul cu ID = 231 este al 0-lea thread creat de thread-ul cu ID = 228
 ENDIN 0.0
-Thread-ul 1 cu ID = 231 se termina, iar parintele lui cu ID = 228 mai are 0 fii
-Thread-ului cu ID = 231 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 231 se termina, iar parintele lui cu ID = 228 mai are 0 fii
+Thread-ului cu ID = 231 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 228 se termina, iar parintele lui cu ID = 225 mai are 1 fii
-Thread-ului cu ID = 228 i-au fost alocate 148 cuante de timp de lungime 4
+Thread-ul cu ID = 228 se termina, iar parintele lui cu ID = 225 mai are 1 fii
+Thread-ului cu ID = 228 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 225 este al 2-lea thread creat de thread-ul cu ID = 207
+Thread-ul cu ID = 225 este al 2-lea thread creat de thread-ul cu ID = 207
 --BEGIN 1.1
-Thread-ul 2 cu ID = 234 este al 1-lea thread creat de thread-ul cu ID = 225
+Thread-ul cu ID = 234 este al 1-lea thread creat de thread-ul cu ID = 225
 BEGIN 0.0
-Thread-ul 1 cu ID = 237 este al 0-lea thread creat de thread-ul cu ID = 234
+Thread-ul cu ID = 237 este al 0-lea thread creat de thread-ul cu ID = 234
 ENDIN 0.0
-Thread-ul 1 cu ID = 237 se termina, iar parintele lui cu ID = 234 mai are 0 fii
+Thread-ul cu ID = 237 se termina, iar parintele lui cu ID = 234 mai are 0 fii
 Thread-ului cu ID = 237 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 234 se termina, iar parintele lui cu ID = 225 mai are 1 fii
-Thread-ului cu ID = 234 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 234 se termina, iar parintele lui cu ID = 225 mai are 1 fii
+Thread-ului cu ID = 234 i-au fost alocate 148 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 225 se termina, iar parintele lui cu ID = 207 mai are 2 fii
-Thread-ului cu ID = 225 i-au fost alocate 488 cuante de timp de lungime 8
+Thread-ul cu ID = 225 se termina, iar parintele lui cu ID = 207 mai are 2 fii
+Thread-ului cu ID = 225 i-au fost alocate 472 cuante de timp de lungime 8
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 1 cu ID = 207 este al 3-lea thread creat de thread-ul cu ID = 204
+Thread-ul cu ID = 207 este al 3-lea thread creat de thread-ul cu ID = 204
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 240 este al 1-lea thread creat de thread-ul cu ID = 207
+Thread-ul cu ID = 240 este al 1-lea thread creat de thread-ul cu ID = 207
 --BEGIN 1.1
-Thread-ul 1 cu ID = 243 este al 1-lea thread creat de thread-ul cu ID = 240
+Thread-ul cu ID = 243 este al 1-lea thread creat de thread-ul cu ID = 240
 BEGIN 0.0
-Thread-ul 1 cu ID = 246 este al 0-lea thread creat de thread-ul cu ID = 243
+Thread-ul cu ID = 246 este al 0-lea thread creat de thread-ul cu ID = 243
 ENDIN 0.0
-Thread-ul 1 cu ID = 246 se termina, iar parintele lui cu ID = 243 mai are 0 fii
+Thread-ul cu ID = 246 se termina, iar parintele lui cu ID = 243 mai are 0 fii
 Thread-ului cu ID = 246 i-au fost alocate 120 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 243 se termina, iar parintele lui cu ID = 240 mai are 1 fii
-Thread-ului cu ID = 243 i-au fost alocate 288 cuante de timp de lungime 8
+Thread-ul cu ID = 243 se termina, iar parintele lui cu ID = 240 mai are 1 fii
+Thread-ului cu ID = 243 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 240 este al 2-lea thread creat de thread-ul cu ID = 207
+Thread-ul cu ID = 240 este al 2-lea thread creat de thread-ul cu ID = 207
 --BEGIN 1.1
-Thread-ul 2 cu ID = 249 este al 1-lea thread creat de thread-ul cu ID = 240
+Thread-ul cu ID = 249 este al 1-lea thread creat de thread-ul cu ID = 240
 BEGIN 0.0
-Thread-ul 1 cu ID = 252 este al 0-lea thread creat de thread-ul cu ID = 249
+Thread-ul cu ID = 252 este al 0-lea thread creat de thread-ul cu ID = 249
 ENDIN 0.0
-Thread-ul 1 cu ID = 252 se termina, iar parintele lui cu ID = 249 mai are 0 fii
-Thread-ului cu ID = 252 i-au fost alocate 124 cuante de timp de lungime 4
+Thread-ul cu ID = 252 se termina, iar parintele lui cu ID = 249 mai are 0 fii
+Thread-ului cu ID = 252 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 249 se termina, iar parintele lui cu ID = 240 mai are 1 fii
+Thread-ul cu ID = 249 se termina, iar parintele lui cu ID = 240 mai are 1 fii
 Thread-ului cu ID = 249 i-au fost alocate 296 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 240 se termina, iar parintele lui cu ID = 207 mai are 2 fii
-Thread-ului cu ID = 240 i-au fost alocate 244 cuante de timp de lungime 4
+Thread-ul cu ID = 240 se termina, iar parintele lui cu ID = 207 mai are 2 fii
+Thread-ului cu ID = 240 i-au fost alocate 232 cuante de timp de lungime 4
 ------ENDIN 3.3
-Thread-ul 1 cu ID = 207 se termina, iar parintele lui cu ID = 204 mai are 3 fii
-Thread-ului cu ID = 207 i-au fost alocate 712 cuante de timp de lungime 8
+Thread-ul cu ID = 207 se termina, iar parintele lui cu ID = 204 mai are 3 fii
+Thread-ului cu ID = 207 i-au fost alocate 680 cuante de timp de lungime 8
 --------ENDIN 4.1
 --------BEGIN 4.2
-Thread-ul 2 cu ID = 204 este al 2-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 204 este al 2-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 2 cu ID = 255 este al 1-lea thread creat de thread-ul cu ID = 204
+Thread-ul cu ID = 255 este al 1-lea thread creat de thread-ul cu ID = 204
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 258 este al 1-lea thread creat de thread-ul cu ID = 255
+Thread-ul cu ID = 258 este al 1-lea thread creat de thread-ul cu ID = 255
 --BEGIN 1.1
-Thread-ul 1 cu ID = 261 este al 1-lea thread creat de thread-ul cu ID = 258
+Thread-ul cu ID = 261 este al 1-lea thread creat de thread-ul cu ID = 258
 BEGIN 0.0
-Thread-ul 1 cu ID = 264 este al 0-lea thread creat de thread-ul cu ID = 261
+Thread-ul cu ID = 264 este al 0-lea thread creat de thread-ul cu ID = 261
 ENDIN 0.0
-Thread-ul 1 cu ID = 264 se termina, iar parintele lui cu ID = 261 mai are 0 fii
-Thread-ului cu ID = 264 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 264 se termina, iar parintele lui cu ID = 261 mai are 0 fii
+Thread-ului cu ID = 264 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 261 se termina, iar parintele lui cu ID = 258 mai are 1 fii
-Thread-ului cu ID = 261 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 261 se termina, iar parintele lui cu ID = 258 mai are 1 fii
+Thread-ului cu ID = 261 i-au fost alocate 272 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 258 este al 2-lea thread creat de thread-ul cu ID = 255
+Thread-ul cu ID = 258 este al 2-lea thread creat de thread-ul cu ID = 255
 --BEGIN 1.1
-Thread-ul 2 cu ID = 267 este al 1-lea thread creat de thread-ul cu ID = 258
+Thread-ul cu ID = 267 este al 1-lea thread creat de thread-ul cu ID = 258
 BEGIN 0.0
-Thread-ul 1 cu ID = 270 este al 0-lea thread creat de thread-ul cu ID = 267
+Thread-ul cu ID = 270 este al 0-lea thread creat de thread-ul cu ID = 267
 ENDIN 0.0
-Thread-ul 1 cu ID = 270 se termina, iar parintele lui cu ID = 267 mai are 0 fii
-Thread-ului cu ID = 270 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 270 se termina, iar parintele lui cu ID = 267 mai are 0 fii
+Thread-ului cu ID = 270 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 267 se termina, iar parintele lui cu ID = 258 mai are 1 fii
-Thread-ului cu ID = 267 i-au fost alocate 288 cuante de timp de lungime 8
+Thread-ul cu ID = 267 se termina, iar parintele lui cu ID = 258 mai are 1 fii
+Thread-ului cu ID = 267 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 258 se termina, iar parintele lui cu ID = 255 mai are 2 fii
+Thread-ul cu ID = 258 se termina, iar parintele lui cu ID = 255 mai are 2 fii
 Thread-ului cu ID = 258 i-au fost alocate 244 cuante de timp de lungime 4
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 2 cu ID = 255 este al 2-lea thread creat de thread-ul cu ID = 204
+Thread-ul cu ID = 255 este al 2-lea thread creat de thread-ul cu ID = 204
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 273 este al 1-lea thread creat de thread-ul cu ID = 255
+Thread-ul cu ID = 273 este al 1-lea thread creat de thread-ul cu ID = 255
 --BEGIN 1.1
-Thread-ul 1 cu ID = 276 este al 1-lea thread creat de thread-ul cu ID = 273
+Thread-ul cu ID = 276 este al 1-lea thread creat de thread-ul cu ID = 273
 BEGIN 0.0
-Thread-ul 1 cu ID = 279 este al 0-lea thread creat de thread-ul cu ID = 276
+Thread-ul cu ID = 279 este al 0-lea thread creat de thread-ul cu ID = 276
 ENDIN 0.0
-Thread-ul 1 cu ID = 279 se termina, iar parintele lui cu ID = 276 mai are 0 fii
-Thread-ului cu ID = 279 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 279 se termina, iar parintele lui cu ID = 276 mai are 0 fii
+Thread-ului cu ID = 279 i-au fost alocate 224 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 276 se termina, iar parintele lui cu ID = 273 mai are 1 fii
-Thread-ului cu ID = 276 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 276 se termina, iar parintele lui cu ID = 273 mai are 1 fii
+Thread-ului cu ID = 276 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 273 este al 2-lea thread creat de thread-ul cu ID = 255
+Thread-ul cu ID = 273 este al 2-lea thread creat de thread-ul cu ID = 255
 --BEGIN 1.1
-Thread-ul 2 cu ID = 282 este al 1-lea thread creat de thread-ul cu ID = 273
+Thread-ul cu ID = 282 este al 1-lea thread creat de thread-ul cu ID = 273
 BEGIN 0.0
-Thread-ul 1 cu ID = 285 este al 0-lea thread creat de thread-ul cu ID = 282
+Thread-ul cu ID = 285 este al 0-lea thread creat de thread-ul cu ID = 282
 ENDIN 0.0
-Thread-ul 1 cu ID = 285 se termina, iar parintele lui cu ID = 282 mai are 0 fii
-Thread-ului cu ID = 285 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 285 se termina, iar parintele lui cu ID = 282 mai are 0 fii
+Thread-ului cu ID = 285 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 282 se termina, iar parintele lui cu ID = 273 mai are 1 fii
+Thread-ul cu ID = 282 se termina, iar parintele lui cu ID = 273 mai are 1 fii
 Thread-ului cu ID = 282 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 273 se termina, iar parintele lui cu ID = 255 mai are 2 fii
-Thread-ului cu ID = 273 i-au fost alocate 488 cuante de timp de lungime 8
+Thread-ul cu ID = 273 se termina, iar parintele lui cu ID = 255 mai are 2 fii
+Thread-ului cu ID = 273 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 2 cu ID = 255 este al 3-lea thread creat de thread-ul cu ID = 204
+Thread-ul cu ID = 255 este al 3-lea thread creat de thread-ul cu ID = 204
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 288 este al 1-lea thread creat de thread-ul cu ID = 255
+Thread-ul cu ID = 288 este al 1-lea thread creat de thread-ul cu ID = 255
 --BEGIN 1.1
-Thread-ul 1 cu ID = 291 este al 1-lea thread creat de thread-ul cu ID = 288
+Thread-ul cu ID = 291 este al 1-lea thread creat de thread-ul cu ID = 288
 BEGIN 0.0
-Thread-ul 1 cu ID = 294 este al 0-lea thread creat de thread-ul cu ID = 291
+Thread-ul cu ID = 294 este al 0-lea thread creat de thread-ul cu ID = 291
 ENDIN 0.0
-Thread-ul 1 cu ID = 294 se termina, iar parintele lui cu ID = 291 mai are 0 fii
-Thread-ului cu ID = 294 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 294 se termina, iar parintele lui cu ID = 291 mai are 0 fii
+Thread-ului cu ID = 294 i-au fost alocate 120 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 291 se termina, iar parintele lui cu ID = 288 mai are 1 fii
-Thread-ului cu ID = 291 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 291 se termina, iar parintele lui cu ID = 288 mai are 1 fii
+Thread-ului cu ID = 291 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 288 este al 2-lea thread creat de thread-ul cu ID = 255
+Thread-ul cu ID = 288 este al 2-lea thread creat de thread-ul cu ID = 255
 --BEGIN 1.1
-Thread-ul 2 cu ID = 297 este al 1-lea thread creat de thread-ul cu ID = 288
+Thread-ul cu ID = 297 este al 1-lea thread creat de thread-ul cu ID = 288
 BEGIN 0.0
-Thread-ul 1 cu ID = 300 este al 0-lea thread creat de thread-ul cu ID = 297
+Thread-ul cu ID = 300 este al 0-lea thread creat de thread-ul cu ID = 297
 ENDIN 0.0
-Thread-ul 1 cu ID = 300 se termina, iar parintele lui cu ID = 297 mai are 0 fii
-Thread-ului cu ID = 300 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 300 se termina, iar parintele lui cu ID = 297 mai are 0 fii
+Thread-ului cu ID = 300 i-au fost alocate 120 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 297 se termina, iar parintele lui cu ID = 288 mai are 1 fii
+Thread-ul cu ID = 297 se termina, iar parintele lui cu ID = 288 mai are 1 fii
 Thread-ului cu ID = 297 i-au fost alocate 296 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 288 se termina, iar parintele lui cu ID = 255 mai are 2 fii
-Thread-ului cu ID = 288 i-au fost alocate 248 cuante de timp de lungime 4
+Thread-ul cu ID = 288 se termina, iar parintele lui cu ID = 255 mai are 2 fii
+Thread-ului cu ID = 288 i-au fost alocate 232 cuante de timp de lungime 4
 ------ENDIN 3.3
-Thread-ul 2 cu ID = 255 se termina, iar parintele lui cu ID = 204 mai are 3 fii
-Thread-ului cu ID = 255 i-au fost alocate 696 cuante de timp de lungime 8
+Thread-ul cu ID = 255 se termina, iar parintele lui cu ID = 204 mai are 3 fii
+Thread-ului cu ID = 255 i-au fost alocate 680 cuante de timp de lungime 8
 --------ENDIN 4.2
 --------BEGIN 4.3
-Thread-ul 2 cu ID = 204 este al 3-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 204 este al 3-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 3 cu ID = 303 este al 1-lea thread creat de thread-ul cu ID = 204
+Thread-ul cu ID = 303 este al 1-lea thread creat de thread-ul cu ID = 204
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 306 este al 1-lea thread creat de thread-ul cu ID = 303
+Thread-ul cu ID = 306 este al 1-lea thread creat de thread-ul cu ID = 303
 --BEGIN 1.1
-Thread-ul 1 cu ID = 309 este al 1-lea thread creat de thread-ul cu ID = 306
+Thread-ul cu ID = 309 este al 1-lea thread creat de thread-ul cu ID = 306
 BEGIN 0.0
-Thread-ul 1 cu ID = 312 este al 0-lea thread creat de thread-ul cu ID = 309
+Thread-ul cu ID = 312 este al 0-lea thread creat de thread-ul cu ID = 309
 ENDIN 0.0
-Thread-ul 1 cu ID = 312 se termina, iar parintele lui cu ID = 309 mai are 0 fii
-Thread-ului cu ID = 312 i-au fost alocate 112 cuante de timp de lungime 4
+Thread-ul cu ID = 312 se termina, iar parintele lui cu ID = 309 mai are 0 fii
+Thread-ului cu ID = 312 i-au fost alocate 120 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 309 se termina, iar parintele lui cu ID = 306 mai are 1 fii
-Thread-ului cu ID = 309 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 309 se termina, iar parintele lui cu ID = 306 mai are 1 fii
+Thread-ului cu ID = 309 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 306 este al 2-lea thread creat de thread-ul cu ID = 303
+Thread-ul cu ID = 306 este al 2-lea thread creat de thread-ul cu ID = 303
 --BEGIN 1.1
-Thread-ul 2 cu ID = 315 este al 1-lea thread creat de thread-ul cu ID = 306
+Thread-ul cu ID = 315 este al 1-lea thread creat de thread-ul cu ID = 306
 BEGIN 0.0
-Thread-ul 1 cu ID = 318 este al 0-lea thread creat de thread-ul cu ID = 315
+Thread-ul cu ID = 318 este al 0-lea thread creat de thread-ul cu ID = 315
 ENDIN 0.0
-Thread-ul 1 cu ID = 318 se termina, iar parintele lui cu ID = 315 mai are 0 fii
-Thread-ului cu ID = 318 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 318 se termina, iar parintele lui cu ID = 315 mai are 0 fii
+Thread-ului cu ID = 318 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 315 se termina, iar parintele lui cu ID = 306 mai are 1 fii
-Thread-ului cu ID = 315 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 315 se termina, iar parintele lui cu ID = 306 mai are 1 fii
+Thread-ului cu ID = 315 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 306 se termina, iar parintele lui cu ID = 303 mai are 2 fii
-Thread-ului cu ID = 306 i-au fost alocate 248 cuante de timp de lungime 4
+Thread-ul cu ID = 306 se termina, iar parintele lui cu ID = 303 mai are 2 fii
+Thread-ului cu ID = 306 i-au fost alocate 240 cuante de timp de lungime 4
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 3 cu ID = 303 este al 2-lea thread creat de thread-ul cu ID = 204
+Thread-ul cu ID = 303 este al 2-lea thread creat de thread-ul cu ID = 204
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 321 este al 1-lea thread creat de thread-ul cu ID = 303
 --BEGIN 1.1
-Thread-ul 1 cu ID = 324 este al 1-lea thread creat de thread-ul cu ID = 321
+Thread-ul cu ID = 324 este al 1-lea thread creat de thread-ul cu ID = 321
+Thread-ul cu ID = 321 este al 1-lea thread creat de thread-ul cu ID = 303
 BEGIN 0.0
-Thread-ul 1 cu ID = 327 este al 0-lea thread creat de thread-ul cu ID = 324
+Thread-ul cu ID = 327 este al 0-lea thread creat de thread-ul cu ID = 324
 ENDIN 0.0
-Thread-ul 1 cu ID = 327 se termina, iar parintele lui cu ID = 324 mai are 0 fii
-Thread-ului cu ID = 327 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 327 se termina, iar parintele lui cu ID = 324 mai are 0 fii
+Thread-ului cu ID = 327 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 324 se termina, iar parintele lui cu ID = 321 mai are 1 fii
+Thread-ul cu ID = 324 se termina, iar parintele lui cu ID = 321 mai are 1 fii
 Thread-ului cu ID = 324 i-au fost alocate 140 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 321 este al 2-lea thread creat de thread-ul cu ID = 303
+Thread-ul cu ID = 321 este al 2-lea thread creat de thread-ul cu ID = 303
 --BEGIN 1.1
+Thread-ul cu ID = 330 este al 1-lea thread creat de thread-ul cu ID = 321
 BEGIN 0.0
-Thread-ul 1 cu ID = 333 este al 0-lea thread creat de thread-ul cu ID = 330
+Thread-ul cu ID = 333 este al 0-lea thread creat de thread-ul cu ID = 330
 ENDIN 0.0
-Thread-ul 1 cu ID = 333 se termina, iar parintele lui cu ID = 330 mai are 0 fii
-Thread-ului cu ID = 333 i-au fost alocate 240 cuante de timp de lungime 8
-Thread-ul 2 cu ID = 330 este al 1-lea thread creat de thread-ul cu ID = 321
+Thread-ul cu ID = 333 se termina, iar parintele lui cu ID = 330 mai are 0 fii
+Thread-ului cu ID = 333 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 330 se termina, iar parintele lui cu ID = 321 mai are 1 fii
-Thread-ului cu ID = 330 i-au fost alocate 148 cuante de timp de lungime 4
+Thread-ul cu ID = 330 se termina, iar parintele lui cu ID = 321 mai are 1 fii
+Thread-ului cu ID = 330 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 321 se termina, iar parintele lui cu ID = 303 mai are 2 fii
-Thread-ului cu ID = 321 i-au fost alocate 480 cuante de timp de lungime 8
+Thread-ul cu ID = 321 se termina, iar parintele lui cu ID = 303 mai are 2 fii
+Thread-ului cu ID = 321 i-au fost alocate 472 cuante de timp de lungime 8
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 3 cu ID = 303 este al 3-lea thread creat de thread-ul cu ID = 204
+Thread-ul cu ID = 303 este al 3-lea thread creat de thread-ul cu ID = 204
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 336 este al 1-lea thread creat de thread-ul cu ID = 303
+Thread-ul cu ID = 336 este al 1-lea thread creat de thread-ul cu ID = 303
 --BEGIN 1.1
-Thread-ul 1 cu ID = 339 este al 1-lea thread creat de thread-ul cu ID = 336
+Thread-ul cu ID = 339 este al 1-lea thread creat de thread-ul cu ID = 336
 BEGIN 0.0
-Thread-ul 1 cu ID = 342 este al 0-lea thread creat de thread-ul cu ID = 339
+Thread-ul cu ID = 342 este al 0-lea thread creat de thread-ul cu ID = 339
 ENDIN 0.0
-Thread-ul 1 cu ID = 342 se termina, iar parintele lui cu ID = 339 mai are 0 fii
-Thread-ului cu ID = 342 i-au fost alocate 124 cuante de timp de lungime 4
+Thread-ul cu ID = 342 se termina, iar parintele lui cu ID = 339 mai are 0 fii
+Thread-ului cu ID = 342 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 339 se termina, iar parintele lui cu ID = 336 mai are 1 fii
+Thread-ul cu ID = 339 se termina, iar parintele lui cu ID = 336 mai are 1 fii
 Thread-ului cu ID = 339 i-au fost alocate 296 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 336 este al 2-lea thread creat de thread-ul cu ID = 303
+Thread-ul cu ID = 336 este al 2-lea thread creat de thread-ul cu ID = 303
 --BEGIN 1.1
-Thread-ul 2 cu ID = 345 este al 1-lea thread creat de thread-ul cu ID = 336
+Thread-ul cu ID = 345 este al 1-lea thread creat de thread-ul cu ID = 336
 BEGIN 0.0
-Thread-ul 1 cu ID = 348 este al 0-lea thread creat de thread-ul cu ID = 345
+Thread-ul cu ID = 348 este al 0-lea thread creat de thread-ul cu ID = 345
 ENDIN 0.0
-Thread-ul 1 cu ID = 348 se termina, iar parintele lui cu ID = 345 mai are 0 fii
+Thread-ul cu ID = 348 se termina, iar parintele lui cu ID = 345 mai are 0 fii
 Thread-ului cu ID = 348 i-au fost alocate 120 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 345 se termina, iar parintele lui cu ID = 336 mai are 1 fii
-Thread-ului cu ID = 345 i-au fost alocate 288 cuante de timp de lungime 8
+Thread-ul cu ID = 345 se termina, iar parintele lui cu ID = 336 mai are 1 fii
+Thread-ului cu ID = 345 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 336 se termina, iar parintele lui cu ID = 303 mai are 2 fii
-Thread-ului cu ID = 336 i-au fost alocate 240 cuante de timp de lungime 4
+Thread-ul cu ID = 336 se termina, iar parintele lui cu ID = 303 mai are 2 fii
+Thread-ului cu ID = 336 i-au fost alocate 244 cuante de timp de lungime 4
 ------ENDIN 3.3
-Thread-ul 3 cu ID = 303 se termina, iar parintele lui cu ID = 204 mai are 3 fii
-Thread-ului cu ID = 303 i-au fost alocate 688 cuante de timp de lungime 8
+Thread-ul cu ID = 303 se termina, iar parintele lui cu ID = 204 mai are 3 fii
+Thread-ului cu ID = 303 i-au fost alocate 696 cuante de timp de lungime 8
 --------ENDIN 4.3
 --------BEGIN 4.4
-Thread-ul 2 cu ID = 204 este al 4-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 204 este al 4-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 4 cu ID = 351 este al 1-lea thread creat de thread-ul cu ID = 204
+Thread-ul cu ID = 351 este al 1-lea thread creat de thread-ul cu ID = 204
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 354 este al 1-lea thread creat de thread-ul cu ID = 351
+Thread-ul cu ID = 354 este al 1-lea thread creat de thread-ul cu ID = 351
 --BEGIN 1.1
-Thread-ul 1 cu ID = 357 este al 1-lea thread creat de thread-ul cu ID = 354
+Thread-ul cu ID = 357 este al 1-lea thread creat de thread-ul cu ID = 354
 BEGIN 0.0
-Thread-ul 1 cu ID = 360 este al 0-lea thread creat de thread-ul cu ID = 357
+Thread-ul cu ID = 360 este al 0-lea thread creat de thread-ul cu ID = 357
 ENDIN 0.0
-Thread-ul 1 cu ID = 360 se termina, iar parintele lui cu ID = 357 mai are 0 fii
-Thread-ului cu ID = 360 i-au fost alocate 124 cuante de timp de lungime 4
+Thread-ul cu ID = 360 se termina, iar parintele lui cu ID = 357 mai are 0 fii
+Thread-ului cu ID = 360 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 357 se termina, iar parintele lui cu ID = 354 mai are 1 fii
-Thread-ului cu ID = 357 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 357 se termina, iar parintele lui cu ID = 354 mai are 1 fii
+Thread-ului cu ID = 357 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 354 este al 2-lea thread creat de thread-ul cu ID = 351
+Thread-ul cu ID = 354 este al 2-lea thread creat de thread-ul cu ID = 351
 --BEGIN 1.1
-Thread-ul 2 cu ID = 363 este al 1-lea thread creat de thread-ul cu ID = 354
+Thread-ul cu ID = 363 este al 1-lea thread creat de thread-ul cu ID = 354
 BEGIN 0.0
-Thread-ul 1 cu ID = 366 este al 0-lea thread creat de thread-ul cu ID = 363
+Thread-ul cu ID = 366 este al 0-lea thread creat de thread-ul cu ID = 363
 ENDIN 0.0
-Thread-ul 1 cu ID = 366 se termina, iar parintele lui cu ID = 363 mai are 0 fii
-Thread-ului cu ID = 366 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 366 se termina, iar parintele lui cu ID = 363 mai are 0 fii
+Thread-ului cu ID = 366 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 363 se termina, iar parintele lui cu ID = 354 mai are 1 fii
-Thread-ului cu ID = 363 i-au fost alocate 280 cuante de timp de lungime 8
+Thread-ul cu ID = 363 se termina, iar parintele lui cu ID = 354 mai are 1 fii
+Thread-ului cu ID = 363 i-au fost alocate 272 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 354 se termina, iar parintele lui cu ID = 351 mai are 2 fii
-Thread-ului cu ID = 354 i-au fost alocate 240 cuante de timp de lungime 4
+Thread-ul cu ID = 354 se termina, iar parintele lui cu ID = 351 mai are 2 fii
+Thread-ului cu ID = 354 i-au fost alocate 244 cuante de timp de lungime 4
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 4 cu ID = 351 este al 2-lea thread creat de thread-ul cu ID = 204
+Thread-ul cu ID = 351 este al 2-lea thread creat de thread-ul cu ID = 204
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 369 este al 1-lea thread creat de thread-ul cu ID = 351
+Thread-ul cu ID = 369 este al 1-lea thread creat de thread-ul cu ID = 351
 --BEGIN 1.1
-Thread-ul 1 cu ID = 372 este al 1-lea thread creat de thread-ul cu ID = 369
+Thread-ul cu ID = 372 este al 1-lea thread creat de thread-ul cu ID = 369
 BEGIN 0.0
-Thread-ul 1 cu ID = 375 este al 0-lea thread creat de thread-ul cu ID = 372
+Thread-ul cu ID = 375 este al 0-lea thread creat de thread-ul cu ID = 372
 ENDIN 0.0
-Thread-ul 1 cu ID = 375 se termina, iar parintele lui cu ID = 372 mai are 0 fii
-Thread-ului cu ID = 375 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 375 se termina, iar parintele lui cu ID = 372 mai are 0 fii
+Thread-ului cu ID = 375 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 372 se termina, iar parintele lui cu ID = 369 mai are 1 fii
+Thread-ul cu ID = 372 se termina, iar parintele lui cu ID = 369 mai are 1 fii
+Thread-ului cu ID = 372 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ului cu ID = 372 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 369 este al 2-lea thread creat de thread-ul cu ID = 351
 --BEGIN 1.1
-Thread-ul 2 cu ID = 369 este al 2-lea thread creat de thread-ul cu ID = 351
-Thread-ul 2 cu ID = 378 este al 1-lea thread creat de thread-ul cu ID = 369
+Thread-ul cu ID = 378 este al 1-lea thread creat de thread-ul cu ID = 369
 BEGIN 0.0
-Thread-ul 1 cu ID = 381 este al 0-lea thread creat de thread-ul cu ID = 378
+Thread-ul cu ID = 381 este al 0-lea thread creat de thread-ul cu ID = 378
 ENDIN 0.0
-Thread-ul 1 cu ID = 381 se termina, iar parintele lui cu ID = 378 mai are 0 fii
-Thread-ului cu ID = 381 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 381 se termina, iar parintele lui cu ID = 378 mai are 0 fii
+Thread-ului cu ID = 381 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 378 se termina, iar parintele lui cu ID = 369 mai are 1 fii
-Thread-ului cu ID = 378 i-au fost alocate 152 cuante de timp de lungime 4
+Thread-ul cu ID = 378 se termina, iar parintele lui cu ID = 369 mai are 1 fii
+Thread-ului cu ID = 378 i-au fost alocate 140 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 369 se termina, iar parintele lui cu ID = 351 mai are 2 fii
-Thread-ului cu ID = 369 i-au fost alocate 480 cuante de timp de lungime 8
+Thread-ul cu ID = 369 se termina, iar parintele lui cu ID = 351 mai are 2 fii
+Thread-ului cu ID = 369 i-au fost alocate 488 cuante de timp de lungime 8
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 4 cu ID = 351 este al 3-lea thread creat de thread-ul cu ID = 204
+Thread-ul cu ID = 351 este al 3-lea thread creat de thread-ul cu ID = 204
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 384 este al 1-lea thread creat de thread-ul cu ID = 351
+Thread-ul cu ID = 384 este al 1-lea thread creat de thread-ul cu ID = 351
 --BEGIN 1.1
-Thread-ul 1 cu ID = 387 este al 1-lea thread creat de thread-ul cu ID = 384
+Thread-ul cu ID = 387 este al 1-lea thread creat de thread-ul cu ID = 384
 BEGIN 0.0
-Thread-ul 1 cu ID = 390 este al 0-lea thread creat de thread-ul cu ID = 387
+Thread-ul cu ID = 390 este al 0-lea thread creat de thread-ul cu ID = 387
 ENDIN 0.0
-Thread-ul 1 cu ID = 390 se termina, iar parintele lui cu ID = 387 mai are 0 fii
+Thread-ul cu ID = 390 se termina, iar parintele lui cu ID = 387 mai are 0 fii
 Thread-ului cu ID = 390 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 387 se termina, iar parintele lui cu ID = 384 mai are 1 fii
-Thread-ului cu ID = 387 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 387 se termina, iar parintele lui cu ID = 384 mai are 1 fii
+Thread-ului cu ID = 387 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 384 este al 2-lea thread creat de thread-ul cu ID = 351
+Thread-ul cu ID = 384 este al 2-lea thread creat de thread-ul cu ID = 351
 --BEGIN 1.1
-Thread-ul 2 cu ID = 393 este al 1-lea thread creat de thread-ul cu ID = 384
+Thread-ul cu ID = 393 este al 1-lea thread creat de thread-ul cu ID = 384
 BEGIN 0.0
-Thread-ul 1 cu ID = 396 este al 0-lea thread creat de thread-ul cu ID = 393
+Thread-ul cu ID = 396 este al 0-lea thread creat de thread-ul cu ID = 393
 ENDIN 0.0
-Thread-ul 1 cu ID = 396 se termina, iar parintele lui cu ID = 393 mai are 0 fii
-Thread-ului cu ID = 396 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 396 se termina, iar parintele lui cu ID = 393 mai are 0 fii
+Thread-ului cu ID = 396 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 393 se termina, iar parintele lui cu ID = 384 mai are 1 fii
+Thread-ul cu ID = 393 se termina, iar parintele lui cu ID = 384 mai are 1 fii
+Thread-ului cu ID = 393 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 384 se termina, iar parintele lui cu ID = 351 mai are 2 fii
-Thread-ului cu ID = 384 i-au fost alocate 236 cuante de timp de lungime 4
+Thread-ul cu ID = 384 se termina, iar parintele lui cu ID = 351 mai are 2 fii
+Thread-ului cu ID = 384 i-au fost alocate 244 cuante de timp de lungime 4
 ------ENDIN 3.3
-Thread-ul 4 cu ID = 351 se termina, iar parintele lui cu ID = 204 mai are 3 fii
-Thread-ului cu ID = 351 i-au fost alocate 664 cuante de timp de lungime 8
+Thread-ul cu ID = 351 se termina, iar parintele lui cu ID = 204 mai are 3 fii
+Thread-ului cu ID = 351 i-au fost alocate 696 cuante de timp de lungime 8
 --------ENDIN 4.4
-Thread-ul 2 cu ID = 204 se termina, iar parintele lui cu ID = 3 mai are 4 fii
-Thread-ului cu ID = 204 i-au fost alocate 456 cuante de timp de lungime 4
+Thread-ul cu ID = 204 se termina, iar parintele lui cu ID = 3 mai are 4 fii
+Thread-ului cu ID = 204 i-au fost alocate 448 cuante de timp de lungime 4
 ----------ENDIN 5.2
 ----------BEGIN 5.3
-Thread-ului cu ID = 393 i-au fost alocate 288 cuante de timp de lungime 8
-Thread-ul main cu ID = 3 este al 4-lea thread creat de thread-ul cu ID = 0
+Thread-ul cu ID = 3 este al 4-lea thread creat de thread-ul cu ID = 0
 --------BEGIN 4.1
-Thread-ul 3 cu ID = 399 este al 1-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 399 este al 1-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 1 cu ID = 402 este al 1-lea thread creat de thread-ul cu ID = 399
+Thread-ul cu ID = 402 este al 1-lea thread creat de thread-ul cu ID = 399
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 405 este al 1-lea thread creat de thread-ul cu ID = 402
+Thread-ul cu ID = 405 este al 1-lea thread creat de thread-ul cu ID = 402
 --BEGIN 1.1
+Thread-ul cu ID = 408 este al 1-lea thread creat de thread-ul cu ID = 405
 BEGIN 0.0
-Thread-ul 1 cu ID = 411 este al 0-lea thread creat de thread-ul cu ID = 408
+Thread-ul cu ID = 411 este al 0-lea thread creat de thread-ul cu ID = 408
 ENDIN 0.0
-Thread-ul 1 cu ID = 411 se termina, iar parintele lui cu ID = 408 mai are 0 fii
+Thread-ul cu ID = 411 se termina, iar parintele lui cu ID = 408 mai are 0 fii
 Thread-ului cu ID = 411 i-au fost alocate 240 cuante de timp de lungime 8
-Thread-ul 1 cu ID = 408 este al 1-lea thread creat de thread-ul cu ID = 405
 --ENDIN 1.1
-Thread-ul 1 cu ID = 408 se termina, iar parintele lui cu ID = 405 mai are 1 fii
-Thread-ului cu ID = 408 i-au fost alocate 148 cuante de timp de lungime 4
+Thread-ul cu ID = 408 se termina, iar parintele lui cu ID = 405 mai are 1 fii
+Thread-ului cu ID = 408 i-au fost alocate 140 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 405 este al 2-lea thread creat de thread-ul cu ID = 402
+Thread-ul cu ID = 405 este al 2-lea thread creat de thread-ul cu ID = 402
 --BEGIN 1.1
-Thread-ul 2 cu ID = 414 este al 1-lea thread creat de thread-ul cu ID = 405
+Thread-ul cu ID = 414 este al 1-lea thread creat de thread-ul cu ID = 405
 BEGIN 0.0
-Thread-ul 1 cu ID = 417 este al 0-lea thread creat de thread-ul cu ID = 414
+Thread-ul cu ID = 417 este al 0-lea thread creat de thread-ul cu ID = 414
 ENDIN 0.0
-Thread-ul 1 cu ID = 417 se termina, iar parintele lui cu ID = 414 mai are 0 fii
-Thread-ului cu ID = 417 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 417 se termina, iar parintele lui cu ID = 414 mai are 0 fii
+Thread-ului cu ID = 417 i-au fost alocate 224 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 414 se termina, iar parintele lui cu ID = 405 mai are 1 fii
+Thread-ul cu ID = 414 se termina, iar parintele lui cu ID = 405 mai are 1 fii
 Thread-ului cu ID = 414 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 405 se termina, iar parintele lui cu ID = 402 mai are 2 fii
-Thread-ului cu ID = 405 i-au fost alocate 488 cuante de timp de lungime 8
+Thread-ul cu ID = 405 se termina, iar parintele lui cu ID = 402 mai are 2 fii
+Thread-ului cu ID = 405 i-au fost alocate 464 cuante de timp de lungime 8
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 1 cu ID = 402 este al 2-lea thread creat de thread-ul cu ID = 399
+Thread-ul cu ID = 402 este al 2-lea thread creat de thread-ul cu ID = 399
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 420 este al 1-lea thread creat de thread-ul cu ID = 402
 --BEGIN 1.1
-Thread-ul 1 cu ID = 423 este al 1-lea thread creat de thread-ul cu ID = 420
+Thread-ul cu ID = 420 este al 1-lea thread creat de thread-ul cu ID = 402
 BEGIN 0.0
-Thread-ul 1 cu ID = 426 este al 0-lea thread creat de thread-ul cu ID = 423
+Thread-ul cu ID = 426 este al 0-lea thread creat de thread-ul cu ID = 423
 ENDIN 0.0
-Thread-ul 1 cu ID = 426 se termina, iar parintele lui cu ID = 423 mai are 0 fii
-Thread-ului cu ID = 426 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 426 se termina, iar parintele lui cu ID = 423 mai are 0 fii
+Thread-ului cu ID = 426 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 423 este al 1-lea thread creat de thread-ul cu ID = 420
 --ENDIN 1.1
-Thread-ul 1 cu ID = 423 se termina, iar parintele lui cu ID = 420 mai are 1 fii
-Thread-ului cu ID = 423 i-au fost alocate 288 cuante de timp de lungime 8
+Thread-ul cu ID = 423 se termina, iar parintele lui cu ID = 420 mai are 1 fii
+Thread-ului cu ID = 423 i-au fost alocate 272 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 420 este al 2-lea thread creat de thread-ul cu ID = 402
+Thread-ul cu ID = 420 este al 2-lea thread creat de thread-ul cu ID = 402
 --BEGIN 1.1
-Thread-ul 2 cu ID = 429 este al 1-lea thread creat de thread-ul cu ID = 420
+Thread-ul cu ID = 429 este al 1-lea thread creat de thread-ul cu ID = 420
 BEGIN 0.0
-Thread-ul 1 cu ID = 432 este al 0-lea thread creat de thread-ul cu ID = 429
+Thread-ul cu ID = 432 este al 0-lea thread creat de thread-ul cu ID = 429
 ENDIN 0.0
-Thread-ul 1 cu ID = 432 se termina, iar parintele lui cu ID = 429 mai are 0 fii
+Thread-ul cu ID = 432 se termina, iar parintele lui cu ID = 429 mai are 0 fii
 Thread-ului cu ID = 432 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 429 se termina, iar parintele lui cu ID = 420 mai are 1 fii
-Thread-ului cu ID = 429 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 429 se termina, iar parintele lui cu ID = 420 mai are 1 fii
+Thread-ului cu ID = 429 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 420 se termina, iar parintele lui cu ID = 402 mai are 2 fii
-Thread-ului cu ID = 420 i-au fost alocate 248 cuante de timp de lungime 4
+Thread-ul cu ID = 420 se termina, iar parintele lui cu ID = 402 mai are 2 fii
+Thread-ului cu ID = 420 i-au fost alocate 244 cuante de timp de lungime 4
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 1 cu ID = 402 este al 3-lea thread creat de thread-ul cu ID = 399
+Thread-ul cu ID = 402 este al 3-lea thread creat de thread-ul cu ID = 399
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 435 este al 1-lea thread creat de thread-ul cu ID = 402
+Thread-ul cu ID = 435 este al 1-lea thread creat de thread-ul cu ID = 402
 --BEGIN 1.1
-Thread-ul 1 cu ID = 438 este al 1-lea thread creat de thread-ul cu ID = 435
+Thread-ul cu ID = 438 este al 1-lea thread creat de thread-ul cu ID = 435
 BEGIN 0.0
-Thread-ul 1 cu ID = 441 este al 0-lea thread creat de thread-ul cu ID = 438
+Thread-ul cu ID = 441 este al 0-lea thread creat de thread-ul cu ID = 438
 ENDIN 0.0
-Thread-ul 1 cu ID = 441 se termina, iar parintele lui cu ID = 438 mai are 0 fii
-Thread-ului cu ID = 441 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 441 se termina, iar parintele lui cu ID = 438 mai are 0 fii
+Thread-ului cu ID = 441 i-au fost alocate 224 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 438 se termina, iar parintele lui cu ID = 435 mai are 1 fii
+Thread-ul cu ID = 438 se termina, iar parintele lui cu ID = 435 mai are 1 fii
 Thread-ului cu ID = 438 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 435 este al 2-lea thread creat de thread-ul cu ID = 402
+Thread-ul cu ID = 435 este al 2-lea thread creat de thread-ul cu ID = 402
 --BEGIN 1.1
-Thread-ul 2 cu ID = 444 este al 1-lea thread creat de thread-ul cu ID = 435
+Thread-ul cu ID = 444 este al 1-lea thread creat de thread-ul cu ID = 435
 BEGIN 0.0
-Thread-ul 1 cu ID = 447 este al 0-lea thread creat de thread-ul cu ID = 444
+Thread-ul cu ID = 447 este al 0-lea thread creat de thread-ul cu ID = 444
 ENDIN 0.0
-Thread-ul 1 cu ID = 447 se termina, iar parintele lui cu ID = 444 mai are 0 fii
-Thread-ului cu ID = 447 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 447 se termina, iar parintele lui cu ID = 444 mai are 0 fii
+Thread-ului cu ID = 447 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 444 se termina, iar parintele lui cu ID = 435 mai are 1 fii
-Thread-ului cu ID = 444 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 444 se termina, iar parintele lui cu ID = 435 mai are 1 fii
+Thread-ului cu ID = 444 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 435 se termina, iar parintele lui cu ID = 402 mai are 2 fii
-Thread-ului cu ID = 435 i-au fost alocate 496 cuante de timp de lungime 8
+Thread-ul cu ID = 435 se termina, iar parintele lui cu ID = 402 mai are 2 fii
+Thread-ului cu ID = 435 i-au fost alocate 472 cuante de timp de lungime 8
 ------ENDIN 3.3
-Thread-ul 1 cu ID = 402 se termina, iar parintele lui cu ID = 399 mai are 3 fii
-Thread-ului cu ID = 402 i-au fost alocate 348 cuante de timp de lungime 4
+Thread-ul cu ID = 402 se termina, iar parintele lui cu ID = 399 mai are 3 fii
+Thread-ului cu ID = 402 i-au fost alocate 332 cuante de timp de lungime 4
 --------ENDIN 4.1
 --------BEGIN 4.2
-Thread-ul 3 cu ID = 399 este al 2-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 399 este al 2-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 2 cu ID = 450 este al 1-lea thread creat de thread-ul cu ID = 399
+Thread-ul cu ID = 450 este al 1-lea thread creat de thread-ul cu ID = 399
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 453 este al 1-lea thread creat de thread-ul cu ID = 450
+Thread-ul cu ID = 453 este al 1-lea thread creat de thread-ul cu ID = 450
 --BEGIN 1.1
-Thread-ul 1 cu ID = 456 este al 1-lea thread creat de thread-ul cu ID = 453
+Thread-ul cu ID = 456 este al 1-lea thread creat de thread-ul cu ID = 453
 BEGIN 0.0
-Thread-ul 1 cu ID = 459 este al 0-lea thread creat de thread-ul cu ID = 456
+Thread-ul cu ID = 459 este al 0-lea thread creat de thread-ul cu ID = 456
 ENDIN 0.0
-Thread-ul 1 cu ID = 459 se termina, iar parintele lui cu ID = 456 mai are 0 fii
-Thread-ului cu ID = 459 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 459 se termina, iar parintele lui cu ID = 456 mai are 0 fii
+Thread-ului cu ID = 459 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 456 se termina, iar parintele lui cu ID = 453 mai are 1 fii
-Thread-ului cu ID = 456 i-au fost alocate 148 cuante de timp de lungime 4
+Thread-ul cu ID = 456 se termina, iar parintele lui cu ID = 453 mai are 1 fii
+Thread-ului cu ID = 456 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 453 este al 2-lea thread creat de thread-ul cu ID = 450
+Thread-ul cu ID = 453 este al 2-lea thread creat de thread-ul cu ID = 450
 --BEGIN 1.1
-Thread-ul 2 cu ID = 462 este al 1-lea thread creat de thread-ul cu ID = 453
+Thread-ul cu ID = 462 este al 1-lea thread creat de thread-ul cu ID = 453
 BEGIN 0.0
-Thread-ul 1 cu ID = 465 este al 0-lea thread creat de thread-ul cu ID = 462
+Thread-ul cu ID = 465 este al 0-lea thread creat de thread-ul cu ID = 462
 ENDIN 0.0
-Thread-ul 1 cu ID = 465 se termina, iar parintele lui cu ID = 462 mai are 0 fii
+Thread-ul cu ID = 465 se termina, iar parintele lui cu ID = 462 mai are 0 fii
 Thread-ului cu ID = 465 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 462 se termina, iar parintele lui cu ID = 453 mai are 1 fii
-Thread-ului cu ID = 462 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 462 se termina, iar parintele lui cu ID = 453 mai are 1 fii
+Thread-ului cu ID = 462 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 453 se termina, iar parintele lui cu ID = 450 mai are 2 fii
+Thread-ul cu ID = 453 se termina, iar parintele lui cu ID = 450 mai are 2 fii
 Thread-ului cu ID = 453 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 2 cu ID = 450 este al 2-lea thread creat de thread-ul cu ID = 399
+Thread-ul cu ID = 450 este al 2-lea thread creat de thread-ul cu ID = 399
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 468 este al 1-lea thread creat de thread-ul cu ID = 450
+Thread-ul cu ID = 468 este al 1-lea thread creat de thread-ul cu ID = 450
 --BEGIN 1.1
-Thread-ul 1 cu ID = 471 este al 1-lea thread creat de thread-ul cu ID = 468
+Thread-ul cu ID = 471 este al 1-lea thread creat de thread-ul cu ID = 468
 BEGIN 0.0
-Thread-ul 1 cu ID = 474 este al 0-lea thread creat de thread-ul cu ID = 471
+Thread-ul cu ID = 474 este al 0-lea thread creat de thread-ul cu ID = 471
 ENDIN 0.0
-Thread-ul 1 cu ID = 474 se termina, iar parintele lui cu ID = 471 mai are 0 fii
-Thread-ului cu ID = 474 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 474 se termina, iar parintele lui cu ID = 471 mai are 0 fii
+Thread-ului cu ID = 474 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 471 se termina, iar parintele lui cu ID = 468 mai are 1 fii
+Thread-ul cu ID = 471 se termina, iar parintele lui cu ID = 468 mai are 1 fii
+Thread-ului cu ID = 471 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ului cu ID = 471 i-au fost alocate 280 cuante de timp de lungime 8
-Thread-ul 2 cu ID = 468 este al 2-lea thread creat de thread-ul cu ID = 450
+Thread-ul cu ID = 468 este al 2-lea thread creat de thread-ul cu ID = 450
 --BEGIN 1.1
-Thread-ul 2 cu ID = 477 este al 1-lea thread creat de thread-ul cu ID = 468
+Thread-ul cu ID = 477 este al 1-lea thread creat de thread-ul cu ID = 468
 BEGIN 0.0
-Thread-ul 1 cu ID = 480 este al 0-lea thread creat de thread-ul cu ID = 477
+Thread-ul cu ID = 480 este al 0-lea thread creat de thread-ul cu ID = 477
 ENDIN 0.0
-Thread-ul 1 cu ID = 480 se termina, iar parintele lui cu ID = 477 mai are 0 fii
-Thread-ului cu ID = 480 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 480 se termina, iar parintele lui cu ID = 477 mai are 0 fii
+Thread-ului cu ID = 480 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 477 se termina, iar parintele lui cu ID = 468 mai are 1 fii
+Thread-ul cu ID = 477 se termina, iar parintele lui cu ID = 468 mai are 1 fii
 Thread-ului cu ID = 477 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 468 se termina, iar parintele lui cu ID = 450 mai are 2 fii
+Thread-ul cu ID = 468 se termina, iar parintele lui cu ID = 450 mai are 2 fii
 Thread-ului cu ID = 468 i-au fost alocate 244 cuante de timp de lungime 4
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 2 cu ID = 450 este al 3-lea thread creat de thread-ul cu ID = 399
+Thread-ul cu ID = 450 este al 3-lea thread creat de thread-ul cu ID = 399
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 483 este al 1-lea thread creat de thread-ul cu ID = 450
+Thread-ul cu ID = 483 este al 1-lea thread creat de thread-ul cu ID = 450
 --BEGIN 1.1
-Thread-ul 1 cu ID = 486 este al 1-lea thread creat de thread-ul cu ID = 483
+Thread-ul cu ID = 486 este al 1-lea thread creat de thread-ul cu ID = 483
 BEGIN 0.0
-Thread-ul 1 cu ID = 489 este al 0-lea thread creat de thread-ul cu ID = 486
+Thread-ul cu ID = 489 este al 0-lea thread creat de thread-ul cu ID = 486
 ENDIN 0.0
-Thread-ul 1 cu ID = 489 se termina, iar parintele lui cu ID = 486 mai are 0 fii
-Thread-ului cu ID = 489 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 489 se termina, iar parintele lui cu ID = 486 mai are 0 fii
+Thread-ului cu ID = 489 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 486 se termina, iar parintele lui cu ID = 483 mai are 1 fii
-Thread-ului cu ID = 486 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 486 se termina, iar parintele lui cu ID = 483 mai are 1 fii
+Thread-ului cu ID = 486 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 483 este al 2-lea thread creat de thread-ul cu ID = 450
+Thread-ul cu ID = 483 este al 2-lea thread creat de thread-ul cu ID = 450
 --BEGIN 1.1
-Thread-ul 2 cu ID = 492 este al 1-lea thread creat de thread-ul cu ID = 483
+Thread-ul cu ID = 492 este al 1-lea thread creat de thread-ul cu ID = 483
 BEGIN 0.0
-Thread-ul 1 cu ID = 495 este al 0-lea thread creat de thread-ul cu ID = 492
+Thread-ul cu ID = 495 este al 0-lea thread creat de thread-ul cu ID = 492
 ENDIN 0.0
-Thread-ul 1 cu ID = 495 se termina, iar parintele lui cu ID = 492 mai are 0 fii
-Thread-ului cu ID = 495 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 495 se termina, iar parintele lui cu ID = 492 mai are 0 fii
+Thread-ului cu ID = 495 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 492 se termina, iar parintele lui cu ID = 483 mai are 1 fii
-Thread-ului cu ID = 492 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 492 se termina, iar parintele lui cu ID = 483 mai are 1 fii
+Thread-ului cu ID = 492 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 483 se termina, iar parintele lui cu ID = 450 mai are 2 fii
-Thread-ului cu ID = 483 i-au fost alocate 504 cuante de timp de lungime 8
+Thread-ul cu ID = 483 se termina, iar parintele lui cu ID = 450 mai are 2 fii
+Thread-ului cu ID = 483 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.3
-Thread-ul 2 cu ID = 450 se termina, iar parintele lui cu ID = 399 mai are 3 fii
-Thread-ului cu ID = 450 i-au fost alocate 344 cuante de timp de lungime 4
+Thread-ul cu ID = 450 se termina, iar parintele lui cu ID = 399 mai are 3 fii
+Thread-ului cu ID = 450 i-au fost alocate 336 cuante de timp de lungime 4
 --------ENDIN 4.2
 --------BEGIN 4.3
-Thread-ul 3 cu ID = 399 este al 3-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 399 este al 3-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 3 cu ID = 498 este al 1-lea thread creat de thread-ul cu ID = 399
+Thread-ul cu ID = 498 este al 1-lea thread creat de thread-ul cu ID = 399
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 501 este al 1-lea thread creat de thread-ul cu ID = 498
+Thread-ul cu ID = 501 este al 1-lea thread creat de thread-ul cu ID = 498
 --BEGIN 1.1
-Thread-ul 1 cu ID = 504 este al 1-lea thread creat de thread-ul cu ID = 501
+Thread-ul cu ID = 504 este al 1-lea thread creat de thread-ul cu ID = 501
 BEGIN 0.0
-Thread-ul 1 cu ID = 507 este al 0-lea thread creat de thread-ul cu ID = 504
+Thread-ul cu ID = 507 este al 0-lea thread creat de thread-ul cu ID = 504
 ENDIN 0.0
-Thread-ul 1 cu ID = 507 se termina, iar parintele lui cu ID = 504 mai are 0 fii
-Thread-ului cu ID = 507 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 507 se termina, iar parintele lui cu ID = 504 mai are 0 fii
+Thread-ului cu ID = 507 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 504 se termina, iar parintele lui cu ID = 501 mai are 1 fii
-Thread-ului cu ID = 504 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 504 se termina, iar parintele lui cu ID = 501 mai are 1 fii
+Thread-ului cu ID = 504 i-au fost alocate 148 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 501 este al 2-lea thread creat de thread-ul cu ID = 498
+Thread-ul cu ID = 501 este al 2-lea thread creat de thread-ul cu ID = 498
 --BEGIN 1.1
-Thread-ul 2 cu ID = 510 este al 1-lea thread creat de thread-ul cu ID = 501
+Thread-ul cu ID = 510 este al 1-lea thread creat de thread-ul cu ID = 501
 BEGIN 0.0
-Thread-ul 1 cu ID = 513 este al 0-lea thread creat de thread-ul cu ID = 510
+Thread-ul cu ID = 513 este al 0-lea thread creat de thread-ul cu ID = 510
 ENDIN 0.0
-Thread-ul 1 cu ID = 513 se termina, iar parintele lui cu ID = 510 mai are 0 fii
-Thread-ului cu ID = 513 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 513 se termina, iar parintele lui cu ID = 510 mai are 0 fii
+Thread-ului cu ID = 513 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 510 se termina, iar parintele lui cu ID = 501 mai are 1 fii
-Thread-ului cu ID = 510 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 510 se termina, iar parintele lui cu ID = 501 mai are 1 fii
+Thread-ului cu ID = 510 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 501 se termina, iar parintele lui cu ID = 498 mai are 2 fii
+Thread-ul cu ID = 501 se termina, iar parintele lui cu ID = 498 mai are 2 fii
 Thread-ului cu ID = 501 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 3 cu ID = 498 este al 2-lea thread creat de thread-ul cu ID = 399
+Thread-ul cu ID = 498 este al 2-lea thread creat de thread-ul cu ID = 399
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 516 este al 1-lea thread creat de thread-ul cu ID = 498
+Thread-ul cu ID = 516 este al 1-lea thread creat de thread-ul cu ID = 498
 --BEGIN 1.1
-Thread-ul 1 cu ID = 519 este al 1-lea thread creat de thread-ul cu ID = 516
+Thread-ul cu ID = 519 este al 1-lea thread creat de thread-ul cu ID = 516
 BEGIN 0.0
-Thread-ul 1 cu ID = 522 este al 0-lea thread creat de thread-ul cu ID = 519
+Thread-ul cu ID = 522 este al 0-lea thread creat de thread-ul cu ID = 519
 ENDIN 0.0
-Thread-ul 1 cu ID = 522 se termina, iar parintele lui cu ID = 519 mai are 0 fii
-Thread-ului cu ID = 522 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 522 se termina, iar parintele lui cu ID = 519 mai are 0 fii
+Thread-ului cu ID = 522 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 519 se termina, iar parintele lui cu ID = 516 mai are 1 fii
+Thread-ul cu ID = 519 se termina, iar parintele lui cu ID = 516 mai are 1 fii
 Thread-ului cu ID = 519 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 516 este al 2-lea thread creat de thread-ul cu ID = 498
+Thread-ul cu ID = 516 este al 2-lea thread creat de thread-ul cu ID = 498
 --BEGIN 1.1
-Thread-ul 2 cu ID = 525 este al 1-lea thread creat de thread-ul cu ID = 516
+Thread-ul cu ID = 525 este al 1-lea thread creat de thread-ul cu ID = 516
 BEGIN 0.0
-Thread-ul 1 cu ID = 528 este al 0-lea thread creat de thread-ul cu ID = 525
+Thread-ul cu ID = 528 este al 0-lea thread creat de thread-ul cu ID = 525
 ENDIN 0.0
-Thread-ul 1 cu ID = 528 se termina, iar parintele lui cu ID = 525 mai are 0 fii
-Thread-ului cu ID = 528 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 528 se termina, iar parintele lui cu ID = 525 mai are 0 fii
+Thread-ului cu ID = 528 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 525 se termina, iar parintele lui cu ID = 516 mai are 1 fii
-Thread-ului cu ID = 525 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 525 se termina, iar parintele lui cu ID = 516 mai are 1 fii
+Thread-ului cu ID = 525 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 516 se termina, iar parintele lui cu ID = 498 mai are 2 fii
-Thread-ului cu ID = 516 i-au fost alocate 244 cuante de timp de lungime 4
+Thread-ul cu ID = 516 se termina, iar parintele lui cu ID = 498 mai are 2 fii
+Thread-ului cu ID = 516 i-au fost alocate 240 cuante de timp de lungime 4
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 3 cu ID = 498 este al 3-lea thread creat de thread-ul cu ID = 399
+Thread-ul cu ID = 498 este al 3-lea thread creat de thread-ul cu ID = 399
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 531 este al 1-lea thread creat de thread-ul cu ID = 498
+Thread-ul cu ID = 531 este al 1-lea thread creat de thread-ul cu ID = 498
 --BEGIN 1.1
-Thread-ul 1 cu ID = 534 este al 1-lea thread creat de thread-ul cu ID = 531
+Thread-ul cu ID = 534 este al 1-lea thread creat de thread-ul cu ID = 531
 BEGIN 0.0
-Thread-ul 1 cu ID = 537 este al 0-lea thread creat de thread-ul cu ID = 534
+Thread-ul cu ID = 537 este al 0-lea thread creat de thread-ul cu ID = 534
 ENDIN 0.0
-Thread-ul 1 cu ID = 537 se termina, iar parintele lui cu ID = 534 mai are 0 fii
-Thread-ului cu ID = 537 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 537 se termina, iar parintele lui cu ID = 534 mai are 0 fii
+Thread-ului cu ID = 537 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 534 se termina, iar parintele lui cu ID = 531 mai are 1 fii
+Thread-ul cu ID = 534 se termina, iar parintele lui cu ID = 531 mai are 1 fii
 Thread-ului cu ID = 534 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 531 este al 2-lea thread creat de thread-ul cu ID = 498
+Thread-ul cu ID = 531 este al 2-lea thread creat de thread-ul cu ID = 498
 --BEGIN 1.1
-Thread-ul 2 cu ID = 540 este al 1-lea thread creat de thread-ul cu ID = 531
+Thread-ul cu ID = 540 este al 1-lea thread creat de thread-ul cu ID = 531
 BEGIN 0.0
-Thread-ul 1 cu ID = 543 este al 0-lea thread creat de thread-ul cu ID = 540
+Thread-ul cu ID = 543 este al 0-lea thread creat de thread-ul cu ID = 540
 ENDIN 0.0
-Thread-ul 1 cu ID = 543 se termina, iar parintele lui cu ID = 540 mai are 0 fii
-Thread-ului cu ID = 543 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 543 se termina, iar parintele lui cu ID = 540 mai are 0 fii
+Thread-ului cu ID = 543 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 540 se termina, iar parintele lui cu ID = 531 mai are 1 fii
-Thread-ului cu ID = 540 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 540 se termina, iar parintele lui cu ID = 531 mai are 1 fii
+Thread-ului cu ID = 540 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 531 se termina, iar parintele lui cu ID = 498 mai are 2 fii
-Thread-ului cu ID = 531 i-au fost alocate 472 cuante de timp de lungime 8
+Thread-ul cu ID = 531 se termina, iar parintele lui cu ID = 498 mai are 2 fii
+Thread-ului cu ID = 531 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.3
-Thread-ul 3 cu ID = 498 se termina, iar parintele lui cu ID = 399 mai are 3 fii
-Thread-ului cu ID = 498 i-au fost alocate 348 cuante de timp de lungime 4
+Thread-ul cu ID = 498 se termina, iar parintele lui cu ID = 399 mai are 3 fii
+Thread-ului cu ID = 498 i-au fost alocate 336 cuante de timp de lungime 4
 --------ENDIN 4.3
 --------BEGIN 4.4
-Thread-ul 3 cu ID = 399 este al 4-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 399 este al 4-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 4 cu ID = 546 este al 1-lea thread creat de thread-ul cu ID = 399
+Thread-ul cu ID = 546 este al 1-lea thread creat de thread-ul cu ID = 399
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 549 este al 1-lea thread creat de thread-ul cu ID = 546
+Thread-ul cu ID = 549 este al 1-lea thread creat de thread-ul cu ID = 546
 --BEGIN 1.1
-Thread-ul 1 cu ID = 552 este al 1-lea thread creat de thread-ul cu ID = 549
+Thread-ul cu ID = 552 este al 1-lea thread creat de thread-ul cu ID = 549
 BEGIN 0.0
-Thread-ul 1 cu ID = 555 este al 0-lea thread creat de thread-ul cu ID = 552
+Thread-ul cu ID = 555 este al 0-lea thread creat de thread-ul cu ID = 552
 ENDIN 0.0
-Thread-ul 1 cu ID = 555 se termina, iar parintele lui cu ID = 552 mai are 0 fii
-Thread-ului cu ID = 555 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 555 se termina, iar parintele lui cu ID = 552 mai are 0 fii
+Thread-ului cu ID = 555 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 552 se termina, iar parintele lui cu ID = 549 mai are 1 fii
+Thread-ul cu ID = 552 se termina, iar parintele lui cu ID = 549 mai are 1 fii
 Thread-ului cu ID = 552 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 549 este al 2-lea thread creat de thread-ul cu ID = 546
+Thread-ul cu ID = 549 este al 2-lea thread creat de thread-ul cu ID = 546
 --BEGIN 1.1
-Thread-ul 2 cu ID = 558 este al 1-lea thread creat de thread-ul cu ID = 549
+Thread-ul cu ID = 558 este al 1-lea thread creat de thread-ul cu ID = 549
 BEGIN 0.0
-Thread-ul 1 cu ID = 561 este al 0-lea thread creat de thread-ul cu ID = 558
+Thread-ul cu ID = 561 este al 0-lea thread creat de thread-ul cu ID = 558
 ENDIN 0.0
-Thread-ul 1 cu ID = 561 se termina, iar parintele lui cu ID = 558 mai are 0 fii
-Thread-ului cu ID = 561 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 561 se termina, iar parintele lui cu ID = 558 mai are 0 fii
+Thread-ului cu ID = 561 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 558 se termina, iar parintele lui cu ID = 549 mai are 1 fii
-Thread-ului cu ID = 558 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 558 se termina, iar parintele lui cu ID = 549 mai are 1 fii
+Thread-ului cu ID = 558 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 549 se termina, iar parintele lui cu ID = 546 mai are 2 fii
+Thread-ul cu ID = 549 se termina, iar parintele lui cu ID = 546 mai are 2 fii
 Thread-ului cu ID = 549 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 4 cu ID = 546 este al 2-lea thread creat de thread-ul cu ID = 399
+Thread-ul cu ID = 546 este al 2-lea thread creat de thread-ul cu ID = 399
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 564 este al 1-lea thread creat de thread-ul cu ID = 546
+Thread-ul cu ID = 564 este al 1-lea thread creat de thread-ul cu ID = 546
 --BEGIN 1.1
-Thread-ul 1 cu ID = 567 este al 1-lea thread creat de thread-ul cu ID = 564
+Thread-ul cu ID = 567 este al 1-lea thread creat de thread-ul cu ID = 564
 BEGIN 0.0
-Thread-ul 1 cu ID = 570 este al 0-lea thread creat de thread-ul cu ID = 567
+Thread-ul cu ID = 570 este al 0-lea thread creat de thread-ul cu ID = 567
 ENDIN 0.0
-Thread-ul 1 cu ID = 570 se termina, iar parintele lui cu ID = 567 mai are 0 fii
-Thread-ului cu ID = 570 i-au fost alocate 124 cuante de timp de lungime 4
+Thread-ul cu ID = 570 se termina, iar parintele lui cu ID = 567 mai are 0 fii
+Thread-ului cu ID = 570 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 567 se termina, iar parintele lui cu ID = 564 mai are 1 fii
+Thread-ul cu ID = 567 se termina, iar parintele lui cu ID = 564 mai are 1 fii
 Thread-ului cu ID = 567 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 564 este al 2-lea thread creat de thread-ul cu ID = 546
+Thread-ul cu ID = 564 este al 2-lea thread creat de thread-ul cu ID = 546
 --BEGIN 1.1
-Thread-ul 2 cu ID = 573 este al 1-lea thread creat de thread-ul cu ID = 564
+Thread-ul cu ID = 573 este al 1-lea thread creat de thread-ul cu ID = 564
 BEGIN 0.0
-Thread-ul 1 cu ID = 576 este al 0-lea thread creat de thread-ul cu ID = 573
+Thread-ul cu ID = 576 este al 0-lea thread creat de thread-ul cu ID = 573
 ENDIN 0.0
-Thread-ul 1 cu ID = 576 se termina, iar parintele lui cu ID = 573 mai are 0 fii
-Thread-ului cu ID = 576 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 576 se termina, iar parintele lui cu ID = 573 mai are 0 fii
+Thread-ului cu ID = 576 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 573 se termina, iar parintele lui cu ID = 564 mai are 1 fii
-Thread-ului cu ID = 573 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 573 se termina, iar parintele lui cu ID = 564 mai are 1 fii
+Thread-ului cu ID = 573 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 564 se termina, iar parintele lui cu ID = 546 mai are 2 fii
-Thread-ului cu ID = 564 i-au fost alocate 244 cuante de timp de lungime 4
+Thread-ul cu ID = 564 se termina, iar parintele lui cu ID = 546 mai are 2 fii
+Thread-ului cu ID = 564 i-au fost alocate 240 cuante de timp de lungime 4
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 4 cu ID = 546 este al 3-lea thread creat de thread-ul cu ID = 399
+Thread-ul cu ID = 546 este al 3-lea thread creat de thread-ul cu ID = 399
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 579 este al 1-lea thread creat de thread-ul cu ID = 546
+Thread-ul cu ID = 579 este al 1-lea thread creat de thread-ul cu ID = 546
 --BEGIN 1.1
-Thread-ul 1 cu ID = 582 este al 1-lea thread creat de thread-ul cu ID = 579
+Thread-ul cu ID = 582 este al 1-lea thread creat de thread-ul cu ID = 579
 BEGIN 0.0
-Thread-ul 1 cu ID = 585 este al 0-lea thread creat de thread-ul cu ID = 582
+Thread-ul cu ID = 585 este al 0-lea thread creat de thread-ul cu ID = 582
 ENDIN 0.0
-Thread-ul 1 cu ID = 585 se termina, iar parintele lui cu ID = 582 mai are 0 fii
-Thread-ului cu ID = 585 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 585 se termina, iar parintele lui cu ID = 582 mai are 0 fii
+Thread-ului cu ID = 585 i-au fost alocate 224 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 582 se termina, iar parintele lui cu ID = 579 mai are 1 fii
+Thread-ul cu ID = 582 se termina, iar parintele lui cu ID = 579 mai are 1 fii
 Thread-ului cu ID = 582 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 579 este al 2-lea thread creat de thread-ul cu ID = 546
+Thread-ul cu ID = 579 este al 2-lea thread creat de thread-ul cu ID = 546
 --BEGIN 1.1
-Thread-ul 2 cu ID = 588 este al 1-lea thread creat de thread-ul cu ID = 579
+Thread-ul cu ID = 588 este al 1-lea thread creat de thread-ul cu ID = 579
 BEGIN 0.0
-Thread-ul 1 cu ID = 591 este al 0-lea thread creat de thread-ul cu ID = 588
+Thread-ul cu ID = 591 este al 0-lea thread creat de thread-ul cu ID = 588
 ENDIN 0.0
-Thread-ul 1 cu ID = 591 se termina, iar parintele lui cu ID = 588 mai are 0 fii
-Thread-ului cu ID = 591 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 591 se termina, iar parintele lui cu ID = 588 mai are 0 fii
+Thread-ului cu ID = 591 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 588 se termina, iar parintele lui cu ID = 579 mai are 1 fii
-Thread-ului cu ID = 588 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 588 se termina, iar parintele lui cu ID = 579 mai are 1 fii
+Thread-ului cu ID = 588 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 579 se termina, iar parintele lui cu ID = 546 mai are 2 fii
-Thread-ului cu ID = 579 i-au fost alocate 472 cuante de timp de lungime 8
+Thread-ul cu ID = 579 se termina, iar parintele lui cu ID = 546 mai are 2 fii
+Thread-ului cu ID = 579 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.3
-Thread-ul 4 cu ID = 546 se termina, iar parintele lui cu ID = 399 mai are 3 fii
-Thread-ului cu ID = 546 i-au fost alocate 348 cuante de timp de lungime 4
+Thread-ul cu ID = 546 se termina, iar parintele lui cu ID = 399 mai are 3 fii
+Thread-ului cu ID = 546 i-au fost alocate 336 cuante de timp de lungime 4
 --------ENDIN 4.4
-Thread-ul 3 cu ID = 399 se termina, iar parintele lui cu ID = 3 mai are 4 fii
-Thread-ului cu ID = 399 i-au fost alocate 928 cuante de timp de lungime 8
+Thread-ul cu ID = 399 se termina, iar parintele lui cu ID = 3 mai are 4 fii
+Thread-ului cu ID = 399 i-au fost alocate 888 cuante de timp de lungime 8
 ----------ENDIN 5.3
 ----------BEGIN 5.4
-Thread-ul main cu ID = 3 este al 5-lea thread creat de thread-ul cu ID = 0
+Thread-ul cu ID = 3 este al 5-lea thread creat de thread-ul cu ID = 0
 --------BEGIN 4.1
-Thread-ul 4 cu ID = 594 este al 1-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 594 este al 1-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 1 cu ID = 597 este al 1-lea thread creat de thread-ul cu ID = 594
+Thread-ul cu ID = 597 este al 1-lea thread creat de thread-ul cu ID = 594
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 600 este al 1-lea thread creat de thread-ul cu ID = 597
+Thread-ul cu ID = 600 este al 1-lea thread creat de thread-ul cu ID = 597
 --BEGIN 1.1
-Thread-ul 1 cu ID = 603 este al 1-lea thread creat de thread-ul cu ID = 600
+Thread-ul cu ID = 603 este al 1-lea thread creat de thread-ul cu ID = 600
 BEGIN 0.0
-Thread-ul 1 cu ID = 606 este al 0-lea thread creat de thread-ul cu ID = 603
+Thread-ul cu ID = 606 este al 0-lea thread creat de thread-ul cu ID = 603
 ENDIN 0.0
-Thread-ul 1 cu ID = 606 se termina, iar parintele lui cu ID = 603 mai are 0 fii
-Thread-ului cu ID = 606 i-au fost alocate 124 cuante de timp de lungime 4
+Thread-ul cu ID = 606 se termina, iar parintele lui cu ID = 603 mai are 0 fii
+Thread-ului cu ID = 606 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 603 se termina, iar parintele lui cu ID = 600 mai are 1 fii
-Thread-ului cu ID = 603 i-au fost alocate 296 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 600 este al 2-lea thread creat de thread-ul cu ID = 597
+Thread-ul cu ID = 603 se termina, iar parintele lui cu ID = 600 mai are 1 fii
+Thread-ului cu ID = 603 i-au fost alocate 296 cuante de timp de lungime 8
 --BEGIN 1.1
-Thread-ul 2 cu ID = 609 este al 1-lea thread creat de thread-ul cu ID = 600
+Thread-ul cu ID = 600 este al 2-lea thread creat de thread-ul cu ID = 597
 BEGIN 0.0
-Thread-ul 1 cu ID = 612 este al 0-lea thread creat de thread-ul cu ID = 609
+Thread-ul cu ID = 612 este al 0-lea thread creat de thread-ul cu ID = 609
 ENDIN 0.0
-Thread-ul 1 cu ID = 612 se termina, iar parintele lui cu ID = 609 mai are 0 fii
+Thread-ul cu ID = 612 se termina, iar parintele lui cu ID = 609 mai are 0 fii
 Thread-ului cu ID = 612 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 609 este al 1-lea thread creat de thread-ul cu ID = 600
 --ENDIN 1.1
-Thread-ul 2 cu ID = 609 se termina, iar parintele lui cu ID = 600 mai are 1 fii
-Thread-ului cu ID = 609 i-au fost alocate 288 cuante de timp de lungime 8
+Thread-ul cu ID = 609 se termina, iar parintele lui cu ID = 600 mai are 1 fii
+Thread-ului cu ID = 609 i-au fost alocate 304 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 600 se termina, iar parintele lui cu ID = 597 mai are 2 fii
-Thread-ului cu ID = 600 i-au fost alocate 244 cuante de timp de lungime 4
+Thread-ul cu ID = 600 se termina, iar parintele lui cu ID = 597 mai are 2 fii
+Thread-ului cu ID = 600 i-au fost alocate 232 cuante de timp de lungime 4
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 1 cu ID = 597 este al 2-lea thread creat de thread-ul cu ID = 594
+Thread-ul cu ID = 597 este al 2-lea thread creat de thread-ul cu ID = 594
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 615 este al 1-lea thread creat de thread-ul cu ID = 597
+Thread-ul cu ID = 615 este al 1-lea thread creat de thread-ul cu ID = 597
 --BEGIN 1.1
-Thread-ul 1 cu ID = 618 este al 1-lea thread creat de thread-ul cu ID = 615
+Thread-ul cu ID = 618 este al 1-lea thread creat de thread-ul cu ID = 615
 BEGIN 0.0
-Thread-ul 1 cu ID = 621 este al 0-lea thread creat de thread-ul cu ID = 618
+Thread-ul cu ID = 621 este al 0-lea thread creat de thread-ul cu ID = 618
 ENDIN 0.0
-Thread-ul 1 cu ID = 621 se termina, iar parintele lui cu ID = 618 mai are 0 fii
-Thread-ului cu ID = 621 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 621 se termina, iar parintele lui cu ID = 618 mai are 0 fii
+Thread-ului cu ID = 621 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 618 se termina, iar parintele lui cu ID = 615 mai are 1 fii
-Thread-ului cu ID = 618 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 618 se termina, iar parintele lui cu ID = 615 mai are 1 fii
+Thread-ului cu ID = 618 i-au fost alocate 148 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 615 este al 2-lea thread creat de thread-ul cu ID = 597
+Thread-ul cu ID = 615 este al 2-lea thread creat de thread-ul cu ID = 597
 --BEGIN 1.1
-Thread-ul 2 cu ID = 624 este al 1-lea thread creat de thread-ul cu ID = 615
+Thread-ul cu ID = 624 este al 1-lea thread creat de thread-ul cu ID = 615
 BEGIN 0.0
-Thread-ul 1 cu ID = 627 este al 0-lea thread creat de thread-ul cu ID = 624
+Thread-ul cu ID = 627 este al 0-lea thread creat de thread-ul cu ID = 624
 ENDIN 0.0
-Thread-ul 1 cu ID = 627 se termina, iar parintele lui cu ID = 624 mai are 0 fii
-Thread-ului cu ID = 627 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 627 se termina, iar parintele lui cu ID = 624 mai are 0 fii
+Thread-ului cu ID = 627 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 624 se termina, iar parintele lui cu ID = 615 mai are 1 fii
+Thread-ul cu ID = 624 se termina, iar parintele lui cu ID = 615 mai are 1 fii
 Thread-ului cu ID = 624 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 615 se termina, iar parintele lui cu ID = 597 mai are 2 fii
-Thread-ului cu ID = 615 i-au fost alocate 496 cuante de timp de lungime 8
+Thread-ul cu ID = 615 se termina, iar parintele lui cu ID = 597 mai are 2 fii
+Thread-ului cu ID = 615 i-au fost alocate 488 cuante de timp de lungime 8
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 1 cu ID = 597 este al 3-lea thread creat de thread-ul cu ID = 594
+Thread-ul cu ID = 597 este al 3-lea thread creat de thread-ul cu ID = 594
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 630 este al 1-lea thread creat de thread-ul cu ID = 597
+Thread-ul cu ID = 630 este al 1-lea thread creat de thread-ul cu ID = 597
 --BEGIN 1.1
-Thread-ul 1 cu ID = 633 este al 1-lea thread creat de thread-ul cu ID = 630
+Thread-ul cu ID = 633 este al 1-lea thread creat de thread-ul cu ID = 630
 BEGIN 0.0
-Thread-ul 1 cu ID = 636 este al 0-lea thread creat de thread-ul cu ID = 633
+Thread-ul cu ID = 636 este al 0-lea thread creat de thread-ul cu ID = 633
 ENDIN 0.0
-Thread-ul 1 cu ID = 636 se termina, iar parintele lui cu ID = 633 mai are 0 fii
-Thread-ului cu ID = 636 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 636 se termina, iar parintele lui cu ID = 633 mai are 0 fii
+Thread-ului cu ID = 636 i-au fost alocate 120 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 633 se termina, iar parintele lui cu ID = 630 mai are 1 fii
-Thread-ului cu ID = 633 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 633 se termina, iar parintele lui cu ID = 630 mai are 1 fii
+Thread-ului cu ID = 633 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 630 este al 2-lea thread creat de thread-ul cu ID = 597
+Thread-ul cu ID = 630 este al 2-lea thread creat de thread-ul cu ID = 597
 --BEGIN 1.1
-Thread-ul 2 cu ID = 639 este al 1-lea thread creat de thread-ul cu ID = 630
+Thread-ul cu ID = 639 este al 1-lea thread creat de thread-ul cu ID = 630
 BEGIN 0.0
-Thread-ul 1 cu ID = 642 este al 0-lea thread creat de thread-ul cu ID = 639
+Thread-ul cu ID = 642 este al 0-lea thread creat de thread-ul cu ID = 639
 ENDIN 0.0
-Thread-ul 1 cu ID = 642 se termina, iar parintele lui cu ID = 639 mai are 0 fii
-Thread-ului cu ID = 642 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 642 se termina, iar parintele lui cu ID = 639 mai are 0 fii
+Thread-ului cu ID = 642 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 639 se termina, iar parintele lui cu ID = 630 mai are 1 fii
+Thread-ul cu ID = 639 se termina, iar parintele lui cu ID = 630 mai are 1 fii
 Thread-ului cu ID = 639 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 630 se termina, iar parintele lui cu ID = 597 mai are 2 fii
-Thread-ului cu ID = 630 i-au fost alocate 244 cuante de timp de lungime 4
+Thread-ul cu ID = 630 se termina, iar parintele lui cu ID = 597 mai are 2 fii
+Thread-ului cu ID = 630 i-au fost alocate 236 cuante de timp de lungime 4
 ------ENDIN 3.3
-Thread-ul 1 cu ID = 597 se termina, iar parintele lui cu ID = 594 mai are 3 fii
+Thread-ul cu ID = 597 se termina, iar parintele lui cu ID = 594 mai are 3 fii
 Thread-ului cu ID = 597 i-au fost alocate 688 cuante de timp de lungime 8
 --------ENDIN 4.1
 --------BEGIN 4.2
-Thread-ul 4 cu ID = 594 este al 2-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 594 este al 2-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 2 cu ID = 645 este al 1-lea thread creat de thread-ul cu ID = 594
+Thread-ul cu ID = 645 este al 1-lea thread creat de thread-ul cu ID = 594
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 648 este al 1-lea thread creat de thread-ul cu ID = 645
+Thread-ul cu ID = 648 este al 1-lea thread creat de thread-ul cu ID = 645
 --BEGIN 1.1
-Thread-ul 1 cu ID = 651 este al 1-lea thread creat de thread-ul cu ID = 648
+Thread-ul cu ID = 651 este al 1-lea thread creat de thread-ul cu ID = 648
 BEGIN 0.0
-Thread-ul 1 cu ID = 654 este al 0-lea thread creat de thread-ul cu ID = 651
+Thread-ul cu ID = 654 este al 0-lea thread creat de thread-ul cu ID = 651
 ENDIN 0.0
-Thread-ul 1 cu ID = 654 se termina, iar parintele lui cu ID = 651 mai are 0 fii
-Thread-ului cu ID = 654 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 654 se termina, iar parintele lui cu ID = 651 mai are 0 fii
+Thread-ului cu ID = 654 i-au fost alocate 120 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 651 se termina, iar parintele lui cu ID = 648 mai are 1 fii
+Thread-ul cu ID = 651 se termina, iar parintele lui cu ID = 648 mai are 1 fii
 Thread-ului cu ID = 651 i-au fost alocate 296 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 648 este al 2-lea thread creat de thread-ul cu ID = 645
+Thread-ul cu ID = 648 este al 2-lea thread creat de thread-ul cu ID = 645
 --BEGIN 1.1
-Thread-ul 2 cu ID = 657 este al 1-lea thread creat de thread-ul cu ID = 648
+Thread-ul cu ID = 657 este al 1-lea thread creat de thread-ul cu ID = 648
 BEGIN 0.0
-Thread-ul 1 cu ID = 660 este al 0-lea thread creat de thread-ul cu ID = 657
+Thread-ul cu ID = 660 este al 0-lea thread creat de thread-ul cu ID = 657
 ENDIN 0.0
-Thread-ul 1 cu ID = 660 se termina, iar parintele lui cu ID = 657 mai are 0 fii
+Thread-ul cu ID = 660 se termina, iar parintele lui cu ID = 657 mai are 0 fii
 Thread-ului cu ID = 660 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 657 se termina, iar parintele lui cu ID = 648 mai are 1 fii
-Thread-ului cu ID = 657 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 657 se termina, iar parintele lui cu ID = 648 mai are 1 fii
+Thread-ului cu ID = 657 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 648 se termina, iar parintele lui cu ID = 645 mai are 2 fii
-Thread-ului cu ID = 648 i-au fost alocate 240 cuante de timp de lungime 4
+Thread-ul cu ID = 648 se termina, iar parintele lui cu ID = 645 mai are 2 fii
+Thread-ului cu ID = 648 i-au fost alocate 236 cuante de timp de lungime 4
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 2 cu ID = 645 este al 2-lea thread creat de thread-ul cu ID = 594
+Thread-ul cu ID = 645 este al 2-lea thread creat de thread-ul cu ID = 594
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 663 este al 1-lea thread creat de thread-ul cu ID = 645
+Thread-ul cu ID = 663 este al 1-lea thread creat de thread-ul cu ID = 645
 --BEGIN 1.1
-Thread-ul 1 cu ID = 666 este al 1-lea thread creat de thread-ul cu ID = 663
+Thread-ul cu ID = 666 este al 1-lea thread creat de thread-ul cu ID = 663
 BEGIN 0.0
-Thread-ul 1 cu ID = 669 este al 0-lea thread creat de thread-ul cu ID = 666
+Thread-ul cu ID = 669 este al 0-lea thread creat de thread-ul cu ID = 666
 ENDIN 0.0
-Thread-ul 1 cu ID = 669 se termina, iar parintele lui cu ID = 666 mai are 0 fii
-Thread-ului cu ID = 669 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 669 se termina, iar parintele lui cu ID = 666 mai are 0 fii
+Thread-ului cu ID = 669 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 666 se termina, iar parintele lui cu ID = 663 mai are 1 fii
-Thread-ului cu ID = 666 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 666 se termina, iar parintele lui cu ID = 663 mai are 1 fii
+Thread-ului cu ID = 666 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 663 este al 2-lea thread creat de thread-ul cu ID = 645
+Thread-ul cu ID = 663 este al 2-lea thread creat de thread-ul cu ID = 645
 --BEGIN 1.1
-Thread-ul 2 cu ID = 672 este al 1-lea thread creat de thread-ul cu ID = 663
+Thread-ul cu ID = 672 este al 1-lea thread creat de thread-ul cu ID = 663
 BEGIN 0.0
-Thread-ul 1 cu ID = 675 este al 0-lea thread creat de thread-ul cu ID = 672
+Thread-ul cu ID = 675 este al 0-lea thread creat de thread-ul cu ID = 672
 ENDIN 0.0
-Thread-ul 1 cu ID = 675 se termina, iar parintele lui cu ID = 672 mai are 0 fii
+Thread-ul cu ID = 675 se termina, iar parintele lui cu ID = 672 mai are 0 fii
 Thread-ului cu ID = 675 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 672 se termina, iar parintele lui cu ID = 663 mai are 1 fii
-Thread-ului cu ID = 672 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 672 se termina, iar parintele lui cu ID = 663 mai are 1 fii
+Thread-ului cu ID = 672 i-au fost alocate 148 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 663 se termina, iar parintele lui cu ID = 645 mai are 2 fii
-Thread-ului cu ID = 663 i-au fost alocate 504 cuante de timp de lungime 8
+Thread-ul cu ID = 663 se termina, iar parintele lui cu ID = 645 mai are 2 fii
+Thread-ului cu ID = 663 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 2 cu ID = 645 este al 3-lea thread creat de thread-ul cu ID = 594
+Thread-ul cu ID = 645 este al 3-lea thread creat de thread-ul cu ID = 594
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 678 este al 1-lea thread creat de thread-ul cu ID = 645
+Thread-ul cu ID = 678 este al 1-lea thread creat de thread-ul cu ID = 645
 --BEGIN 1.1
-Thread-ul 1 cu ID = 681 este al 1-lea thread creat de thread-ul cu ID = 678
+Thread-ul cu ID = 681 este al 1-lea thread creat de thread-ul cu ID = 678
 BEGIN 0.0
-Thread-ul 1 cu ID = 684 este al 0-lea thread creat de thread-ul cu ID = 681
+Thread-ul cu ID = 684 este al 0-lea thread creat de thread-ul cu ID = 681
 ENDIN 0.0
-Thread-ul 1 cu ID = 684 se termina, iar parintele lui cu ID = 681 mai are 0 fii
-Thread-ului cu ID = 684 i-au fost alocate 124 cuante de timp de lungime 4
+Thread-ul cu ID = 684 se termina, iar parintele lui cu ID = 681 mai are 0 fii
+Thread-ului cu ID = 684 i-au fost alocate 120 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 681 se termina, iar parintele lui cu ID = 678 mai are 1 fii
-Thread-ului cu ID = 681 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 681 se termina, iar parintele lui cu ID = 678 mai are 1 fii
+Thread-ului cu ID = 681 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 678 este al 2-lea thread creat de thread-ul cu ID = 645
+Thread-ul cu ID = 678 este al 2-lea thread creat de thread-ul cu ID = 645
 --BEGIN 1.1
-Thread-ul 2 cu ID = 687 este al 1-lea thread creat de thread-ul cu ID = 678
+Thread-ul cu ID = 687 este al 1-lea thread creat de thread-ul cu ID = 678
 BEGIN 0.0
-Thread-ul 1 cu ID = 690 este al 0-lea thread creat de thread-ul cu ID = 687
+Thread-ul cu ID = 690 este al 0-lea thread creat de thread-ul cu ID = 687
 ENDIN 0.0
-Thread-ul 1 cu ID = 690 se termina, iar parintele lui cu ID = 687 mai are 0 fii
-Thread-ului cu ID = 690 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 690 se termina, iar parintele lui cu ID = 687 mai are 0 fii
+Thread-ului cu ID = 690 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 687 se termina, iar parintele lui cu ID = 678 mai are 1 fii
-Thread-ului cu ID = 687 i-au fost alocate 288 cuante de timp de lungime 8
+Thread-ul cu ID = 687 se termina, iar parintele lui cu ID = 678 mai are 1 fii
+Thread-ului cu ID = 687 i-au fost alocate 296 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 678 se termina, iar parintele lui cu ID = 645 mai are 2 fii
-Thread-ului cu ID = 678 i-au fost alocate 240 cuante de timp de lungime 4
+Thread-ul cu ID = 678 se termina, iar parintele lui cu ID = 645 mai are 2 fii
+Thread-ului cu ID = 678 i-au fost alocate 236 cuante de timp de lungime 4
 ------ENDIN 3.3
-Thread-ul 2 cu ID = 645 se termina, iar parintele lui cu ID = 594 mai are 3 fii
-Thread-ului cu ID = 645 i-au fost alocate 688 cuante de timp de lungime 8
+Thread-ul cu ID = 645 se termina, iar parintele lui cu ID = 594 mai are 3 fii
+Thread-ului cu ID = 645 i-au fost alocate 664 cuante de timp de lungime 8
 --------ENDIN 4.2
 --------BEGIN 4.3
-Thread-ul 4 cu ID = 594 este al 3-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 594 este al 3-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 3 cu ID = 693 este al 1-lea thread creat de thread-ul cu ID = 594
+Thread-ul cu ID = 693 este al 1-lea thread creat de thread-ul cu ID = 594
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 696 este al 1-lea thread creat de thread-ul cu ID = 693
+Thread-ul cu ID = 696 este al 1-lea thread creat de thread-ul cu ID = 693
 --BEGIN 1.1
-Thread-ul 1 cu ID = 699 este al 1-lea thread creat de thread-ul cu ID = 696
+Thread-ul cu ID = 699 este al 1-lea thread creat de thread-ul cu ID = 696
 BEGIN 0.0
-Thread-ul 1 cu ID = 702 este al 0-lea thread creat de thread-ul cu ID = 699
+Thread-ul cu ID = 702 este al 0-lea thread creat de thread-ul cu ID = 699
 ENDIN 0.0
-Thread-ul 1 cu ID = 702 se termina, iar parintele lui cu ID = 699 mai are 0 fii
-Thread-ului cu ID = 702 i-au fost alocate 124 cuante de timp de lungime 4
+Thread-ul cu ID = 702 se termina, iar parintele lui cu ID = 699 mai are 0 fii
+Thread-ului cu ID = 702 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 699 se termina, iar parintele lui cu ID = 696 mai are 1 fii
-Thread-ului cu ID = 699 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 699 se termina, iar parintele lui cu ID = 696 mai are 1 fii
+Thread-ului cu ID = 699 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 696 este al 2-lea thread creat de thread-ul cu ID = 693
+Thread-ul cu ID = 696 este al 2-lea thread creat de thread-ul cu ID = 693
 --BEGIN 1.1
-Thread-ul 2 cu ID = 705 este al 1-lea thread creat de thread-ul cu ID = 696
+Thread-ul cu ID = 705 este al 1-lea thread creat de thread-ul cu ID = 696
 BEGIN 0.0
-Thread-ul 1 cu ID = 708 este al 0-lea thread creat de thread-ul cu ID = 705
+Thread-ul cu ID = 708 este al 0-lea thread creat de thread-ul cu ID = 705
 ENDIN 0.0
-Thread-ul 1 cu ID = 708 se termina, iar parintele lui cu ID = 705 mai are 0 fii
-Thread-ului cu ID = 708 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 708 se termina, iar parintele lui cu ID = 705 mai are 0 fii
+Thread-ului cu ID = 708 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 705 se termina, iar parintele lui cu ID = 696 mai are 1 fii
-Thread-ului cu ID = 705 i-au fost alocate 288 cuante de timp de lungime 8
+Thread-ul cu ID = 705 se termina, iar parintele lui cu ID = 696 mai are 1 fii
+Thread-ului cu ID = 705 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 696 se termina, iar parintele lui cu ID = 693 mai are 2 fii
+Thread-ul cu ID = 696 se termina, iar parintele lui cu ID = 693 mai are 2 fii
 Thread-ului cu ID = 696 i-au fost alocate 240 cuante de timp de lungime 4
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 3 cu ID = 693 este al 2-lea thread creat de thread-ul cu ID = 594
+Thread-ul cu ID = 693 este al 2-lea thread creat de thread-ul cu ID = 594
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 711 este al 1-lea thread creat de thread-ul cu ID = 693
+Thread-ul cu ID = 711 este al 1-lea thread creat de thread-ul cu ID = 693
 --BEGIN 1.1
-Thread-ul 1 cu ID = 714 este al 1-lea thread creat de thread-ul cu ID = 711
+Thread-ul cu ID = 714 este al 1-lea thread creat de thread-ul cu ID = 711
 BEGIN 0.0
-Thread-ul 1 cu ID = 717 este al 0-lea thread creat de thread-ul cu ID = 714
+Thread-ul cu ID = 717 este al 0-lea thread creat de thread-ul cu ID = 714
 ENDIN 0.0
-Thread-ul 1 cu ID = 717 se termina, iar parintele lui cu ID = 714 mai are 0 fii
+Thread-ul cu ID = 717 se termina, iar parintele lui cu ID = 714 mai are 0 fii
 Thread-ului cu ID = 717 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 714 se termina, iar parintele lui cu ID = 711 mai are 1 fii
-Thread-ului cu ID = 714 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 714 se termina, iar parintele lui cu ID = 711 mai are 1 fii
+Thread-ului cu ID = 714 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 711 este al 2-lea thread creat de thread-ul cu ID = 693
+Thread-ul cu ID = 711 este al 2-lea thread creat de thread-ul cu ID = 693
 --BEGIN 1.1
-Thread-ul 2 cu ID = 720 este al 1-lea thread creat de thread-ul cu ID = 711
+Thread-ul cu ID = 720 este al 1-lea thread creat de thread-ul cu ID = 711
 BEGIN 0.0
-Thread-ul 1 cu ID = 723 este al 0-lea thread creat de thread-ul cu ID = 720
+Thread-ul cu ID = 723 este al 0-lea thread creat de thread-ul cu ID = 720
 ENDIN 0.0
-Thread-ul 1 cu ID = 723 se termina, iar parintele lui cu ID = 720 mai are 0 fii
+Thread-ul cu ID = 723 se termina, iar parintele lui cu ID = 720 mai are 0 fii
 Thread-ului cu ID = 723 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 720 se termina, iar parintele lui cu ID = 711 mai are 1 fii
-Thread-ului cu ID = 720 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 720 se termina, iar parintele lui cu ID = 711 mai are 1 fii
+Thread-ului cu ID = 720 i-au fost alocate 148 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 711 se termina, iar parintele lui cu ID = 693 mai are 2 fii
-Thread-ului cu ID = 711 i-au fost alocate 488 cuante de timp de lungime 8
+Thread-ul cu ID = 711 se termina, iar parintele lui cu ID = 693 mai are 2 fii
+Thread-ului cu ID = 711 i-au fost alocate 472 cuante de timp de lungime 8
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 3 cu ID = 693 este al 3-lea thread creat de thread-ul cu ID = 594
+Thread-ul cu ID = 693 este al 3-lea thread creat de thread-ul cu ID = 594
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 726 este al 1-lea thread creat de thread-ul cu ID = 693
+Thread-ul cu ID = 726 este al 1-lea thread creat de thread-ul cu ID = 693
 --BEGIN 1.1
-Thread-ul 1 cu ID = 729 este al 1-lea thread creat de thread-ul cu ID = 726
+Thread-ul cu ID = 729 este al 1-lea thread creat de thread-ul cu ID = 726
 BEGIN 0.0
-Thread-ul 1 cu ID = 732 este al 0-lea thread creat de thread-ul cu ID = 729
+Thread-ul cu ID = 732 este al 0-lea thread creat de thread-ul cu ID = 729
 ENDIN 0.0
-Thread-ul 1 cu ID = 732 se termina, iar parintele lui cu ID = 729 mai are 0 fii
+Thread-ul cu ID = 732 se termina, iar parintele lui cu ID = 729 mai are 0 fii
 Thread-ului cu ID = 732 i-au fost alocate 120 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 729 se termina, iar parintele lui cu ID = 726 mai are 1 fii
+Thread-ul cu ID = 729 se termina, iar parintele lui cu ID = 726 mai are 1 fii
 Thread-ului cu ID = 729 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 726 este al 2-lea thread creat de thread-ul cu ID = 693
+Thread-ul cu ID = 726 este al 2-lea thread creat de thread-ul cu ID = 693
 --BEGIN 1.1
-Thread-ul 2 cu ID = 735 este al 1-lea thread creat de thread-ul cu ID = 726
+Thread-ul cu ID = 735 este al 1-lea thread creat de thread-ul cu ID = 726
 BEGIN 0.0
-Thread-ul 1 cu ID = 738 este al 0-lea thread creat de thread-ul cu ID = 735
+Thread-ul cu ID = 738 este al 0-lea thread creat de thread-ul cu ID = 735
 ENDIN 0.0
-Thread-ul 1 cu ID = 738 se termina, iar parintele lui cu ID = 735 mai are 0 fii
-Thread-ului cu ID = 738 i-au fost alocate 112 cuante de timp de lungime 4
+Thread-ul cu ID = 738 se termina, iar parintele lui cu ID = 735 mai are 0 fii
+Thread-ului cu ID = 738 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 735 se termina, iar parintele lui cu ID = 726 mai are 1 fii
+Thread-ul cu ID = 735 se termina, iar parintele lui cu ID = 726 mai are 1 fii
 Thread-ului cu ID = 735 i-au fost alocate 296 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 726 se termina, iar parintele lui cu ID = 693 mai are 2 fii
-Thread-ului cu ID = 726 i-au fost alocate 236 cuante de timp de lungime 4
+Thread-ul cu ID = 726 se termina, iar parintele lui cu ID = 693 mai are 2 fii
+Thread-ului cu ID = 726 i-au fost alocate 232 cuante de timp de lungime 4
 ------ENDIN 3.3
-Thread-ul 3 cu ID = 693 se termina, iar parintele lui cu ID = 594 mai are 3 fii
-Thread-ului cu ID = 693 i-au fost alocate 688 cuante de timp de lungime 8
+Thread-ul cu ID = 693 se termina, iar parintele lui cu ID = 594 mai are 3 fii
+Thread-ului cu ID = 693 i-au fost alocate 680 cuante de timp de lungime 8
 --------ENDIN 4.3
 --------BEGIN 4.4
-Thread-ul 4 cu ID = 594 este al 4-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 594 este al 4-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 4 cu ID = 741 este al 1-lea thread creat de thread-ul cu ID = 594
+Thread-ul cu ID = 741 este al 1-lea thread creat de thread-ul cu ID = 594
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 744 este al 1-lea thread creat de thread-ul cu ID = 741
+Thread-ul cu ID = 744 este al 1-lea thread creat de thread-ul cu ID = 741
 --BEGIN 1.1
-Thread-ul 1 cu ID = 747 este al 1-lea thread creat de thread-ul cu ID = 744
+Thread-ul cu ID = 747 este al 1-lea thread creat de thread-ul cu ID = 744
 BEGIN 0.0
-Thread-ul 1 cu ID = 750 este al 0-lea thread creat de thread-ul cu ID = 747
+Thread-ul cu ID = 750 este al 0-lea thread creat de thread-ul cu ID = 747
 ENDIN 0.0
-Thread-ul 1 cu ID = 750 se termina, iar parintele lui cu ID = 747 mai are 0 fii
+Thread-ul cu ID = 750 se termina, iar parintele lui cu ID = 747 mai are 0 fii
 Thread-ului cu ID = 750 i-au fost alocate 120 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 747 se termina, iar parintele lui cu ID = 744 mai are 1 fii
+Thread-ul cu ID = 747 se termina, iar parintele lui cu ID = 744 mai are 1 fii
 Thread-ului cu ID = 747 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 744 este al 2-lea thread creat de thread-ul cu ID = 741
+Thread-ul cu ID = 744 este al 2-lea thread creat de thread-ul cu ID = 741
 --BEGIN 1.1
-Thread-ul 2 cu ID = 753 este al 1-lea thread creat de thread-ul cu ID = 744
+Thread-ul cu ID = 753 este al 1-lea thread creat de thread-ul cu ID = 744
 BEGIN 0.0
-Thread-ul 1 cu ID = 756 este al 0-lea thread creat de thread-ul cu ID = 753
+Thread-ul cu ID = 756 este al 0-lea thread creat de thread-ul cu ID = 753
 ENDIN 0.0
-Thread-ul 1 cu ID = 756 se termina, iar parintele lui cu ID = 753 mai are 0 fii
+Thread-ul cu ID = 756 se termina, iar parintele lui cu ID = 753 mai are 0 fii
 Thread-ului cu ID = 756 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 753 se termina, iar parintele lui cu ID = 744 mai are 1 fii
-Thread-ului cu ID = 753 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 753 se termina, iar parintele lui cu ID = 744 mai are 1 fii
+Thread-ului cu ID = 753 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 744 se termina, iar parintele lui cu ID = 741 mai are 2 fii
-Thread-ului cu ID = 744 i-au fost alocate 244 cuante de timp de lungime 4
+Thread-ul cu ID = 744 se termina, iar parintele lui cu ID = 741 mai are 2 fii
+Thread-ului cu ID = 744 i-au fost alocate 240 cuante de timp de lungime 4
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 4 cu ID = 741 este al 2-lea thread creat de thread-ul cu ID = 594
+Thread-ul cu ID = 741 este al 2-lea thread creat de thread-ul cu ID = 594
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 759 este al 1-lea thread creat de thread-ul cu ID = 741
 --BEGIN 1.1
-Thread-ul 1 cu ID = 762 este al 1-lea thread creat de thread-ul cu ID = 759
+Thread-ul cu ID = 762 este al 1-lea thread creat de thread-ul cu ID = 759
+Thread-ul cu ID = 759 este al 1-lea thread creat de thread-ul cu ID = 741
 BEGIN 0.0
-Thread-ul 1 cu ID = 765 este al 0-lea thread creat de thread-ul cu ID = 762
+Thread-ul cu ID = 765 este al 0-lea thread creat de thread-ul cu ID = 762
 ENDIN 0.0
-Thread-ul 1 cu ID = 765 se termina, iar parintele lui cu ID = 762 mai are 0 fii
-Thread-ului cu ID = 765 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 765 se termina, iar parintele lui cu ID = 762 mai are 0 fii
+Thread-ului cu ID = 765 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 762 se termina, iar parintele lui cu ID = 759 mai are 1 fii
-Thread-ului cu ID = 762 i-au fost alocate 148 cuante de timp de lungime 4
+Thread-ul cu ID = 762 se termina, iar parintele lui cu ID = 759 mai are 1 fii
+Thread-ului cu ID = 762 i-au fost alocate 140 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 759 este al 2-lea thread creat de thread-ul cu ID = 741
+Thread-ul cu ID = 759 este al 2-lea thread creat de thread-ul cu ID = 741
 --BEGIN 1.1
-Thread-ul 2 cu ID = 768 este al 1-lea thread creat de thread-ul cu ID = 759
+Thread-ul cu ID = 768 este al 1-lea thread creat de thread-ul cu ID = 759
 BEGIN 0.0
-Thread-ul 1 cu ID = 771 este al 0-lea thread creat de thread-ul cu ID = 768
+Thread-ul cu ID = 771 este al 0-lea thread creat de thread-ul cu ID = 768
 ENDIN 0.0
-Thread-ul 1 cu ID = 771 se termina, iar parintele lui cu ID = 768 mai are 0 fii
-Thread-ului cu ID = 771 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 771 se termina, iar parintele lui cu ID = 768 mai are 0 fii
+Thread-ului cu ID = 771 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 768 se termina, iar parintele lui cu ID = 759 mai are 1 fii
+Thread-ul cu ID = 768 se termina, iar parintele lui cu ID = 759 mai are 1 fii
 Thread-ului cu ID = 768 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 759 se termina, iar parintele lui cu ID = 741 mai are 2 fii
-Thread-ului cu ID = 759 i-au fost alocate 488 cuante de timp de lungime 8
+Thread-ul cu ID = 759 se termina, iar parintele lui cu ID = 741 mai are 2 fii
+Thread-ului cu ID = 759 i-au fost alocate 472 cuante de timp de lungime 8
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 4 cu ID = 741 este al 3-lea thread creat de thread-ul cu ID = 594
+Thread-ul cu ID = 741 este al 3-lea thread creat de thread-ul cu ID = 594
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 774 este al 1-lea thread creat de thread-ul cu ID = 741
+Thread-ul cu ID = 774 este al 1-lea thread creat de thread-ul cu ID = 741
 --BEGIN 1.1
-Thread-ul 1 cu ID = 777 este al 1-lea thread creat de thread-ul cu ID = 774
+Thread-ul cu ID = 777 este al 1-lea thread creat de thread-ul cu ID = 774
 BEGIN 0.0
-Thread-ul 1 cu ID = 780 este al 0-lea thread creat de thread-ul cu ID = 777
+Thread-ul cu ID = 780 este al 0-lea thread creat de thread-ul cu ID = 777
 ENDIN 0.0
-Thread-ul 1 cu ID = 780 se termina, iar parintele lui cu ID = 777 mai are 0 fii
-Thread-ului cu ID = 780 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 780 se termina, iar parintele lui cu ID = 777 mai are 0 fii
+Thread-ului cu ID = 780 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 777 se termina, iar parintele lui cu ID = 774 mai are 1 fii
-Thread-ului cu ID = 777 i-au fost alocate 280 cuante de timp de lungime 8
+Thread-ul cu ID = 777 se termina, iar parintele lui cu ID = 774 mai are 1 fii
+Thread-ului cu ID = 777 i-au fost alocate 296 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 774 este al 2-lea thread creat de thread-ul cu ID = 741
+Thread-ul cu ID = 774 este al 2-lea thread creat de thread-ul cu ID = 741
 --BEGIN 1.1
-Thread-ul 2 cu ID = 783 este al 1-lea thread creat de thread-ul cu ID = 774
+Thread-ul cu ID = 783 este al 1-lea thread creat de thread-ul cu ID = 774
 BEGIN 0.0
-Thread-ul 1 cu ID = 786 este al 0-lea thread creat de thread-ul cu ID = 783
+Thread-ul cu ID = 786 este al 0-lea thread creat de thread-ul cu ID = 783
 ENDIN 0.0
-Thread-ul 1 cu ID = 786 se termina, iar parintele lui cu ID = 783 mai are 0 fii
+Thread-ul cu ID = 786 se termina, iar parintele lui cu ID = 783 mai are 0 fii
 Thread-ului cu ID = 786 i-au fost alocate 120 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 783 se termina, iar parintele lui cu ID = 774 mai are 1 fii
-Thread-ului cu ID = 783 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 783 se termina, iar parintele lui cu ID = 774 mai are 1 fii
+Thread-ului cu ID = 783 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 774 se termina, iar parintele lui cu ID = 741 mai are 2 fii
+Thread-ul cu ID = 774 se termina, iar parintele lui cu ID = 741 mai are 2 fii
 Thread-ului cu ID = 774 i-au fost alocate 244 cuante de timp de lungime 4
 ------ENDIN 3.3
-Thread-ul 4 cu ID = 741 se termina, iar parintele lui cu ID = 594 mai are 3 fii
-Thread-ului cu ID = 741 i-au fost alocate 704 cuante de timp de lungime 8
+Thread-ul cu ID = 741 se termina, iar parintele lui cu ID = 594 mai are 3 fii
+Thread-ului cu ID = 741 i-au fost alocate 696 cuante de timp de lungime 8
 --------ENDIN 4.4
-Thread-ul 4 cu ID = 594 se termina, iar parintele lui cu ID = 3 mai are 4 fii
-Thread-ului cu ID = 594 i-au fost alocate 448 cuante de timp de lungime 4
+Thread-ul cu ID = 594 se termina, iar parintele lui cu ID = 3 mai are 4 fii
+Thread-ului cu ID = 594 i-au fost alocate 456 cuante de timp de lungime 4
 ----------ENDIN 5.4
 ----------BEGIN 5.5
-Thread-ul main cu ID = 3 este al 6-lea thread creat de thread-ul cu ID = 0
+Thread-ul cu ID = 3 este al 6-lea thread creat de thread-ul cu ID = 0
 --------BEGIN 4.1
-Thread-ul 5 cu ID = 789 este al 1-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 789 este al 1-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 1 cu ID = 792 este al 1-lea thread creat de thread-ul cu ID = 789
+Thread-ul cu ID = 792 este al 1-lea thread creat de thread-ul cu ID = 789
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 795 este al 1-lea thread creat de thread-ul cu ID = 792
+Thread-ul cu ID = 795 este al 1-lea thread creat de thread-ul cu ID = 792
 --BEGIN 1.1
-Thread-ul 1 cu ID = 798 este al 1-lea thread creat de thread-ul cu ID = 795
+Thread-ul cu ID = 798 este al 1-lea thread creat de thread-ul cu ID = 795
 BEGIN 0.0
-Thread-ul 1 cu ID = 801 este al 0-lea thread creat de thread-ul cu ID = 798
+Thread-ul cu ID = 801 este al 0-lea thread creat de thread-ul cu ID = 798
 ENDIN 0.0
-Thread-ul 1 cu ID = 801 se termina, iar parintele lui cu ID = 798 mai are 0 fii
-Thread-ului cu ID = 801 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 801 se termina, iar parintele lui cu ID = 798 mai are 0 fii
+Thread-ului cu ID = 801 i-au fost alocate 224 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 798 se termina, iar parintele lui cu ID = 795 mai are 1 fii
+Thread-ul cu ID = 798 se termina, iar parintele lui cu ID = 795 mai are 1 fii
 Thread-ului cu ID = 798 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 795 este al 2-lea thread creat de thread-ul cu ID = 792
+Thread-ul cu ID = 795 este al 2-lea thread creat de thread-ul cu ID = 792
 --BEGIN 1.1
-Thread-ul 2 cu ID = 804 este al 1-lea thread creat de thread-ul cu ID = 795
+Thread-ul cu ID = 804 este al 1-lea thread creat de thread-ul cu ID = 795
 BEGIN 0.0
-Thread-ul 1 cu ID = 807 este al 0-lea thread creat de thread-ul cu ID = 804
+Thread-ul cu ID = 807 este al 0-lea thread creat de thread-ul cu ID = 804
 ENDIN 0.0
-Thread-ul 1 cu ID = 807 se termina, iar parintele lui cu ID = 804 mai are 0 fii
-Thread-ului cu ID = 807 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 807 se termina, iar parintele lui cu ID = 804 mai are 0 fii
+Thread-ului cu ID = 807 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 804 se termina, iar parintele lui cu ID = 795 mai are 1 fii
+Thread-ul cu ID = 804 se termina, iar parintele lui cu ID = 795 mai are 1 fii
+Thread-ului cu ID = 804 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 795 se termina, iar parintele lui cu ID = 792 mai are 2 fii
-Thread-ului cu ID = 795 i-au fost alocate 472 cuante de timp de lungime 8
+Thread-ul cu ID = 795 se termina, iar parintele lui cu ID = 792 mai are 2 fii
+Thread-ului cu ID = 795 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ului cu ID = 804 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 792 este al 2-lea thread creat de thread-ul cu ID = 789
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 792 este al 2-lea thread creat de thread-ul cu ID = 789
+Thread-ul cu ID = 810 este al 1-lea thread creat de thread-ul cu ID = 792
 --BEGIN 1.1
-Thread-ul 2 cu ID = 810 este al 1-lea thread creat de thread-ul cu ID = 792
-Thread-ul 1 cu ID = 813 este al 1-lea thread creat de thread-ul cu ID = 810
+Thread-ul cu ID = 813 este al 1-lea thread creat de thread-ul cu ID = 810
 BEGIN 0.0
-Thread-ul 1 cu ID = 816 este al 0-lea thread creat de thread-ul cu ID = 813
+Thread-ul cu ID = 816 este al 0-lea thread creat de thread-ul cu ID = 813
 ENDIN 0.0
-Thread-ul 1 cu ID = 816 se termina, iar parintele lui cu ID = 813 mai are 0 fii
-Thread-ului cu ID = 816 i-au fost alocate 124 cuante de timp de lungime 4
+Thread-ul cu ID = 816 se termina, iar parintele lui cu ID = 813 mai are 0 fii
+Thread-ului cu ID = 816 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 813 se termina, iar parintele lui cu ID = 810 mai are 1 fii
-Thread-ului cu ID = 813 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 813 se termina, iar parintele lui cu ID = 810 mai are 1 fii
+Thread-ului cu ID = 813 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 810 este al 2-lea thread creat de thread-ul cu ID = 792
+Thread-ul cu ID = 810 este al 2-lea thread creat de thread-ul cu ID = 792
 --BEGIN 1.1
-Thread-ul 2 cu ID = 819 este al 1-lea thread creat de thread-ul cu ID = 810
+Thread-ul cu ID = 819 este al 1-lea thread creat de thread-ul cu ID = 810
 BEGIN 0.0
-Thread-ul 1 cu ID = 822 este al 0-lea thread creat de thread-ul cu ID = 819
+Thread-ul cu ID = 822 este al 0-lea thread creat de thread-ul cu ID = 819
 ENDIN 0.0
-Thread-ul 1 cu ID = 822 se termina, iar parintele lui cu ID = 819 mai are 0 fii
-Thread-ului cu ID = 822 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 822 se termina, iar parintele lui cu ID = 819 mai are 0 fii
+Thread-ului cu ID = 822 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 819 se termina, iar parintele lui cu ID = 810 mai are 1 fii
-Thread-ului cu ID = 819 i-au fost alocate 288 cuante de timp de lungime 8
+Thread-ul cu ID = 819 se termina, iar parintele lui cu ID = 810 mai are 1 fii
+Thread-ului cu ID = 819 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 810 se termina, iar parintele lui cu ID = 792 mai are 2 fii
-Thread-ului cu ID = 810 i-au fost alocate 240 cuante de timp de lungime 4
+Thread-ul cu ID = 810 se termina, iar parintele lui cu ID = 792 mai are 2 fii
+Thread-ului cu ID = 810 i-au fost alocate 244 cuante de timp de lungime 4
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 1 cu ID = 792 este al 3-lea thread creat de thread-ul cu ID = 789
+Thread-ul cu ID = 792 este al 3-lea thread creat de thread-ul cu ID = 789
 ----BEGIN 2.1
+Thread-ul cu ID = 825 este al 1-lea thread creat de thread-ul cu ID = 792
 --BEGIN 1.1
-Thread-ul 1 cu ID = 828 este al 1-lea thread creat de thread-ul cu ID = 825
-Thread-ul 3 cu ID = 825 este al 1-lea thread creat de thread-ul cu ID = 792
+Thread-ul cu ID = 828 este al 1-lea thread creat de thread-ul cu ID = 825
 BEGIN 0.0
-Thread-ul 1 cu ID = 831 este al 0-lea thread creat de thread-ul cu ID = 828
+Thread-ul cu ID = 831 este al 0-lea thread creat de thread-ul cu ID = 828
 ENDIN 0.0
-Thread-ul 1 cu ID = 831 se termina, iar parintele lui cu ID = 828 mai are 0 fii
-Thread-ului cu ID = 831 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 831 se termina, iar parintele lui cu ID = 828 mai are 0 fii
+Thread-ului cu ID = 831 i-au fost alocate 224 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 828 se termina, iar parintele lui cu ID = 825 mai are 1 fii
+Thread-ul cu ID = 828 se termina, iar parintele lui cu ID = 825 mai are 1 fii
 Thread-ului cu ID = 828 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 825 este al 2-lea thread creat de thread-ul cu ID = 792
+Thread-ul cu ID = 825 este al 2-lea thread creat de thread-ul cu ID = 792
 --BEGIN 1.1
-Thread-ul 2 cu ID = 834 este al 1-lea thread creat de thread-ul cu ID = 825
+Thread-ul cu ID = 834 este al 1-lea thread creat de thread-ul cu ID = 825
 BEGIN 0.0
-Thread-ul 1 cu ID = 837 este al 0-lea thread creat de thread-ul cu ID = 834
+Thread-ul cu ID = 837 este al 0-lea thread creat de thread-ul cu ID = 834
 ENDIN 0.0
-Thread-ul 1 cu ID = 837 se termina, iar parintele lui cu ID = 834 mai are 0 fii
-Thread-ului cu ID = 837 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 837 se termina, iar parintele lui cu ID = 834 mai are 0 fii
+Thread-ului cu ID = 837 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 834 se termina, iar parintele lui cu ID = 825 mai are 1 fii
+Thread-ul cu ID = 834 se termina, iar parintele lui cu ID = 825 mai are 1 fii
+Thread-ului cu ID = 834 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 825 se termina, iar parintele lui cu ID = 792 mai are 2 fii
+Thread-ul cu ID = 825 se termina, iar parintele lui cu ID = 792 mai are 2 fii
 Thread-ului cu ID = 825 i-au fost alocate 472 cuante de timp de lungime 8
 ------ENDIN 3.3
-Thread-ul 1 cu ID = 792 se termina, iar parintele lui cu ID = 789 mai are 3 fii
-Thread-ului cu ID = 792 i-au fost alocate 340 cuante de timp de lungime 4
+Thread-ul cu ID = 792 se termina, iar parintele lui cu ID = 789 mai are 3 fii
+Thread-ului cu ID = 792 i-au fost alocate 336 cuante de timp de lungime 4
 --------ENDIN 4.1
 --------BEGIN 4.2
-Thread-ului cu ID = 834 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 789 este al 2-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 5 cu ID = 789 este al 2-lea thread creat de thread-ul cu ID = 3
-Thread-ul 2 cu ID = 840 este al 1-lea thread creat de thread-ul cu ID = 789
+Thread-ul cu ID = 840 este al 1-lea thread creat de thread-ul cu ID = 789
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 843 este al 1-lea thread creat de thread-ul cu ID = 840
+Thread-ul cu ID = 843 este al 1-lea thread creat de thread-ul cu ID = 840
 --BEGIN 1.1
-Thread-ul 1 cu ID = 846 este al 1-lea thread creat de thread-ul cu ID = 843
+Thread-ul cu ID = 846 este al 1-lea thread creat de thread-ul cu ID = 843
 BEGIN 0.0
-Thread-ul 1 cu ID = 849 este al 0-lea thread creat de thread-ul cu ID = 846
+Thread-ul cu ID = 849 este al 0-lea thread creat de thread-ul cu ID = 846
 ENDIN 0.0
-Thread-ul 1 cu ID = 849 se termina, iar parintele lui cu ID = 846 mai are 0 fii
-Thread-ului cu ID = 849 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 849 se termina, iar parintele lui cu ID = 846 mai are 0 fii
+Thread-ului cu ID = 849 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 846 se termina, iar parintele lui cu ID = 843 mai are 1 fii
-Thread-ului cu ID = 846 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 846 se termina, iar parintele lui cu ID = 843 mai are 1 fii
+Thread-ului cu ID = 846 i-au fost alocate 148 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 843 este al 2-lea thread creat de thread-ul cu ID = 840
+Thread-ul cu ID = 843 este al 2-lea thread creat de thread-ul cu ID = 840
 --BEGIN 1.1
-Thread-ul 2 cu ID = 852 este al 1-lea thread creat de thread-ul cu ID = 843
+Thread-ul cu ID = 852 este al 1-lea thread creat de thread-ul cu ID = 843
 BEGIN 0.0
-Thread-ul 1 cu ID = 855 este al 0-lea thread creat de thread-ul cu ID = 852
+Thread-ul cu ID = 855 este al 0-lea thread creat de thread-ul cu ID = 852
 ENDIN 0.0
-Thread-ul 1 cu ID = 855 se termina, iar parintele lui cu ID = 852 mai are 0 fii
-Thread-ului cu ID = 855 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 855 se termina, iar parintele lui cu ID = 852 mai are 0 fii
+Thread-ului cu ID = 855 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 852 se termina, iar parintele lui cu ID = 843 mai are 1 fii
-Thread-ului cu ID = 852 i-au fost alocate 148 cuante de timp de lungime 4
+Thread-ul cu ID = 852 se termina, iar parintele lui cu ID = 843 mai are 1 fii
+Thread-ului cu ID = 852 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 843 se termina, iar parintele lui cu ID = 840 mai are 2 fii
-Thread-ului cu ID = 843 i-au fost alocate 488 cuante de timp de lungime 8
+Thread-ul cu ID = 843 se termina, iar parintele lui cu ID = 840 mai are 2 fii
+Thread-ului cu ID = 843 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 2 cu ID = 840 este al 2-lea thread creat de thread-ul cu ID = 789
+Thread-ul cu ID = 840 este al 2-lea thread creat de thread-ul cu ID = 789
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 858 este al 1-lea thread creat de thread-ul cu ID = 840
+Thread-ul cu ID = 858 este al 1-lea thread creat de thread-ul cu ID = 840
 --BEGIN 1.1
-Thread-ul 1 cu ID = 861 este al 1-lea thread creat de thread-ul cu ID = 858
+Thread-ul cu ID = 861 este al 1-lea thread creat de thread-ul cu ID = 858
 BEGIN 0.0
-Thread-ul 1 cu ID = 864 este al 0-lea thread creat de thread-ul cu ID = 861
+Thread-ul cu ID = 864 este al 0-lea thread creat de thread-ul cu ID = 861
 ENDIN 0.0
-Thread-ul 1 cu ID = 864 se termina, iar parintele lui cu ID = 861 mai are 0 fii
-Thread-ului cu ID = 864 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 864 se termina, iar parintele lui cu ID = 861 mai are 0 fii
+Thread-ului cu ID = 864 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 861 se termina, iar parintele lui cu ID = 858 mai are 1 fii
-Thread-ului cu ID = 861 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 861 se termina, iar parintele lui cu ID = 858 mai are 1 fii
+Thread-ului cu ID = 861 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 858 este al 2-lea thread creat de thread-ul cu ID = 840
+Thread-ul cu ID = 858 este al 2-lea thread creat de thread-ul cu ID = 840
 --BEGIN 1.1
-Thread-ul 2 cu ID = 867 este al 1-lea thread creat de thread-ul cu ID = 858
+Thread-ul cu ID = 867 este al 1-lea thread creat de thread-ul cu ID = 858
 BEGIN 0.0
-Thread-ul 1 cu ID = 870 este al 0-lea thread creat de thread-ul cu ID = 867
+Thread-ul cu ID = 870 este al 0-lea thread creat de thread-ul cu ID = 867
 ENDIN 0.0
-Thread-ul 1 cu ID = 870 se termina, iar parintele lui cu ID = 867 mai are 0 fii
-Thread-ului cu ID = 870 i-au fost alocate 116 cuante de timp de lungime 4
+Thread-ul cu ID = 870 se termina, iar parintele lui cu ID = 867 mai are 0 fii
+Thread-ului cu ID = 870 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 867 se termina, iar parintele lui cu ID = 858 mai are 1 fii
-Thread-ului cu ID = 867 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 867 se termina, iar parintele lui cu ID = 858 mai are 1 fii
+Thread-ului cu ID = 867 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 858 se termina, iar parintele lui cu ID = 840 mai are 2 fii
-Thread-ului cu ID = 858 i-au fost alocate 248 cuante de timp de lungime 4
+Thread-ul cu ID = 858 se termina, iar parintele lui cu ID = 840 mai are 2 fii
+Thread-ului cu ID = 858 i-au fost alocate 240 cuante de timp de lungime 4
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 2 cu ID = 840 este al 3-lea thread creat de thread-ul cu ID = 789
+Thread-ul cu ID = 840 este al 3-lea thread creat de thread-ul cu ID = 789
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 873 este al 1-lea thread creat de thread-ul cu ID = 840
+Thread-ul cu ID = 873 este al 1-lea thread creat de thread-ul cu ID = 840
 --BEGIN 1.1
-Thread-ul 1 cu ID = 876 este al 1-lea thread creat de thread-ul cu ID = 873
+Thread-ul cu ID = 876 este al 1-lea thread creat de thread-ul cu ID = 873
 BEGIN 0.0
-Thread-ul 1 cu ID = 879 este al 0-lea thread creat de thread-ul cu ID = 876
+Thread-ul cu ID = 879 este al 0-lea thread creat de thread-ul cu ID = 876
 ENDIN 0.0
-Thread-ul 1 cu ID = 879 se termina, iar parintele lui cu ID = 876 mai are 0 fii
-Thread-ului cu ID = 879 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 879 se termina, iar parintele lui cu ID = 876 mai are 0 fii
+Thread-ului cu ID = 879 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 876 se termina, iar parintele lui cu ID = 873 mai are 1 fii
+Thread-ul cu ID = 876 se termina, iar parintele lui cu ID = 873 mai are 1 fii
 Thread-ului cu ID = 876 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 873 este al 2-lea thread creat de thread-ul cu ID = 840
+Thread-ul cu ID = 873 este al 2-lea thread creat de thread-ul cu ID = 840
 --BEGIN 1.1
+Thread-ul cu ID = 882 este al 1-lea thread creat de thread-ul cu ID = 873
 BEGIN 0.0
-Thread-ul 1 cu ID = 885 este al 0-lea thread creat de thread-ul cu ID = 882
+Thread-ul cu ID = 885 este al 0-lea thread creat de thread-ul cu ID = 882
 ENDIN 0.0
-Thread-ul 1 cu ID = 885 se termina, iar parintele lui cu ID = 882 mai are 0 fii
+Thread-ul cu ID = 885 se termina, iar parintele lui cu ID = 882 mai are 0 fii
 Thread-ului cu ID = 885 i-au fost alocate 240 cuante de timp de lungime 8
-Thread-ul 2 cu ID = 882 este al 1-lea thread creat de thread-ul cu ID = 873
 --ENDIN 1.1
-Thread-ul 2 cu ID = 882 se termina, iar parintele lui cu ID = 873 mai are 1 fii
-Thread-ului cu ID = 882 i-au fost alocate 148 cuante de timp de lungime 4
+Thread-ul cu ID = 882 se termina, iar parintele lui cu ID = 873 mai are 1 fii
+Thread-ului cu ID = 882 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 873 se termina, iar parintele lui cu ID = 840 mai are 2 fii
-Thread-ului cu ID = 873 i-au fost alocate 496 cuante de timp de lungime 8
+Thread-ul cu ID = 873 se termina, iar parintele lui cu ID = 840 mai are 2 fii
+Thread-ului cu ID = 873 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.3
-Thread-ul 2 cu ID = 840 se termina, iar parintele lui cu ID = 789 mai are 3 fii
-Thread-ului cu ID = 840 i-au fost alocate 348 cuante de timp de lungime 4
+Thread-ul cu ID = 840 se termina, iar parintele lui cu ID = 789 mai are 3 fii
+Thread-ului cu ID = 840 i-au fost alocate 336 cuante de timp de lungime 4
 --------ENDIN 4.2
 --------BEGIN 4.3
-Thread-ul 5 cu ID = 789 este al 3-lea thread creat de thread-ul cu ID = 3
+Thread-ul cu ID = 789 este al 3-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 3 cu ID = 888 este al 1-lea thread creat de thread-ul cu ID = 789
+Thread-ul cu ID = 888 este al 1-lea thread creat de thread-ul cu ID = 789
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 891 este al 1-lea thread creat de thread-ul cu ID = 888
+Thread-ul cu ID = 891 este al 1-lea thread creat de thread-ul cu ID = 888
 --BEGIN 1.1
-Thread-ul 1 cu ID = 894 este al 1-lea thread creat de thread-ul cu ID = 891
+Thread-ul cu ID = 894 este al 1-lea thread creat de thread-ul cu ID = 891
 BEGIN 0.0
-Thread-ul 1 cu ID = 897 este al 0-lea thread creat de thread-ul cu ID = 894
+Thread-ul cu ID = 897 este al 0-lea thread creat de thread-ul cu ID = 894
 ENDIN 0.0
-Thread-ul 1 cu ID = 897 se termina, iar parintele lui cu ID = 894 mai are 0 fii
-Thread-ului cu ID = 897 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 897 se termina, iar parintele lui cu ID = 894 mai are 0 fii
+Thread-ului cu ID = 897 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 894 se termina, iar parintele lui cu ID = 891 mai are 1 fii
+Thread-ul cu ID = 894 se termina, iar parintele lui cu ID = 891 mai are 1 fii
 Thread-ului cu ID = 894 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 891 este al 2-lea thread creat de thread-ul cu ID = 888
+Thread-ul cu ID = 891 este al 2-lea thread creat de thread-ul cu ID = 888
 --BEGIN 1.1
-Thread-ul 2 cu ID = 900 este al 1-lea thread creat de thread-ul cu ID = 891
+Thread-ul cu ID = 900 este al 1-lea thread creat de thread-ul cu ID = 891
 BEGIN 0.0
-Thread-ul 1 cu ID = 903 este al 0-lea thread creat de thread-ul cu ID = 900
+Thread-ul cu ID = 903 este al 0-lea thread creat de thread-ul cu ID = 900
 ENDIN 0.0
-Thread-ul 1 cu ID = 903 se termina, iar parintele lui cu ID = 900 mai are 0 fii
-Thread-ului cu ID = 903 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 903 se termina, iar parintele lui cu ID = 900 mai are 0 fii
+Thread-ului cu ID = 903 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 900 se termina, iar parintele lui cu ID = 891 mai are 1 fii
-Thread-ului cu ID = 900 i-au fost alocate 140 cuante de timp de lungime 4
+Thread-ul cu ID = 900 se termina, iar parintele lui cu ID = 891 mai are 1 fii
+Thread-ului cu ID = 900 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 891 se termina, iar parintele lui cu ID = 888 mai are 2 fii
+Thread-ul cu ID = 891 se termina, iar parintele lui cu ID = 888 mai are 2 fii
 Thread-ului cu ID = 891 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 3 cu ID = 888 este al 2-lea thread creat de thread-ul cu ID = 789
+Thread-ul cu ID = 888 este al 2-lea thread creat de thread-ul cu ID = 789
 ----BEGIN 2.1
-Thread-ul 2 cu ID = 906 este al 1-lea thread creat de thread-ul cu ID = 888
+Thread-ul cu ID = 906 este al 1-lea thread creat de thread-ul cu ID = 888
 --BEGIN 1.1
-Thread-ul 1 cu ID = 909 este al 1-lea thread creat de thread-ul cu ID = 906
+Thread-ul cu ID = 909 este al 1-lea thread creat de thread-ul cu ID = 906
 BEGIN 0.0
-Thread-ul 1 cu ID = 912 este al 0-lea thread creat de thread-ul cu ID = 909
+Thread-ul cu ID = 912 este al 0-lea thread creat de thread-ul cu ID = 909
 ENDIN 0.0
-Thread-ul 1 cu ID = 912 se termina, iar parintele lui cu ID = 909 mai are 0 fii
-Thread-ului cu ID = 912 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 912 se termina, iar parintele lui cu ID = 909 mai are 0 fii
+Thread-ului cu ID = 912 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 909 se termina, iar parintele lui cu ID = 906 mai are 1 fii
+Thread-ul cu ID = 909 se termina, iar parintele lui cu ID = 906 mai are 1 fii
 Thread-ului cu ID = 909 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 906 este al 2-lea thread creat de thread-ul cu ID = 888
+Thread-ul cu ID = 906 este al 2-lea thread creat de thread-ul cu ID = 888
 --BEGIN 1.1
-Thread-ul 2 cu ID = 915 este al 1-lea thread creat de thread-ul cu ID = 906
+Thread-ul cu ID = 915 este al 1-lea thread creat de thread-ul cu ID = 906
 BEGIN 0.0
-Thread-ul 1 cu ID = 918 este al 0-lea thread creat de thread-ul cu ID = 915
+Thread-ul cu ID = 918 este al 0-lea thread creat de thread-ul cu ID = 915
 ENDIN 0.0
-Thread-ul 1 cu ID = 918 se termina, iar parintele lui cu ID = 915 mai are 0 fii
-Thread-ului cu ID = 918 i-au fost alocate 120 cuante de timp de lungime 4
+Thread-ul cu ID = 918 se termina, iar parintele lui cu ID = 915 mai are 0 fii
+Thread-ului cu ID = 918 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 915 se termina, iar parintele lui cu ID = 906 mai are 1 fii
-Thread-ului cu ID = 915 i-au fost alocate 296 cuante de timp de lungime 8
+Thread-ul cu ID = 915 se termina, iar parintele lui cu ID = 906 mai are 1 fii
+Thread-ului cu ID = 915 i-au fost alocate 288 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 906 se termina, iar parintele lui cu ID = 888 mai are 2 fii
-Thread-ului cu ID = 906 i-au fost alocate 244 cuante de timp de lungime 4
+Thread-ul cu ID = 906 se termina, iar parintele lui cu ID = 888 mai are 2 fii
+Thread-ului cu ID = 906 i-au fost alocate 240 cuante de timp de lungime 4
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 3 cu ID = 888 este al 3-lea thread creat de thread-ul cu ID = 789
+Thread-ul cu ID = 888 este al 3-lea thread creat de thread-ul cu ID = 789
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 921 este al 1-lea thread creat de thread-ul cu ID = 888
+Thread-ul cu ID = 921 este al 1-lea thread creat de thread-ul cu ID = 888
 --BEGIN 1.1
-Thread-ul 1 cu ID = 924 este al 1-lea thread creat de thread-ul cu ID = 921
+Thread-ul cu ID = 924 este al 1-lea thread creat de thread-ul cu ID = 921
 BEGIN 0.0
-Thread-ul 1 cu ID = 927 este al 0-lea thread creat de thread-ul cu ID = 924
+Thread-ul cu ID = 927 este al 0-lea thread creat de thread-ul cu ID = 924
 ENDIN 0.0
-Thread-ul 1 cu ID = 927 se termina, iar parintele lui cu ID = 924 mai are 0 fii
-Thread-ului cu ID = 927 i-au fost alocate 232 cuante de timp de lungime 8
+Thread-ul cu ID = 927 se termina, iar parintele lui cu ID = 924 mai are 0 fii
+Thread-ului cu ID = 927 i-au fost alocate 224 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 924 se termina, iar parintele lui cu ID = 921 mai are 1 fii
+Thread-ul cu ID = 924 se termina, iar parintele lui cu ID = 921 mai are 1 fii
 Thread-ului cu ID = 924 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 921 este al 2-lea thread creat de thread-ul cu ID = 888
+Thread-ul cu ID = 921 este al 2-lea thread creat de thread-ul cu ID = 888
 --BEGIN 1.1
-Thread-ul 2 cu ID = 930 este al 1-lea thread creat de thread-ul cu ID = 921
+Thread-ul cu ID = 930 este al 1-lea thread creat de thread-ul cu ID = 921
 BEGIN 0.0
-Thread-ul 1 cu ID = 933 este al 0-lea thread creat de thread-ul cu ID = 930
+Thread-ul cu ID = 933 este al 0-lea thread creat de thread-ul cu ID = 930
 ENDIN 0.0
-Thread-ul 1 cu ID = 933 se termina, iar parintele lui cu ID = 930 mai are 0 fii
+Thread-ul cu ID = 933 se termina, iar parintele lui cu ID = 930 mai are 0 fii
 Thread-ului cu ID = 933 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 930 se termina, iar parintele lui cu ID = 921 mai are 1 fii
+Thread-ul cu ID = 930 se termina, iar parintele lui cu ID = 921 mai are 1 fii
+Thread-ului cu ID = 930 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 921 se termina, iar parintele lui cu ID = 888 mai are 2 fii
-Thread-ului cu ID = 921 i-au fost alocate 488 cuante de timp de lungime 8
+Thread-ul cu ID = 921 se termina, iar parintele lui cu ID = 888 mai are 2 fii
+Thread-ului cu ID = 921 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.3
-Thread-ul 3 cu ID = 888 se termina, iar parintele lui cu ID = 789 mai are 3 fii
-Thread-ului cu ID = 888 i-au fost alocate 348 cuante de timp de lungime 4
+Thread-ul cu ID = 888 se termina, iar parintele lui cu ID = 789 mai are 3 fii
+Thread-ului cu ID = 888 i-au fost alocate 336 cuante de timp de lungime 4
 --------ENDIN 4.3
 --------BEGIN 4.4
-Thread-ului cu ID = 930 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 789 este al 4-lea thread creat de thread-ul cu ID = 3
 ------BEGIN 3.1
-Thread-ul 5 cu ID = 789 este al 4-lea thread creat de thread-ul cu ID = 3
-Thread-ul 4 cu ID = 936 este al 1-lea thread creat de thread-ul cu ID = 789
+Thread-ul cu ID = 936 este al 1-lea thread creat de thread-ul cu ID = 789
 ----BEGIN 2.1
-Thread-ul 1 cu ID = 939 este al 1-lea thread creat de thread-ul cu ID = 936
+Thread-ul cu ID = 939 este al 1-lea thread creat de thread-ul cu ID = 936
 --BEGIN 1.1
-Thread-ul 1 cu ID = 942 este al 1-lea thread creat de thread-ul cu ID = 939
+Thread-ul cu ID = 942 este al 1-lea thread creat de thread-ul cu ID = 939
 BEGIN 0.0
-Thread-ul 1 cu ID = 945 este al 0-lea thread creat de thread-ul cu ID = 942
+Thread-ul cu ID = 945 este al 0-lea thread creat de thread-ul cu ID = 942
 ENDIN 0.0
-Thread-ul 1 cu ID = 945 se termina, iar parintele lui cu ID = 942 mai are 0 fii
-Thread-ului cu ID = 945 i-au fost alocate 240 cuante de timp de lungime 8
+Thread-ul cu ID = 945 se termina, iar parintele lui cu ID = 942 mai are 0 fii
+Thread-ului cu ID = 945 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 942 se termina, iar parintele lui cu ID = 939 mai are 1 fii
+Thread-ul cu ID = 942 se termina, iar parintele lui cu ID = 939 mai are 1 fii
 Thread-ului cu ID = 942 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 1 cu ID = 939 este al 2-lea thread creat de thread-ul cu ID = 936
+Thread-ul cu ID = 939 este al 2-lea thread creat de thread-ul cu ID = 936
 --BEGIN 1.1
-Thread-ul 2 cu ID = 948 este al 1-lea thread creat de thread-ul cu ID = 939
+Thread-ul cu ID = 948 este al 1-lea thread creat de thread-ul cu ID = 939
 BEGIN 0.0
-Thread-ul 1 cu ID = 951 este al 0-lea thread creat de thread-ul cu ID = 948
+Thread-ul cu ID = 951 este al 0-lea thread creat de thread-ul cu ID = 948
 ENDIN 0.0
-Thread-ul 1 cu ID = 951 se termina, iar parintele lui cu ID = 948 mai are 0 fii
-Thread-ului cu ID = 951 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 951 se termina, iar parintele lui cu ID = 948 mai are 0 fii
+Thread-ului cu ID = 951 i-au fost alocate 240 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 948 se termina, iar parintele lui cu ID = 939 mai are 1 fii
-Thread-ului cu ID = 948 i-au fost alocate 148 cuante de timp de lungime 4
+Thread-ul cu ID = 948 se termina, iar parintele lui cu ID = 939 mai are 1 fii
+Thread-ului cu ID = 948 i-au fost alocate 136 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 1 cu ID = 939 se termina, iar parintele lui cu ID = 936 mai are 2 fii
-Thread-ului cu ID = 939 i-au fost alocate 488 cuante de timp de lungime 8
+Thread-ul cu ID = 939 se termina, iar parintele lui cu ID = 936 mai are 2 fii
+Thread-ului cu ID = 939 i-au fost alocate 480 cuante de timp de lungime 8
 ------ENDIN 3.1
 ------BEGIN 3.2
-Thread-ul 4 cu ID = 936 este al 2-lea thread creat de thread-ul cu ID = 789
+Thread-ul cu ID = 936 este al 2-lea thread creat de thread-ul cu ID = 789
 ----BEGIN 2.1
+Thread-ul cu ID = 954 este al 1-lea thread creat de thread-ul cu ID = 936
 --BEGIN 1.1
-Thread-ul 2 cu ID = 954 este al 1-lea thread creat de thread-ul cu ID = 936
+Thread-ul cu ID = 957 este al 1-lea thread creat de thread-ul cu ID = 954
 BEGIN 0.0
-Thread-ul 1 cu ID = 960 este al 0-lea thread creat de thread-ul cu ID = 957
+Thread-ul cu ID = 960 este al 0-lea thread creat de thread-ul cu ID = 957
 ENDIN 0.0
-Thread-ul 1 cu ID = 960 se termina, iar parintele lui cu ID = 957 mai are 0 fii
-Thread-ului cu ID = 960 i-au fost alocate 124 cuante de timp de lungime 4
-Thread-ul 1 cu ID = 957 este al 1-lea thread creat de thread-ul cu ID = 954
+Thread-ul cu ID = 960 se termina, iar parintele lui cu ID = 957 mai are 0 fii
+Thread-ului cu ID = 960 i-au fost alocate 112 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 1 cu ID = 957 se termina, iar parintele lui cu ID = 954 mai are 1 fii
+Thread-ul cu ID = 957 se termina, iar parintele lui cu ID = 954 mai are 1 fii
 Thread-ului cu ID = 957 i-au fost alocate 280 cuante de timp de lungime 8
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 2 cu ID = 954 este al 2-lea thread creat de thread-ul cu ID = 936
+Thread-ul cu ID = 954 este al 2-lea thread creat de thread-ul cu ID = 936
 --BEGIN 1.1
-Thread-ul 2 cu ID = 963 este al 1-lea thread creat de thread-ul cu ID = 954
+Thread-ul cu ID = 963 este al 1-lea thread creat de thread-ul cu ID = 954
 BEGIN 0.0
-Thread-ul 1 cu ID = 966 este al 0-lea thread creat de thread-ul cu ID = 963
+Thread-ul cu ID = 966 este al 0-lea thread creat de thread-ul cu ID = 963
 ENDIN 0.0
-Thread-ul 1 cu ID = 966 se termina, iar parintele lui cu ID = 963 mai are 0 fii
+Thread-ul cu ID = 966 se termina, iar parintele lui cu ID = 963 mai are 0 fii
 Thread-ului cu ID = 966 i-au fost alocate 116 cuante de timp de lungime 4
 --ENDIN 1.1
-Thread-ul 2 cu ID = 963 se termina, iar parintele lui cu ID = 954 mai are 1 fii
-Thread-ului cu ID = 963 i-au fost alocate 296 cuante de timp de lungime 8
 ----ENDIN 2.2
-Thread-ul 2 cu ID = 954 se termina, iar parintele lui cu ID = 936 mai are 2 fii
-Thread-ului cu ID = 954 i-au fost alocate 244 cuante de timp de lungime 4
+Thread-ul cu ID = 954 se termina, iar parintele lui cu ID = 936 mai are 2 fii
+Thread-ul cu ID = 963 se termina, iar parintele lui cu ID = 954 mai are 1 fii
+Thread-ului cu ID = 963 i-au fost alocate 288 cuante de timp de lungime 8
+Thread-ului cu ID = 954 i-au fost alocate 236 cuante de timp de lungime 4
 ------ENDIN 3.2
 ------BEGIN 3.3
-Thread-ul 4 cu ID = 936 este al 3-lea thread creat de thread-ul cu ID = 789
+Thread-ul cu ID = 936 este al 3-lea thread creat de thread-ul cu ID = 789
 ----BEGIN 2.1
-Thread-ul 3 cu ID = 969 este al 1-lea thread creat de thread-ul cu ID = 936
+Thread-ul cu ID = 969 este al 1-lea thread creat de thread-ul cu ID = 936
 --BEGIN 1.1
-Thread-ul 1 cu ID = 972 este al 1-lea thread creat de thread-ul cu ID = 969
+Thread-ul cu ID = 972 este al 1-lea thread creat de thread-ul cu ID = 969
 BEGIN 0.0
-Thread-ul 1 cu ID = 975 este al 0-lea thread creat de thread-ul cu ID = 972
+Thread-ul cu ID = 975 este al 0-lea thread creat de thread-ul cu ID = 972
 ENDIN 0.0
-Thread-ul 1 cu ID = 975 se termina, iar parintele lui cu ID = 972 mai are 0 fii
-Thread-ului cu ID = 975 i-au fost alocate 248 cuante de timp de lungime 8
+Thread-ul cu ID = 975 se termina, iar parintele lui cu ID = 972 mai are 0 fii
+Thread-ului cu ID = 975 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 1 cu ID = 972 se termina, iar parintele lui cu ID = 969 mai are 1 fii
-Thread-ului cu ID = 972 i-au fost alocate 144 cuante de timp de lungime 4
+Thread-ul cu ID = 972 se termina, iar parintele lui cu ID = 969 mai are 1 fii
+Thread-ului cu ID = 972 i-au fost alocate 148 cuante de timp de lungime 4
 ----ENDIN 2.1
 ----BEGIN 2.2
-Thread-ul 3 cu ID = 969 este al 2-lea thread creat de thread-ul cu ID = 936
+Thread-ul cu ID = 969 este al 2-lea thread creat de thread-ul cu ID = 936
 --BEGIN 1.1
+Thread-ul cu ID = 978 este al 1-lea thread creat de thread-ul cu ID = 969
 BEGIN 0.0
-Thread-ul 1 cu ID = 981 este al 0-lea thread creat de thread-ul cu ID = 978
+Thread-ul cu ID = 981 este al 0-lea thread creat de thread-ul cu ID = 978
 ENDIN 0.0
-Thread-ul 1 cu ID = 981 se termina, iar parintele lui cu ID = 978 mai are 0 fii
-Thread-ului cu ID = 981 i-au fost alocate 240 cuante de timp de lungime 8
-Thread-ul 2 cu ID = 978 este al 1-lea thread creat de thread-ul cu ID = 969
+Thread-ul cu ID = 981 se termina, iar parintele lui cu ID = 978 mai are 0 fii
+Thread-ului cu ID = 981 i-au fost alocate 232 cuante de timp de lungime 8
 --ENDIN 1.1
-Thread-ul 2 cu ID = 978 se termina, iar parintele lui cu ID = 969 mai are 1 fii
-Thread-ului cu ID = 978 i-au fost alocate 148 cuante de timp de lungime 4
+Thread-ul cu ID = 978 se termina, iar parintele lui cu ID = 969 mai are 1 fii
+Thread-ului cu ID = 978 i-au fost alocate 144 cuante de timp de lungime 4
 ----ENDIN 2.2
-Thread-ul 3 cu ID = 969 se termina, iar parintele lui cu ID = 936 mai are 2 fii
-Thread-ului cu ID = 969 i-au fost alocate 496 cuante de timp de lungime 8
+Thread-ul cu ID = 969 se termina, iar parintele lui cu ID = 936 mai are 2 fii
+Thread-ului cu ID = 969 i-au fost alocate 488 cuante de timp de lungime 8
 ------ENDIN 3.3
-Thread-ul 4 cu ID = 936 se termina, iar parintele lui cu ID = 789 mai are 3 fii
-Thread-ului cu ID = 936 i-au fost alocate 352 cuante de timp de lungime 4
+Thread-ul cu ID = 936 se termina, iar parintele lui cu ID = 789 mai are 3 fii
+Thread-ului cu ID = 936 i-au fost alocate 340 cuante de timp de lungime 4
 --------ENDIN 4.4
-Thread-ul 5 cu ID = 789 se termina, iar parintele lui cu ID = 3 mai are 4 fii
+Thread-ul cu ID = 789 se termina, iar parintele lui cu ID = 3 mai are 4 fii
 Thread-ului cu ID = 789 i-au fost alocate 896 cuante de timp de lungime 8
 ----------ENDIN 5.5
 (my_test_create_threads) end
 Execution of 'my_test_create_threads' complete.
-Thread-ul main cu ID = 3 se termina, iar parintele lui cu ID = 0 mai are 6 fii
-Thread-ului cu ID = 3 i-au fost alocate 1576 cuante de timp de lungime 8
+Thread-ul cu ID = 3 se termina, iar parintele lui cu ID = 0 mai are 6 fii
+Thread-ului cu ID = 3 i-au fost alocate 1552 cuante de timp de lungime 8

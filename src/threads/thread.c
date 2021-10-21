@@ -193,8 +193,8 @@ print_thread_info_create(struct thread *the_thread)
 {
     //lock_acquire (&tid_lock);
 
-    //printf("Thread-ul cu ID = %d este al %d-lea thread creat de thread-ul cu ID = %d\n",the_thread->tid,the_thread->th_counter,the_thread->parent_tid);
-    printf("Thread-ul %s cu ID = %d este al %d-lea thread creat de thread-ul cu ID = %d\n",the_thread->name,the_thread->tid,the_thread->th_counter,the_thread->parent_tid);
+    printf("Thread-ul cu ID = %d este al %d-lea thread creat de thread-ul cu ID = %d\n",the_thread->tid,the_thread->th_counter,the_thread->parent_tid);
+    //printf("Thread-ul %s cu ID = %d este al %d-lea thread creat de thread-ul cu ID = %d\n",the_thread->name,the_thread->tid,the_thread->th_counter,the_thread->parent_tid);
 
     //lock_release (&tid_lock);
 
@@ -207,7 +207,8 @@ print_thread_info_exit(struct thread *the_thread)
     //lock_acquire (&tid_lock);
  
     //2.2
-    printf("Thread-ul %s cu ID = %d se termina, iar parintele lui cu ID = %d mai are %d fii\n",the_thread->name,the_thread->tid,the_thread->parent_tid,the_thread->th_counter);
+    printf("Thread-ul cu ID = %d se termina, iar parintele lui cu ID = %d mai are %d fii\n",the_thread->tid,the_thread->parent_tid,the_thread->th_counter);
+    //printf("Thread-ul %s cu ID = %d se termina, iar parintele lui cu ID = %d mai are %d fii\n",the_thread->name,the_thread->tid,the_thread->parent_tid,the_thread->th_counter);
     //3.3
     if(thread_current()->tid %2==0)
     {

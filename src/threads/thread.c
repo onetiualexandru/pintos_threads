@@ -120,8 +120,8 @@ thread_start (void)
   thread_create ("idle", PRI_MIN, idle, &idle_started);
 
   //??? 2.2 am pus si aici pentru threadul de iddle pt ca nu inteleg din ce motiv in thread create nu imi merge corect thread_current();
-  thread_current()->thread_counter++;
-  print_thread_info_create(thread_current());
+  //thread_current()->thread_counter++;
+  //print_thread_info_create(thread_current());
 
   /* Start preemptive thread scheduling. */
   intr_enable ();
@@ -191,12 +191,12 @@ const char* get_thread_status_as_string(enum thread_status status){
 void
 print_thread_info_create(struct thread *the_thread)
 {
-    lock_acquire (&tid_lock);
+    //lock_acquire (&tid_lock);
 
     //printf("Thread-ul cu ID = %d este al %d-lea thread creat de thread-ul cu ID = %d\n",the_thread->tid,the_thread->thread_counter,the_thread->parent_tid);
     printf("Thread-ul %s cu ID = %d este al %d-lea thread creat de thread-ul cu ID = %d\n",the_thread->name,the_thread->tid,the_thread->thread_counter,the_thread->parent_tid);
 
-    lock_release (&tid_lock);
+    //lock_release (&tid_lock);
 
 }
 /* 2.2 La terminarea unui thread, să se afișeze un mesaj de forma "Thread-ul cu ID=CRT_TH_ID se termina, iar parintele lui cu ID=PR_TH_ID mai are X fii", unde CRT_TH_ID este ID-ul thread-ului curent, iar PR_TH_ID este ID-ul părinte al thread-ului curent. */
@@ -204,7 +204,7 @@ print_thread_info_create(struct thread *the_thread)
 void
 print_thread_info_exit(struct thread *the_thread)
 {   
-    lock_acquire (&tid_lock);
+    //lock_acquire (&tid_lock);
  
     //2.2
     printf("Thread-ul cu ID = %d se termina, iar parintele lui cu ID = %d mai are %d fii\n",the_thread->tid,the_thread->parent_tid,the_thread->thread_counter);
@@ -220,7 +220,7 @@ print_thread_info_exit(struct thread *the_thread)
       printf("Thread-ului cu ID = %d i-au fost alocate %d cuante de timp de lungime %d\n",the_thread->tid,time_slice_total,TIME_SLICE_EVEN);
     }
 
-    lock_release (&tid_lock);
+    //lock_release (&tid_lock);
 
 }
 
@@ -261,14 +261,14 @@ thread_create (const char *name, int priority,
   init_thread (t, name, priority);
   tid = t->tid = allocate_tid ();
 
-  // 2.1
+  // 2.1 ??? astea nu sunt operatii atomice care trebuie protejate?
   // Un thread e creat de alt thread adica thread_current() creaza noul thread t
   //intr_disable();
-  t->thread_counter++;
+  //t->thread_counter++;
   //thread_current()->thread_counter++;
   //intr_enable();
   // Parintele lui t este thread_current()
-  t->parent_tid=thread_current()->tid;
+  //t->parent_tid=thread_current()->tid;
   //printf("tid = %d ptid=%d\n",t->tid, t->parent_tid);
 
 
@@ -276,6 +276,10 @@ thread_create (const char *name, int priority,
      Do this atomically so intermediate values for the 'stack' 
      member cannot be observed. */
   old_level = intr_disable ();
+  
+  //???
+  thread_current()->thread_counter++;
+  t->parent_tid=thread_current()->tid;
 
   /* Stack frame for kernel_thread(). */
   kf = alloc_frame (t, sizeof *kf);
@@ -391,15 +395,10 @@ thread_exit (void)
   /* Remove thread from all threads list, set our status to dying,
      and schedule another process.  That process will destroy us
      when it calls thread_schedule_tail(). */
-  thread_current()->thread_counter--;
+  //thread_current()->thread_counter--;
   print_thread_info_exit(thread_current());
   
   intr_disable ();
-
-  // afiseara thread cand iese
-  //printf("Thread with tid = %d was created by parent with tid = %d and is DYING\n",thread_current()->tid,thread_current()->parent_tid);
-   //printf("Thread %s tid = %d is DYING and it was created by parent with tid = %d\n",thread_current()->name,thread_current()->tid,thread_current()->parent_tid)
-
   list_remove (&thread_current()->allelem);
   thread_current ()->status = THREAD_DYING;
   

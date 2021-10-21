@@ -13,6 +13,8 @@ void my_thread1()
 
    printf("BEGIN 0.%d\n", i);
 
+   print_thread_info_create(thread_current());
+
    printf("ENDIN 0.%d\n", i);
 
    sema_up(&logSem1);

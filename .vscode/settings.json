@@ -1,5 +1,6 @@
 {
     "files.associations": {
-        "exception": "c"
+        "exception": "c",
+        "timer.h": "c"
     }
 }

@@ -1,119 +1,186 @@
 #include <stdio.h>
-#include "tests/threads/tests.h"
-#include "threads/malloc.h"
-#include "threads/synch.h"
-#include "threads/thread.h"
-#include "devices/timer.h"
+#include <unistd.h>
+#include <stdlib.h>
+#include <sys/types.h>
+#include <sys/wait.h>
+#include "a2_helper.h"
+#include <time.h>
+#include <semaphore.h>
+#include <fcntl.h>
+#include <pthread.h>
 
-struct semaphore logSem1,logSem2,logSem3,logSem4,logSem5;
-char th_name[16];
+sem_t logSem;
+sem_t logSem4;
 
-void my_thread1(){
-
-      printf("BEGIN 0.%d\n",thread_current()->tid);
-
-      sema_up(&logSem1);
-}
-
-void my_thread2(){
-
-   sema_init(&logSem1,0);
-
-      snprintf(th_name, 16, "%s", "1");
-
-
-      printf("BEGIN 1.%s\n",th_name);
-      thread_create(th_name,PRI_DEFAULT, my_thread1, NULL);
-      printf("END 1.%s\n",th_name);
-      sema_down(&logSem1);
-
-      sema_up(&logSem2);
-  
-}
-
-void my_thread3(){
-
-   sema_init(&logSem2,0);
-
-   for(int i=1; i<=2; i++){
-
-      snprintf(th_name, 16, "%d", i);
-
-      printf("BEGIN 2.%s\n",th_name);
-      thread_create(th_name,PRI_DEFAULT, my_thread2, NULL);
-      printf("END 2.%s\n",th_name);
-
-      sema_down(&logSem2);
- }
-
-sema_up(&logSem3);
-  
-}
-
-void my_thread4(){
-
-   sema_init(&logSem3,0);
-
-   for(int i=1; i<=3; i++){
-
-      snprintf(th_name, 16, "%d", i);
-
-      printf("BEGIN 3.%s\n",th_name);
-      thread_create(th_name,PRI_DEFAULT, my_thread3, NULL);
-      printf("END 3.%s\n",th_name);
-
-      sema_down(&logSem3);
- }
-
-sema_up(&logSem4);
-  
-}
-
-void my_thread5(){
-
-   sema_init(&logSem4,0);
-
-   for(int i=1; i<=4; i++){
-
-      snprintf(th_name, 16, "%d", i);
-
-      printf("BEGIN 4.%s\n",th_name);
-      thread_create(th_name,PRI_DEFAULT, my_thread4, NULL);
-      printf("END 4.%s\n",th_name);
-
-      sema_down(&logSem4);
- }
-
-sema_up(&logSem5);
-printf("END 5.%s\n",th_name);
-  
-}
-
-void my_test_create_threads (void) 
-
+void *thread5(void *arg)
 {
-  
-  
-  /* Am incercat sa fac sem_init cu 1 ca asa un thread ar avea voie sa intre 
-      dar nu merge cum trebuie se mai calaresc 2 threaduri si am pus un down dupa init
-      si asa a mers dar practic atunci am value 0 deci pot sa fac init direct cu 0
-      dar nu imi dau exact seama de ce e bine asa */
-  //sema_init(&logSem5,1);
-  //sema_down(&logSem5);
 
-  sema_init(&logSem5,0);
+    int i = (int)(size_t)arg;
 
-  for(int i=1; i<=5 ;i++){
-   
-   snprintf(th_name, 16, "%d", i);
+    sem_wait(&logSem);
+    //printf("I=%d\n", i);
+    info(BEGIN, 5, i);
+    info(END, 5, i);
 
-   printf("BEGIN 5.%s\n",th_name);
-   thread_create(th_name,PRI_DEFAULT, my_thread5, NULL);
+    sem_post(&logSem);
+    return NULL;
+}
 
+void *thread4(void *arg)
+{
 
-   sema_down(&logSem5);
-    
-	}
+    int i = (int)(size_t)arg;
 
+    sem_wait(&logSem4);
+    info(BEGIN, 4, i);
+    info(END, 4, i);
+    sem_post(&logSem4);
 
+    return NULL;
+}
+
+void *thread6(void *arg)
+{
+
+    int i = (int)(size_t)arg;
+
+    sem_wait(&logSem);
+    info(BEGIN, 6, i);
+    info(END, 6, i);
+    sem_post(&logSem);
+
+    return NULL;
+}
+
+int main()
+{
+    init();
+
+    pid_t pid[10];
+    pthread_t th5[5], th4[40], th6[6];
+
+    if (sem_init(&logSem, 0, 1) != 0)
+    {
+        perror("Could not init the semaphore");
+        return -1;
+    }
+
+    if (sem_init(&logSem4, 0, 5) != 0)
+    {
+        perror("Could not init the semaphore");
+        return -1;
+    }
+
+    //p1
+    info(BEGIN, 1, 0);
+    pid[1] = fork();
+    if (pid[1] == 0)
+    {
+        //p2
+        info(BEGIN, 2, 0);
+        pid[2] = fork();
+        if (pid[2] == 0)
+        {
+            //p3
+            info(BEGIN, 3, 0);
+            pid[3] = fork();
+            if (pid[3] == 0)
+            {
+                //p7
+                info(BEGIN, 7, 0);
+
+                info(END, 7, 0);
+            }
+            else
+            {
+                //wait for p7
+                wait(NULL);
+                info(END, 3, 0);
+            }
+        }
+        else
+        {
+            //wait for p3
+            wait(NULL);
+
+            //p5
+            pid[5] = fork();
+            if (pid[5] == 0)
+            {
+                info(BEGIN, 5, 0);
+
+                for (int i = 0; i < 5; i++)
+                {
+
+                    pthread_create(&th5[i], NULL, &thread5, (void *)(size_t)(i + 1));
+                }
+                for (int i = 0; i < 5; i++)
+                {
+                    pthread_join(th5[i], NULL);
+                }
+
+                info(END, 5, 0);
+            }
+            else
+            {
+                //wait for p5
+                wait(NULL);
+
+                //p6
+                pid[6] = fork();
+                if (pid[6] == 0)
+                {
+                    info(BEGIN, 6, 0);
+
+                    for (int i = 0; i < 6; i++)
+                    {
+                        pthread_create(&th6[i], NULL, &thread6, (void *)(size_t)(i + 1));
+                    }
+                    for (int i = 0; i < 6; i++)
+                    {
+                        pthread_join(th6[i], NULL);
+                    }
+
+                    info(END, 6, 0);
+                }
+                else
+                {
+                    //wait for p6
+                    wait(NULL);
+                    info(END, 2, 0);
+                }
+            }
+        }
+    }
+    else
+    {
+        //wait for p2
+        wait(NULL);
+
+        //p4
+        pid[4] = fork();
+        if (pid[4] == 0)
+        {
+            info(BEGIN, 4, 0);
+
+            for (int i = 0; i < 40; i++)
+            {
+                pthread_create(&th4[i], NULL, &thread4, (void *)(size_t)(i + 1));
+            }
+            for (int i = 0; i < 40; i++)
+            {
+                pthread_join(th4[i], NULL);
+            }
+
+            info(END, 4, 0);
+        }
+        else
+        {
+            //wait for p4
+            wait(NULL);
+            info(END, 1, 0);
+        }
+    }
+
+    return 0;
 }
